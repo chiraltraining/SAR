@@ -9,10 +9,10 @@ project:
 
 website:
   page-navigation: true
-  title: "R for Research"
-  description: "Homepage for  Statistical Analysis with R for Research - A Step by Step Guide for Beginners"
+  title: "Statistical Analysis with R for Research"
+  description: "Homepage for Statistical Analysis with R for Research - A Step by Step Guide for Beginners"
   site-url: "https://chiraltraining.github.io/SARJnU/"
-  favicon: "images/rlogo.jpg"
+  favicon: "images/r-logo.png"
   
   repo-url: https://github.com/chiraltraining/SARJnU
   repo-actions: [edit, issue]

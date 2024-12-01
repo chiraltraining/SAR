@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.6.32">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-<title>Statistical Analysis with R for Research – R for Research</title>
+<title>Statistical Analysis with R for Research</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -60,7 +60,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./setup.html" rel="next">
-<link href="./images/rlogo.jpg" rel="icon" type="image/jpeg">
+<link href="./images/r-logo.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -96,10 +96,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
-<meta property="og:title" content="Statistical Analysis with R for Research – R for Research">
+<meta property="og:title" content="Statistical Analysis with R for Research">
 <meta property="og:description" content="Center for Health Innovation, Research, Action and Learning – Bangladesh">
-<meta property="og:site_name" content="R for Research">
-<meta name="twitter:title" content="Statistical Analysis with R for Research – R for Research">
+<meta property="og:site_name" content="Statistical Analysis with R for Research">
+<meta name="twitter:title" content="Statistical Analysis with R for Research">
 <meta name="twitter:description" content="Center for Health Innovation, Research, Action and Learning – Bangladesh">
 <meta name="twitter:image" content="https://chiraltraining.github.io/SARJnU//images/banner.jpg">
 <meta name="twitter:creator" content="@hossainlab">
@@ -187,20 +187,24 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#who-should-attend" id="toc-who-should-attend" class="nav-link" data-scroll-target="#who-should-attend">Who Should Attend?</a></li>
   <li><a href="#why-join-this-workshop" id="toc-why-join-this-workshop" class="nav-link" data-scroll-target="#why-join-this-workshop">Why Join This Workshop?</a></li>
   <li><a href="#what-is-r" id="toc-what-is-r" class="nav-link" data-scroll-target="#what-is-r">What is R?</a></li>
-  <li><a href="#why-r" id="toc-why-r" class="nav-link" data-scroll-target="#why-r">Why R?</a></li>
-  <li><a href="#publication-ready-figures" id="toc-publication-ready-figures" class="nav-link" data-scroll-target="#publication-ready-figures">Publication-ready Figures</a></li>
+  <li>
+<a href="#why-r" id="toc-why-r" class="nav-link" data-scroll-target="#why-r">Why R?</a>
+  <ul class="collapse">
+<li><a href="#publication-ready-figures" id="toc-publication-ready-figures" class="nav-link" data-scroll-target="#publication-ready-figures">Publication-ready Figures</a></li>
   <li><a href="#publication-ready-tables" id="toc-publication-ready-tables" class="nav-link" data-scroll-target="#publication-ready-tables">Publication-ready Tables</a></li>
   <li><a href="#analysis-and-visualization-likert-items" id="toc-analysis-and-visualization-likert-items" class="nav-link" data-scroll-target="#analysis-and-visualization-likert-items">Analysis and Visualization Likert Items</a></li>
   <li><a href="#reproducible-academic-writing-with-rmarkdownquarto" id="toc-reproducible-academic-writing-with-rmarkdownquarto" class="nav-link" data-scroll-target="#reproducible-academic-writing-with-rmarkdownquarto">Reproducible Academic Writing with Rmarkdown/Quarto</a></li>
+  </ul>
+</li>
   <li><a href="#required-software" id="toc-required-software" class="nav-link" data-scroll-target="#required-software">Required software</a></li>
+  <li><a href="#core-packages" id="toc-core-packages" class="nav-link" data-scroll-target="#core-packages">Core Packages</a></li>
+  <li><a href="#recording-of-classes" id="toc-recording-of-classes" class="nav-link" data-scroll-target="#recording-of-classes">Recording of classes</a></li>
   <li>
-<a href="#core-packages" id="toc-core-packages" class="nav-link" data-scroll-target="#core-packages">Core Packages</a>
+<a href="#prework" id="toc-prework" class="nav-link" data-scroll-target="#prework">Prework</a>
   <ul class="collapse">
 <li><a href="#installation-and-use" id="toc-installation-and-use" class="nav-link" data-scroll-target="#installation-and-use">Installation and Use</a></li>
   </ul>
 </li>
-  <li><a href="#recording-of-classes" id="toc-recording-of-classes" class="nav-link" data-scroll-target="#recording-of-classes">Recording of classes</a></li>
-  <li><a href="#prework" id="toc-prework" class="nav-link" data-scroll-target="#prework">Prework</a></li>
   <li><a href="#team" id="toc-team" class="nav-link" data-scroll-target="#team">Team</a></li>
   </ul><div class="toc-actions"><ul><li><a href="https://github.com/chiraltraining/SARJnU/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/chiraltraining/SARJnU/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -266,7 +270,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>R is used for data Analysis and Visualization.</li>
 <li>R is simple and easy to learn, read and write.</li>
 <li>R is an example of a FLOSS (Free Libre and Open Source Software) where one can freely distribute copies of this software, read its source code, modify it, etc.</li>
-</ul></section><section id="publication-ready-figures" class="level2"><h2 class="anchored" data-anchor-id="publication-ready-figures">Publication-ready Figures</h2>
+</ul>
+<section id="publication-ready-figures" class="level3"><h3 class="anchored" data-anchor-id="publication-ready-figures">Publication-ready Figures</h3>
 <p>The <a href="https://rpkgs.datanovia.com/ggpubr/">ggpubr</a> package provides some easy-to-use functions for creating and customizing ‘ggplot2’- based publication ready plots. ggplot2, by Hadley Wickham, is an excellent and flexible package for elegant data visualization in R. However the default generated plots requires some formatting before we can send them for publication. Furthermore, to customize a ggplot, the syntax is opaque and this raises the level of difficulty for researchers with no advanced R programming skills.</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
@@ -276,7 +281,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-</section><section id="publication-ready-tables" class="level2"><h2 class="anchored" data-anchor-id="publication-ready-tables">Publication-ready Tables</h2>
+</section><section id="publication-ready-tables" class="level3"><h3 class="anchored" data-anchor-id="publication-ready-tables">Publication-ready Tables</h3>
 <p>The <a href="https://github.com/ddsjoberg/gtsummary">gtsummary</a> package provides an elegant and flexible way to create publication-ready analytical and summary tables using the R programming language. The {gtsummary} package summarizes data sets, regression models, and more, using sensible defaults with highly customizable capabilities.</p>
 <div class="cell">
 <div class="cell-output-display">
@@ -286,7 +291,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-</section><section id="analysis-and-visualization-likert-items" class="level2"><h2 class="anchored" data-anchor-id="analysis-and-visualization-likert-items">Analysis and Visualization Likert Items</h2>
+</section><section id="analysis-and-visualization-likert-items" class="level3"><h3 class="anchored" data-anchor-id="analysis-and-visualization-likert-items">Analysis and Visualization Likert Items</h3>
 <p>The <a href="http://jason.bryer.org/likert">likert</a> is an R package designed to help analyzing and visualizing Likert type items. It has been developped by Jason Bryer and Kim Speerschneider. This barplot comes from the demo page and has been sent by Carlos Ortega. It allows to analyse the reading attitudes from a panel of people.</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
@@ -296,7 +301,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-</section><section id="reproducible-academic-writing-with-rmarkdownquarto" class="level2"><h2 class="anchored" data-anchor-id="reproducible-academic-writing-with-rmarkdownquarto">Reproducible Academic Writing with Rmarkdown/Quarto</h2>
+</section><section id="reproducible-academic-writing-with-rmarkdownquarto" class="level3"><h3 class="anchored" data-anchor-id="reproducible-academic-writing-with-rmarkdownquarto">Reproducible Academic Writing with Rmarkdown/Quarto</h3>
 <p>R Markdown documents are fully reproducible. Use a productive notebook interface to weave together narrative text and code to produce elegantly formatted output. Use multiple languages including R, Python, and SQL.</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
@@ -306,17 +311,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-</section><section id="required-software" class="level2"><h2 class="anchored" data-anchor-id="required-software">Required software</h2>
+</section></section><section id="required-software" class="level2"><h2 class="anchored" data-anchor-id="required-software">Required software</h2>
 <ul>
 <li>R: <a href="http://www.r-project.org/" class="uri">http://www.r-project.org/</a> (FREE)</li>
 <li>RStudio (additional libraries required): <a href="http://www.rstudio.com/" class="uri">http://www.rstudio.com/</a> (FREE)</li>
 </ul></section><section id="core-packages" class="level2"><h2 class="anchored" data-anchor-id="core-packages">Core Packages</h2>
 <p>In R, several core packages provide essential tools for data manipulation, visualization, and analysis. These packages form the foundation of the R ecosystem, enabling efficient workflows and reproducible research.</p>
-<section id="installation-and-use" class="level3"><h3 class="anchored" data-anchor-id="installation-and-use">Installation and Use</h3>
-<ul>
-<li><p>To install a package in R, use the <code>install.packages(tidyverse)</code> function. This function downloads and installs the specified package from CRAN (Comprehensive R Archive Network) or other repositories.</p></li>
-<li><p>Run <code><a href="https://tidyverse.tidyverse.org">library(tidyverse)</a></code> to load the core tidyverse and make it available in your current R session.</p></li>
-</ul>
 <div class="grid">
 <div class="g-col-3">
 <p><img src="images/dplyr.png" class="img-fluid"></p>
@@ -405,15 +405,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p><a href="https://quarto.org/">Quarto</a> is an open-source, next-generation publishing system that enables users to create dynamic documents, reports, presentations, and websites. It supports a wide range of formats, including HTML, PDF, Word, and slides, and integrates seamlessly with R, Python, Julia, and Observable. Quarto allows for literate programming, where code and narrative are combined in a single document. It supports advanced features like interactive visualizations, cross-referencing, and citation management, making it an ideal tool for academic and technical writing, data analysis, and reproducible research.</p>
 </div>
 </div>
-</section></section><section id="recording-of-classes" class="level2"><h2 class="anchored" data-anchor-id="recording-of-classes">Recording of classes</h2>
+</section><section id="recording-of-classes" class="level2"><h2 class="anchored" data-anchor-id="recording-of-classes">Recording of classes</h2>
 <p>Class lectures will be recorded automatically using cloud. The links will be posted to CHIRAL Classes when they are available.</p>
 </section><section id="prework" class="level2"><h2 class="anchored" data-anchor-id="prework">Prework</h2>
 <p>Before attending the workshop please have the following installed and configured on your machine.</p>
 <ul>
 <li><p>Recent version of <strong>R</strong></p></li>
 <li><p>Recent version of <strong>RStudio</strong></p></li>
+<li><p>Most recent release of the <a href="https://www.danieldsjoberg.com/gtsummary/"><strong>gtsummary</strong></a> and other packages used in workshop.</p></li>
+</ul>
+<section id="installation-and-use" class="level3"><h3 class="anchored" data-anchor-id="installation-and-use">Installation and Use</h3>
+<ul>
+<li><p>To install a package in R, use the <code>install.packages(tidyverse)</code> function. This function downloads and installs the specified package from CRAN (Comprehensive R Archive Network) or other repositories.</p></li>
 <li>
-<p>Most recent release of the <a href="https://www.danieldsjoberg.com/gtsummary/"><strong>gtsummary</strong></a> and other packages used in workshop.</p>
+<p>Run <code><a href="https://tidyverse.tidyverse.org">library(tidyverse)</a></code> to load the core tidyverse and make it available in your current R session.</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># Define the package list</span></span>
 <span><span class="va">install_pkgs</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"gtsummary"</span>, <span class="st">"tidyverse"</span>, <span class="st">"gapminder"</span>, <span class="st">"ggpubr"</span>, </span>
 <span>              <span class="st">"likert"</span>, <span class="st">"skimr"</span>, <span class="st">"car"</span>, <span class="st">"dplyr"</span>, <span class="st">"ggplot2"</span>, </span>
@@ -430,7 +435,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Save the document and check you are able to knit it.</li>
 </ul>
 </li>
-</ul></section><section id="team" class="level2"><h2 class="anchored" data-anchor-id="team">Team</h2>
+</ul></section></section><section id="team" class="level2"><h2 class="anchored" data-anchor-id="team">Team</h2>
 <section id="md.-jubayer-hossain" class="level4"><h4 class="anchored" data-anchor-id="md.-jubayer-hossain"><strong>Md. Jubayer Hossain</strong></h4>
 <section id="founder-executive-director-chiral" class="level5"><h5 class="anchored" data-anchor-id="founder-executive-director-chiral">Founder &amp; Executive Director, CHIRAL</h5>
 <p><img src="images/jubayer.jpg" class="img-fluid" style="float:right;padding: 0 0 0 10px;" alt="Headshot of Jubayer" width="200"><a href="https://hossainlab.github.io/">Md. Jubayer Hossain</a> is the Founder and Executive Director of <a href="https://chiralbd.org/">CHIRAL Bangladesh</a>. CHIRAL Bangladesh is a non-profit organization dedicated to health research to improve lives in Bangladesh. He aspires to maximize the quality of life of people around him by working at the intersection of education, technology, and biomedical research. Detailed research and teaching activities were found on his <a href="https://hossainlab.github.io/">website.</a></p>
