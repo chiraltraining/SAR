@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Statistical Analysis with R for Research",
     "section": "",
-    "text": "🗓December 10-31, 2024 | 9:00am - 5:30pm (Bangladesh Time)\n📝 To join private Telegram group for the course, follow instructions in the email you received after registration.",
+    "text": "🗓December 10-31, 2024 | 9:00am - 5:30pm (Bangladesh Time)\n📢 If your university/organization is interested in hosting this workshop, please follow the instructions below:\n📌 Register with Google Forms\n📝 Workshop Content and Timeline View in  Google Sheet",
     "crumbs": [
       "Home"
     ]
@@ -94,7 +94,7 @@
     "href": "index.html#analysis-and-visualization-likert-items",
     "title": "Statistical Analysis with R for Research",
     "section": "Analysis and Visualization Likert Items",
-    "text": "Analysis and Visualization Likert Items\nThe {Likert} is an R package designed to help analyzing and visualizing Likert type items. It has been developped by Jason Bryer and Kim Speerschneider. This barplot comes from the demo page and has been sent by Carlos Ortega. It allows to analyse the reading attitudes from a panel of people.",
+    "text": "Analysis and Visualization Likert Items\nThe likert is an R package designed to help analyzing and visualizing Likert type items. It has been developped by Jason Bryer and Kim Speerschneider. This barplot comes from the demo page and has been sent by Carlos Ortega. It allows to analyse the reading attitudes from a panel of people.",
     "crumbs": [
       "Home"
     ]

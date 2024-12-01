@@ -4,6 +4,13 @@ subtitle: "[Center for Health Innovation, Research, Action and Learning – Bang
 editor: source
 ---
 
+```{css, echo = FALSE}
+.justify {
+  text-align: justify !important
+}
+```
+
+
 ------------------------------------------------------------------------
 
 🗓December 10-31, 2024 \| 9:00am - 5:30pm (Bangladesh Time)
@@ -14,7 +21,12 @@ editor: source
 
 <!-- 💥 **Registration Fee**: 410BDT  -->
 
-📝 To join private Telegram group for the course, follow instructions in the email you received after registration.
+📢 If your university/organization is interested in hosting this workshop, please follow the instructions below: 
+
+📌 **Register** with [Google Forms](https://forms.gle/nbWLf5Zr7a5LLfRC8)
+
+📝 **Workshop Content and Timeline View in ** [Google Sheet](https://docs.google.com/spreadsheets/d/17t7O8a7ARpl9OdNUMoBUYT17-L60YLBBJSqsugWOVC8/edit?usp=sharing)
+
 
 ------------------------------------------------------------------------
 ## Workshop Overview
@@ -69,7 +81,7 @@ knitr::include_graphics("images/gtsummary.gif")
 ```
 
 ## Analysis and Visualization Likert Items
-The `{Likert}` is an R package designed to help analyzing and visualizing Likert type items. It has been developped by Jason Bryer and Kim Speerschneider. This barplot comes from the demo page and has been sent by Carlos Ortega. It allows to analyse the reading attitudes from a panel of people.
+The `{likert}` is an R package designed to help analyzing and visualizing Likert type items. It has been developped by Jason Bryer and Kim Speerschneider. This barplot comes from the demo page and has been sent by Carlos Ortega. It allows to analyse the reading attitudes from a panel of people.
 
 ```{r, echo=FALSE, fig.align='center'}
 knitr::include_graphics("images/likert.png")
