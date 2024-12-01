@@ -29,7 +29,7 @@ editor: source
 
 
 ------------------------------------------------------------------------
-## Workshop Overview
+## Workshop overview
 
 Welcome to the **Statistical Analysis with R for Research Workshop**! This 1-day intensive program is designed to equip researchers, students, and professionals with essential R programming skills for statistical analysis. Whether you are new to R or looking to enhance your skills, this workshop offers a hands-on experience to help you confidently analyze and interpret data for research purposes.
 
@@ -45,7 +45,7 @@ During this workshop, participants will:
 The workshop will involve practical exercises, real-world examples, and guidance from experienced instructors to ensure you walk away with practical, applicable knowledge.
 
 
-## Who Should Attend?
+## Who should attend?
 
 - Undergraduate and graduate students conducting research.
 - Academicians and professionals working with data.
@@ -53,7 +53,7 @@ The workshop will involve practical exercises, real-world examples, and guidance
 
 No prior programming experience is required, but basic knowledge of statistics will be helpful.
 
-## Why Join This Workshop?
+## Why join this workshop?
 
 By participating in this workshop, you will not only gain valuable analytical skills but also expand your professional network and enhance your ability to make data-driven decisions in your research field.
 
@@ -67,27 +67,27 @@ R is an open source language and environment for statistical computing, data min
 -   R is simple and easy to learn, read and write.
 -   R is an example of a FLOSS (Free Libre and Open Source Software) where one can freely distribute copies of this software, read its source code, modify it, etc.
 
-### Publication-ready Figures
+### Publication-ready figures
 The `{ggpubr}` package provides some easy-to-use functions for creating and customizing ‘ggplot2’- based publication ready plots. ggplot2, by Hadley Wickham, is an excellent and flexible package for elegant data visualization in R. However the default generated plots requires some formatting before we can send them for publication. Furthermore, to customize a ggplot, the syntax is opaque and this raises the level of difficulty for researchers with no advanced R programming skills.
 ```{r, echo=FALSE, fig.align='center'}
 knitr::include_graphics("images/ggpubr.png")
 ```
 
-### Publication-ready Tables 
+### Publication-ready tables 
 The `{gtsummary}` package provides an elegant and flexible way to create publication-ready analytical and summary tables using the R programming language. The {gtsummary} package summarizes data sets, regression models, and more, using sensible defaults with highly customizable capabilities. 
 
 ```{r, echo=FALSE}
 knitr::include_graphics("images/gtsummary.gif")
 ```
 
-### Analysis and Visualization Likert Items
+### Analysis and visualization likert items
 The `{likert}` is an R package designed to help analyzing and visualizing Likert type items. It has been developped by Jason Bryer and Kim Speerschneider. This barplot comes from the demo page and has been sent by Carlos Ortega. It allows to analyse the reading attitudes from a panel of people.
 
 ```{r, echo=FALSE, fig.align='center'}
 knitr::include_graphics("images/likert.png")
 ```
 
-### Reproducible Academic Writing with Rmarkdown/Quarto
+### Reproducible academic writing with Rmarkdown/Quarto
 R Markdown documents are fully reproducible. Use a productive notebook interface to weave together narrative text and code to produce elegantly formatted output. Use multiple languages including R, Python, and SQL.
 
 ```{r, echo=FALSE, fig.align='center'}
@@ -98,7 +98,7 @@ knitr::include_graphics("images/rmarkdown.png")
 - R: <http://www.r-project.org/> (FREE)
 - RStudio (additional libraries required): <http://www.rstudio.com/> (FREE)
 
-## Core Packages
+## Core packages
 In R, several core packages provide essential tools for data manipulation, visualization, and analysis. These packages form the foundation of the R ecosystem, enabling efficient workflows and reproducible research. 
 
 ::: {.grid}
@@ -234,7 +234,7 @@ Before attending the workshop please have the following installed and configured
 
 -   Most recent release of the [**gtsummary**](https://www.danieldsjoberg.com/gtsummary/) and other packages used in workshop.
 
-### Installation and Use 
+### Installation and use 
 - To install a package in R, use the `install.packages(tidyverse)` function. This function downloads and installs the specified package from CRAN (Comprehensive R Archive Network) or other repositories.
 
 - Run `library(tidyverse)` to load the core tidyverse and make it available in your current R session.
