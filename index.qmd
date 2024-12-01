@@ -8,11 +8,11 @@ editor: source
 
 🗓December 10-31, 2024 \| 9:00am - 5:30pm (Bangladesh Time)
 
-📢 **Organizer**: Genetic Engineering and Biotechnology Club, Jagannath University
+<!-- 📢 **Organizer**: Genetic Engineering and Biotechnology Club, Jagannath University -->
 
-📌 **Register** with [Google Forms]() 
+<!-- 📌 **Register** with [Google Forms]()  -->
 
-💥 **Registration Fee**: 410BDT 
+<!-- 💥 **Registration Fee**: 410BDT  -->
 
 📝 To join private Telegram group for the course, follow instructions in the email you received after registration.
 
