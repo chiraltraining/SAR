@@ -1,0 +1,72 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+    #- "*.Rmd"
+    #- "!exercises/exercises.Rmd"
+    - "!slides/"
+
+website:
+  page-navigation: true
+  title: "R for Research"
+  description: "Homepage for  Statistical Analysis with R for Research - A Step by Step Guide for Beginners"
+  site-url: "https://chiraltraining.github.io/SARJnU/"
+  favicon: "images/rlogo.jpg"
+  
+  repo-url: https://github.com/chiraltraining/SARJnU
+  repo-actions: [edit, issue]
+
+  open-graph: true
+  twitter-card:
+    creator: "@hossainlab"
+    image: "/images/banner.jpg"
+
+  page-footer:
+    left: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
+    right: "&copy; Copyright 2024, Md. Jubayer Hossain"
+    background: "#737373"
+
+  sidebar:
+    background: "#737373"
+    logo: "images/r-logo.png"
+    pinned: true
+    align: center
+    tools:
+      - icon: github
+        href: https://github.com/chiraltraining/
+        text: GitHub
+      - icon: facebook
+        href: https://www.facebook.com/chiralbd.org
+        text: Facebook
+      - icon: twitter
+        href: https://twitter.com/chiralbd
+        text: Twitter
+      - icon: linkedin
+        href: https://www.linkedin.com/company/chiral-bangladesh/mycompany/?viewAsMember=true
+        text: LinkedIn
+        
+    style: docked
+    contents:
+     - href: index.qmd
+       text: Home
+     - href: setup.qmd
+       text: Setup
+     - href: material.qmd
+     - href: sessions.qmd
+     - href: q-and-a.qmd
+       text: Q & A
+     - href: license.qmd
+       text: License
+
+format:
+  html:
+    theme: [cosmo, theme.scss]
+    toc: true
+    code-copy: true
+    code-overflow: scroll
+    mainfont: "Atkinson Hyperlegible"
+    highlight-style: a11y
+
+editor: source
+

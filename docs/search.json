@@ -1,0 +1,172 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Statistical Analysis with R for Research",
+    "section": "",
+    "text": "🗓December 10-31, 2024 | 9:00am - 5:30pm (Bangladesh Time)\n📢 Organizer: Genetic Engineering and Biotechnology Club, Jagannath University\n📌 Register with Google Forms\n💥 Registration Fee: 410BDT\n📝 To join private Telegram group for the course, follow instructions in the email you received after registration.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#workshop-overview",
+    "href": "index.html#workshop-overview",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Workshop Overview",
+    "text": "Workshop Overview\nWelcome to the Statistical Analysis with R for Research Workshop! This 1-day intensive program is designed to equip researchers, students, and professionals with essential R programming skills for statistical analysis. Whether you are new to R or looking to enhance your skills, this workshop offers a hands-on experience to help you confidently analyze and interpret data for research purposes.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#learning-outcomes",
+    "href": "index.html#learning-outcomes",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Learning outcomes",
+    "text": "Learning outcomes\nDuring this workshop, participants will:\n\nUnderstand the fundamentals of R programming.\nLearn data manipulation techniques using R.\nPerform descriptive and inferential statistical analyses.\nCreate effective visualizations for data interpretation.\nApply R in research-specific scenarios.\n\nThe workshop will involve practical exercises, real-world examples, and guidance from experienced instructors to ensure you walk away with practical, applicable knowledge.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#who-should-attend",
+    "href": "index.html#who-should-attend",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Who Should Attend?",
+    "text": "Who Should Attend?\n\nUndergraduate and graduate students conducting research.\nAcademicians and professionals working with data.\nIndividuals with an interest in learning R for data analysis.\n\nNo prior programming experience is required, but basic knowledge of statistics will be helpful.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#why-join-this-workshop",
+    "href": "index.html#why-join-this-workshop",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Why Join This Workshop?",
+    "text": "Why Join This Workshop?\nBy participating in this workshop, you will not only gain valuable analytical skills but also expand your professional network and enhance your ability to make data-driven decisions in your research field.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#what-is-r",
+    "href": "index.html#what-is-r",
+    "title": "Statistical Analysis with R for Research",
+    "section": "What is R?",
+    "text": "What is R?\nR is an open source language and environment for statistical computing, data mining, modeling, and data graphics. It provides a wide variety of statistical and graphical techniques such as linear and non-linear modeling, statistical tests, time series analysis, classification, and clustering.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#why-r",
+    "href": "index.html#why-r",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Why R?",
+    "text": "Why R?\n\nR is a programming and statistical language.\nR is used for data Analysis and Visualization.\nR is simple and easy to learn, read and write.\nR is an example of a FLOSS (Free Libre and Open Source Software) where one can freely distribute copies of this software, read its source code, modify it, etc.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#publication-ready-figures",
+    "href": "index.html#publication-ready-figures",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Publication-ready Figures",
+    "text": "Publication-ready Figures\nThe {ggpubr} package provides some easy-to-use functions for creating and customizing ‘ggplot2’- based publication ready plots. ggplot2, by Hadley Wickham, is an excellent and flexible package for elegant data visualization in R. However the default generated plots requires some formatting before we can send them for publication. Furthermore, to customize a ggplot, the syntax is opaque and this raises the level of difficulty for researchers with no advanced R programming skills.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#publication-ready-tables",
+    "href": "index.html#publication-ready-tables",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Publication-ready Tables",
+    "text": "Publication-ready Tables\nThe {gtsummary} package provides an elegant and flexible way to create publication-ready analytical and summary tables using the R programming language. The {gtsummary} package summarizes data sets, regression models, and more, using sensible defaults with highly customizable capabilities.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#analysis-and-visualization-likert-items",
+    "href": "index.html#analysis-and-visualization-likert-items",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Analysis and Visualization Likert Items",
+    "text": "Analysis and Visualization Likert Items\nThe {Likert} is an R package designed to help analyzing and visualizing Likert type items. It has been developped by Jason Bryer and Kim Speerschneider. This barplot comes from the demo page and has been sent by Carlos Ortega. It allows to analyse the reading attitudes from a panel of people.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#reproducible-academic-writing-with-rmarkdownquarto",
+    "href": "index.html#reproducible-academic-writing-with-rmarkdownquarto",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Reproducible Academic Writing with Rmarkdown/Quarto",
+    "text": "Reproducible Academic Writing with Rmarkdown/Quarto\nR Markdown documents are fully reproducible. Use a productive notebook interface to weave together narrative text and code to produce elegantly formatted output. Use multiple languages including R, Python, and SQL.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#required-software",
+    "href": "index.html#required-software",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Required software",
+    "text": "Required software\n\nR: http://www.r-project.org/ (FREE)\nRStudio (additional libraries required): http://www.rstudio.com/ (FREE)",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#recording-of-classes",
+    "href": "index.html#recording-of-classes",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Recording of classes",
+    "text": "Recording of classes\nClass lectures will be recorded automatically using cloud. The links will be posted to CHIRAL Classes when they are available.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#prework",
+    "href": "index.html#prework",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Prework",
+    "text": "Prework\nBefore attending the workshop please have the following installed and configured on your machine.\n\nRecent version of R\nRecent version of RStudio\nMost recent release of the gtsummary and other packages used in workshop.\ninstll_pkgs &lt;- \n  c(\"gtsummary\", \"tidyverse\", \"gapminder\", \"ggpubr\", \n    \"likert\", \"skimr\", \"car\")\ninstall.packages(instll_pkgs)\nEnsure you can knit R quarto documents\n\nOpen RStudio and create a new quarto document\nSave the document and check you are able to knit it.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#team",
+    "href": "index.html#team",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Team",
+    "text": "Team\n\nMd. Jubayer Hossain, Lead Organizer & Instructor\n Md. Jubayer Hossain is the Founder and Executive Director of CHIRAL Bangladesh. CHIRAL Bangladesh is a non-profit organization dedicated to health research to improve lives in Bangladesh. He aspires to maximize the quality of life of people around him by working at the intersection of education, technology, and biomedical research. Detailed research and teaching activities were found on his website.\n\n\nMuhibullah Shahjahan, Instructor\n Muhibullah Shahjahan is a researcher specializing in Cancer Bioinformatics and Machine Learning. As a Research Assistant at the Big Bioinformatics Lab of CHIRAL Bangladesh, he focuses on applying computational tools to address biological research questions. With experience in statistical analysis and R programming, he contributes to advancing biomedical data science education and supports researchers in analyzing and interpreting complex datasets.\n\n\nMuhammad Mohtasim Billah, Instructor\n\nMuhammad Mohtasim Billah is a researcher with a focus on Cancer Bioinformatics. Affiliated with the Big Bioinformatics Lab at CHIRAL Bangladesh, he applies computational approaches to study cancer biology and support data-driven research. His work involves statistical analysis and bioinformatics techniques, contributing to the understanding and management of complex biological data.\n\n\nSajjad Hossain, Instructor\n\nSajjad Hossain is a researcher with expertise in Cancer Bioinformatics and serves as an instructor at the Big Bioinformatics Lab, CHIRAL Bangladesh. In addition to his research endeavors, he is responsible for managing and coordinating the lab’s training programs, fostering the dissemination of advanced bioinformatics knowledge. His work focuses on computational analysis and the interpretation of complex biological datasets, contributing to capacity-building efforts and the advancement of biomedical research.\n\n\nMuntasim Fuad, Instructor\n\nMuntasim Fuad is a researcher specializing in Cancer Bioinformatics. As a Research Assistant Instructor at the Big Bioinformatics Lab, CHIRAL Bangladesh, he applies computational techniques to explore complex biological data and advance cancer research. His role involves supporting research initiatives and contributing to the academic development of trainees in bioinformatics and data analysis.\n\n\nTajrian Rahman, Training Manager\n Tajrian Rahman is the Training Manager at CHIRAL Bangladesh, where she is responsible for overseeing the planning, execution, and management of training programs at the CHIRAL. Her work involves designing educational initiatives that enhance bioinformatics skills and support the professional development of researchers and students. Through her role, she contributes to strengthening the CHIRAL’s capacity-building efforts and advancing knowledge in biomedical data science.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "sessions.html",
+    "href": "sessions.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "View Full Screen in Google Sheet",
+    "crumbs": [
+      "Schedule"
+    ]
+  },
+  {
+    "objectID": "sessions.html#workshop-detailed-schedule",
+    "href": "sessions.html#workshop-detailed-schedule",
+    "title": "Schedule",
+    "section": "",
+    "text": "View Full Screen in Google Sheet",
+    "crumbs": [
+      "Schedule"
+    ]
+  }
+]

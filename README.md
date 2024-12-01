@@ -1,2 +1,2 @@
-# SAR
-Statistical Analysis with R for Research
+# RforResearch
+R for Research - A  Beginner's Guide to Data Analysis for Research 

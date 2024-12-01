@@ -1,0 +1,152 @@
+---
+title: "Statistical Analysis with R for Research"
+subtitle: "[Center for Health Innovation, Research, Action and Learning – Bangladesh](https://www.chiralbd.org/) "
+editor: source
+---
+
+------------------------------------------------------------------------
+
+🗓December 10-31, 2024 \| 9:00am - 5:30pm (Bangladesh Time)
+
+📢 **Organizer**: Genetic Engineering and Biotechnology Club, Jagannath University
+
+📌 **Register** with [Google Forms]() 
+
+💥 **Registration Fee**: 410BDT 
+
+📝 To join private Telegram group for the course, follow instructions in the email you received after registration.
+
+------------------------------------------------------------------------
+## Workshop Overview
+
+Welcome to the **Statistical Analysis with R for Research Workshop**! This 1-day intensive program is designed to equip researchers, students, and professionals with essential R programming skills for statistical analysis. Whether you are new to R or looking to enhance your skills, this workshop offers a hands-on experience to help you confidently analyze and interpret data for research purposes.
+
+## Learning outcomes 
+During this workshop, participants will:
+
+- Understand the fundamentals of R programming.
+- Learn data manipulation techniques using R.
+- Perform descriptive and inferential statistical analyses.
+- Create effective visualizations for data interpretation.
+- Apply R in research-specific scenarios.
+
+The workshop will involve practical exercises, real-world examples, and guidance from experienced instructors to ensure you walk away with practical, applicable knowledge.
+
+
+## Who Should Attend?
+
+- Undergraduate and graduate students conducting research.
+- Academicians and professionals working with data.
+- Individuals with an interest in learning R for data analysis.
+
+No prior programming experience is required, but basic knowledge of statistics will be helpful.
+
+## Why Join This Workshop?
+
+By participating in this workshop, you will not only gain valuable analytical skills but also expand your professional network and enhance your ability to make data-driven decisions in your research field.
+
+## What is R?
+R is an open source language and environment for statistical computing, data mining, modeling, and data graphics. It provides a wide variety of statistical and graphical techniques such as linear and non-linear modeling, statistical tests, time series analysis, classification, and clustering. 
+
+## Why R?
+
+-   R is a programming and statistical language.
+-   R is used for data Analysis and Visualization.
+-   R is simple and easy to learn, read and write.
+-   R is an example of a FLOSS (Free Libre and Open Source Software) where one can freely distribute copies of this software, read its source code, modify it, etc.
+
+## Publication-ready Figures
+The `{ggpubr}` package provides some easy-to-use functions for creating and customizing ‘ggplot2’- based publication ready plots. ggplot2, by Hadley Wickham, is an excellent and flexible package for elegant data visualization in R. However the default generated plots requires some formatting before we can send them for publication. Furthermore, to customize a ggplot, the syntax is opaque and this raises the level of difficulty for researchers with no advanced R programming skills.
+```{r, echo=FALSE, fig.align='center'}
+knitr::include_graphics("images/ggpubr.png")
+```
+
+## Publication-ready Tables 
+The `{gtsummary}` package provides an elegant and flexible way to create publication-ready analytical and summary tables using the R programming language. The {gtsummary} package summarizes data sets, regression models, and more, using sensible defaults with highly customizable capabilities. 
+
+```{r, echo=FALSE}
+knitr::include_graphics("images/gtsummary.gif")
+```
+
+## Analysis and Visualization Likert Items
+The `{Likert}` is an R package designed to help analyzing and visualizing Likert type items. It has been developped by Jason Bryer and Kim Speerschneider. This barplot comes from the demo page and has been sent by Carlos Ortega. It allows to analyse the reading attitudes from a panel of people.
+
+```{r, echo=FALSE, fig.align='center'}
+knitr::include_graphics("images/likert.png")
+```
+
+## Reproducible Academic Writing with Rmarkdown/Quarto
+R Markdown documents are fully reproducible. Use a productive notebook interface to weave together narrative text and code to produce elegantly formatted output. Use multiple languages including R, Python, and SQL.
+
+```{r, echo=FALSE, fig.align='center'}
+knitr::include_graphics("images/rmarkdown.png")
+```
+
+## Required software
+- R: <http://www.r-project.org/> (FREE)
+- RStudio (additional libraries required): <http://www.rstudio.com/> (FREE)
+
+
+## Recording of classes
+Class lectures will be recorded automatically using cloud. The links will be posted to CHIRAL Classes when they are available. 
+
+
+## Prework
+
+Before attending the workshop please have the following installed and configured on your machine.
+
+-   Recent version of **R**
+
+-   Recent version of **RStudio**
+
+-   Most recent release of the [**gtsummary**](https://www.danieldsjoberg.com/gtsummary/) and other packages used in workshop.
+
+    ``` r
+    instll_pkgs <- 
+      c("gtsummary", "tidyverse", "gapminder", "ggpubr", 
+        "likert", "skimr", "car")
+    install.packages(instll_pkgs)
+    ```
+
+-   Ensure you can knit R quarto documents
+
+    -   Open RStudio and create a new quarto document
+    -   Save the document and check you are able to knit it.
+
+ 
+## Team
+
+#### **Md. Jubayer Hossain, Lead Organizer & Instructor**
+
+![](images/jubayer.jpg){style="float:right;padding: 0 0 0 10px;" fig-alt="Headshot of Jubayer" width="200"}
+[Md. Jubayer Hossain](https://hossainlab.github.io/) is the Founder and Executive Director of [CHIRAL Bangladesh](https://chiralbd.org/). CHIRAL Bangladesh is a non-profit organization dedicated to health research to improve lives in Bangladesh. He aspires to maximize the quality of life of people around him by working at the intersection of education, technology, and biomedical research. Detailed research and teaching activities were found on his [website.](https://hossainlab.github.io/)  
+
+
+#### **Muhibullah Shahjahan, Instructor**
+
+![](images/muhib.jpg){style="float:right;padding: 0 0 0 10px;" fig-alt="Headshot of Muhib" width="200"}
+Muhibullah Shahjahan is a researcher specializing in Cancer Bioinformatics and Machine Learning. As a Research Assistant at the Big Bioinformatics Lab of CHIRAL Bangladesh, he focuses on applying computational tools to address biological research questions. With experience in statistical analysis and R programming, he contributes to advancing biomedical data science education and supports researchers in analyzing and interpreting complex datasets.
+
+#### **Muhammad Mohtasim Billah, Instructor**
+
+![](images/rifat.png){style="float:right;padding: 0 0 0 10px;" fig-alt="Headshot of Rifat" width="200"}
+
+Muhammad Mohtasim Billah is a researcher with a focus on Cancer Bioinformatics. Affiliated with the Big Bioinformatics Lab at CHIRAL Bangladesh, he applies computational approaches to study cancer biology and support data-driven research. His work involves statistical analysis and bioinformatics techniques, contributing to the understanding and management of complex biological data.
+
+
+#### **Sajjad Hossain, Instructor**
+
+![](images/sajjad.jpg){style="float:right;padding: 0 0 0 10px;" fig-alt="Headshot of Sajjad" width="200"}
+
+Sajjad Hossain is a researcher with expertise in Cancer Bioinformatics and serves as an instructor at the Big Bioinformatics Lab, CHIRAL Bangladesh. In addition to his research endeavors, he is responsible for managing and coordinating the lab's training programs, fostering the dissemination of advanced bioinformatics knowledge. His work focuses on computational analysis and the interpretation of complex biological datasets, contributing to capacity-building efforts and the advancement of biomedical research.
+
+#### **Muntasim Fuad, Instructor**
+
+![](images/fuad.jpeg){style="float:right;padding: 0 0 0 10px;" fig-alt="Headshot of Fuad" width="200"}
+
+Muntasim Fuad is a researcher specializing in Cancer Bioinformatics. As a Research Assistant Instructor at the Big Bioinformatics Lab, CHIRAL Bangladesh, he applies computational techniques to explore complex biological data and advance cancer research. His role involves supporting research initiatives and contributing to the academic development of trainees in bioinformatics and data analysis.
+
+#### **Tajrian Rahman, Training Manager**
+
+![](images/tajrian.jpg){style="float:right;padding: 0 0 0 10px;" fig-alt="Headshot of Fuad" width="200"}
+Tajrian Rahman is the Training Manager at CHIRAL Bangladesh, where she is responsible for overseeing the planning, execution, and management of training programs at the CHIRAL. Her work involves designing educational initiatives that enhance bioinformatics skills and support the professional development of researchers and students. Through her role, she contributes to strengthening the CHIRAL's capacity-building efforts and advancing knowledge in biomedical data science.
