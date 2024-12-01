@@ -138,7 +138,7 @@ Muhammad Mohtasim Billah is a researcher with a focus on Cancer Bioinformatics. 
 
 ![](images/sajjad.jpg){style="float:right;padding: 0 0 0 10px;" fig-alt="Headshot of Sajjad" width="200"}
 
-Sajjad Hossain is a researcher with expertise in Cancer Bioinformatics and serves as an instructor at the Big Bioinformatics Lab, CHIRAL Bangladesh. In addition to his research endeavors, he is responsible for managing and coordinating the lab's training programs, fostering the dissemination of advanced bioinformatics knowledge. His work focuses on computational analysis and the interpretation of complex biological datasets, contributing to capacity-building efforts and the advancement of biomedical research.
+Sajjad Hossen is a researcher with expertise in Cancer Bioinformatics and serves as an instructor at the Big Bioinformatics Lab, CHIRAL Bangladesh. In addition to his research endeavors, he is responsible for managing and coordinating the lab's training programs, fostering the dissemination of advanced bioinformatics knowledge. His work focuses on computational analysis and the interpretation of complex biological datasets, contributing to capacity-building efforts and the advancement of biomedical research.
 
 #### **Muntasim Fuad, Instructor**
 
