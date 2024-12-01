@@ -1,6 +1,6 @@
 ---
 title: "Statistical Analysis with R for Research"
-subtitle: "[Center for Health Innovation, Research, Action and Learning – Bangladesh](https://www.chiralbd.org/) "
+subtitle: "A Campus Workshop Series by [Center for Health Innovation, Research, Action and Learning – Bangladesh](https://www.chiralbd.org/)"
 editor: source
 ---
 
