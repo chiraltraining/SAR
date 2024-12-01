@@ -1,12 +1,9 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
-
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.6.32">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
-
 <title>Statistical Analysis with R for Research – R for Research</title>
 <style>
 code{white-space: pre-wrap;}
@@ -56,7 +53,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 </style>
 
-
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
@@ -73,8 +69,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-2a04f3694134fdc0690229208924d33b.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-672afa2348c6d572cdd8d6b55fdc7d47.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<script id="quarto-search-options" type="application/json">{
+<link href="site_libs/bootstrap/bootstrap-672afa2348c6d572cdd8d6b55fdc7d47.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
@@ -101,8 +96,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
-
-
 <meta property="og:title" content="Statistical Analysis with R for Research – R for Research">
 <meta property="og:description" content="Center for Health Innovation, Research, Action and Learning – Bangladesh">
 <meta property="og:site_name" content="R for Research">
@@ -112,13 +105,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <meta name="twitter:creator" content="@hossainlab">
 <meta name="twitter:card" content="summary_large_image">
 </head>
-
 <body class="nav-sidebar docked">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
+  <header id="quarto-header" class="headroom fixed-top"><nav class="quarto-secondary-nav"><div class="container-fluid d-flex">
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
@@ -129,16 +119,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <i class="bi bi-search"></i>
       </button>
     </div>
-  </nav>
-</header>
-<!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+  </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-    <div class="pt-lg-2 mt-2 text-center sidebar-header">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto"><div class="pt-lg-2 mt-2 text-center sidebar-header">
       <a href="./index.html" class="sidebar-logo-link">
-      <img src="./images/r-logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
-      </a>
+      <img src="./images/r-logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none"></a>
       <div class="sidebar-tools-main tools-wide">
     <a href="https://github.com/chiraltraining/" title="GitHub" class="quarto-navigation-tool px-1" aria-label="GitHub"><i class="bi bi-github"></i></a>
     <a href="https://www.facebook.com/chiralbd.org" title="Facebook" class="quarto-navigation-tool px-1" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
@@ -153,7 +138,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
+<li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Home</span></a>
@@ -190,16 +175,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </div>
 </li>
     </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+</div>
+</nav><div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
+        <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#workshop-overview" id="toc-workshop-overview" class="nav-link active" data-scroll-target="#workshop-overview">Workshop Overview</a></li>
+<li><a href="#workshop-overview" id="toc-workshop-overview" class="nav-link active" data-scroll-target="#workshop-overview">Workshop Overview</a></li>
   <li><a href="#learning-outcomes" id="toc-learning-outcomes" class="nav-link" data-scroll-target="#learning-outcomes">Learning outcomes</a></li>
   <li><a href="#who-should-attend" id="toc-who-should-attend" class="nav-link" data-scroll-target="#who-should-attend">Who Should Attend?</a></li>
   <li><a href="#why-join-this-workshop" id="toc-why-join-this-workshop" class="nav-link" data-scroll-target="#why-join-this-workshop">Why Join This Workshop?</a></li>
@@ -210,17 +193,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#analysis-and-visualization-likert-items" id="toc-analysis-and-visualization-likert-items" class="nav-link" data-scroll-target="#analysis-and-visualization-likert-items">Analysis and Visualization Likert Items</a></li>
   <li><a href="#reproducible-academic-writing-with-rmarkdownquarto" id="toc-reproducible-academic-writing-with-rmarkdownquarto" class="nav-link" data-scroll-target="#reproducible-academic-writing-with-rmarkdownquarto">Reproducible Academic Writing with Rmarkdown/Quarto</a></li>
   <li><a href="#required-software" id="toc-required-software" class="nav-link" data-scroll-target="#required-software">Required software</a></li>
+  <li>
+<a href="#core-packages" id="toc-core-packages" class="nav-link" data-scroll-target="#core-packages">Core Packages</a>
+  <ul class="collapse">
+<li><a href="#installation-and-use" id="toc-installation-and-use" class="nav-link" data-scroll-target="#installation-and-use">Installation and Use</a></li>
+  </ul>
+</li>
   <li><a href="#recording-of-classes" id="toc-recording-of-classes" class="nav-link" data-scroll-target="#recording-of-classes">Recording of classes</a></li>
   <li><a href="#prework" id="toc-prework" class="nav-link" data-scroll-target="#prework">Prework</a></li>
   <li><a href="#team" id="toc-team" class="nav-link" data-scroll-target="#team">Team</a></li>
-  </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/chiraltraining/SARJnU/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/chiraltraining/SARJnU/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+  </ul><div class="toc-actions"><ul><li><a href="https://github.com/chiraltraining/SARJnU/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/chiraltraining/SARJnU/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
 <h1 class="title">Statistical Analysis with R for Research</h1>
 <p class="subtitle lead"><a href="https://www.chiralbd.org/">Center for Health Innovation, Research, Action and Learning – Bangladesh</a></p>
 </div>
@@ -236,22 +221,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   
 
 
-</header>
-
-
-<hr>
+</header><hr>
 <p>🗓December 10-31, 2024 | 9:00am - 5:30pm (Bangladesh Time)</p>
 <!-- 📢 **Organizer**: Genetic Engineering and Biotechnology Club, Jagannath University -->
 <!-- 📌 **Register** with [Google Forms]()  -->
 <!-- 💥 **Registration Fee**: 410BDT  -->
 <p>📝 To join private Telegram group for the course, follow instructions in the email you received after registration.</p>
 <hr>
-<section id="workshop-overview" class="level2">
-<h2 class="anchored" data-anchor-id="workshop-overview">Workshop Overview</h2>
+<section id="workshop-overview" class="level2"><h2 class="anchored" data-anchor-id="workshop-overview">Workshop Overview</h2>
 <p>Welcome to the <strong>Statistical Analysis with R for Research Workshop</strong>! This 1-day intensive program is designed to equip researchers, students, and professionals with essential R programming skills for statistical analysis. Whether you are new to R or looking to enhance your skills, this workshop offers a hands-on experience to help you confidently analyze and interpret data for research purposes.</p>
-</section>
-<section id="learning-outcomes" class="level2">
-<h2 class="anchored" data-anchor-id="learning-outcomes">Learning outcomes</h2>
+</section><section id="learning-outcomes" class="level2"><h2 class="anchored" data-anchor-id="learning-outcomes">Learning outcomes</h2>
 <p>During this workshop, participants will:</p>
 <ul>
 <li>Understand the fundamentals of R programming.</li>
@@ -261,149 +240,213 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Apply R in research-specific scenarios.</li>
 </ul>
 <p>The workshop will involve practical exercises, real-world examples, and guidance from experienced instructors to ensure you walk away with practical, applicable knowledge.</p>
-</section>
-<section id="who-should-attend" class="level2">
-<h2 class="anchored" data-anchor-id="who-should-attend">Who Should Attend?</h2>
+</section><section id="who-should-attend" class="level2"><h2 class="anchored" data-anchor-id="who-should-attend">Who Should Attend?</h2>
 <ul>
 <li>Undergraduate and graduate students conducting research.</li>
 <li>Academicians and professionals working with data.</li>
 <li>Individuals with an interest in learning R for data analysis.</li>
 </ul>
 <p>No prior programming experience is required, but basic knowledge of statistics will be helpful.</p>
-</section>
-<section id="why-join-this-workshop" class="level2">
-<h2 class="anchored" data-anchor-id="why-join-this-workshop">Why Join This Workshop?</h2>
+</section><section id="why-join-this-workshop" class="level2"><h2 class="anchored" data-anchor-id="why-join-this-workshop">Why Join This Workshop?</h2>
 <p>By participating in this workshop, you will not only gain valuable analytical skills but also expand your professional network and enhance your ability to make data-driven decisions in your research field.</p>
-</section>
-<section id="what-is-r" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-r">What is R?</h2>
+</section><section id="what-is-r" class="level2"><h2 class="anchored" data-anchor-id="what-is-r">What is R?</h2>
 <p>R is an open source language and environment for statistical computing, data mining, modeling, and data graphics. It provides a wide variety of statistical and graphical techniques such as linear and non-linear modeling, statistical tests, time series analysis, classification, and clustering.</p>
-</section>
-<section id="why-r" class="level2">
-<h2 class="anchored" data-anchor-id="why-r">Why R?</h2>
+</section><section id="why-r" class="level2"><h2 class="anchored" data-anchor-id="why-r">Why R?</h2>
 <ul>
 <li>R is a programming and statistical language.</li>
 <li>R is used for data Analysis and Visualization.</li>
 <li>R is simple and easy to learn, read and write.</li>
 <li>R is an example of a FLOSS (Free Libre and Open Source Software) where one can freely distribute copies of this software, read its source code, modify it, etc.</li>
-</ul>
-</section>
-<section id="publication-ready-figures" class="level2">
-<h2 class="anchored" data-anchor-id="publication-ready-figures">Publication-ready Figures</h2>
-<p>The <code>{ggpubr}</code> package provides some easy-to-use functions for creating and customizing ‘ggplot2’- based publication ready plots. ggplot2, by Hadley Wickham, is an excellent and flexible package for elegant data visualization in R. However the default generated plots requires some formatting before we can send them for publication. Furthermore, to customize a ggplot, the syntax is opaque and this raises the level of difficulty for researchers with no advanced R programming skills.</p>
+</ul></section><section id="publication-ready-figures" class="level2"><h2 class="anchored" data-anchor-id="publication-ready-figures">Publication-ready Figures</h2>
+<p>The <a href="https://rpkgs.datanovia.com/ggpubr/">ggpubr</a> package provides some easy-to-use functions for creating and customizing ‘ggplot2’- based publication ready plots. ggplot2, by Hadley Wickham, is an excellent and flexible package for elegant data visualization in R. However the default generated plots requires some formatting before we can send them for publication. Furthermore, to customize a ggplot, the syntax is opaque and this raises the level of difficulty for researchers with no advanced R programming skills.</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/ggpubr.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="2100"></p>
+<figure class="figure"><p><img src="images/ggpubr.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="2100"></p>
 </figure>
 </div>
 </div>
 </div>
-</section>
-<section id="publication-ready-tables" class="level2">
-<h2 class="anchored" data-anchor-id="publication-ready-tables">Publication-ready Tables</h2>
-<p>The <code>{gtsummary}</code> package provides an elegant and flexible way to create publication-ready analytical and summary tables using the R programming language. The {gtsummary} package summarizes data sets, regression models, and more, using sensible defaults with highly customizable capabilities.</p>
+</section><section id="publication-ready-tables" class="level2"><h2 class="anchored" data-anchor-id="publication-ready-tables">Publication-ready Tables</h2>
+<p>The <a href="https://github.com/ddsjoberg/gtsummary">gtsummary</a> package provides an elegant and flexible way to create publication-ready analytical and summary tables using the R programming language. The {gtsummary} package summarizes data sets, regression models, and more, using sensible defaults with highly customizable capabilities.</p>
 <div class="cell">
 <div class="cell-output-display">
 <div>
-<figure class="figure">
-<p><img src="images/gtsummary.gif" class="img-fluid figure-img"></p>
+<figure class="figure"><p><img src="images/gtsummary.gif" class="img-fluid figure-img"></p>
 </figure>
 </div>
 </div>
 </div>
-</section>
-<section id="analysis-and-visualization-likert-items" class="level2">
-<h2 class="anchored" data-anchor-id="analysis-and-visualization-likert-items">Analysis and Visualization Likert Items</h2>
+</section><section id="analysis-and-visualization-likert-items" class="level2"><h2 class="anchored" data-anchor-id="analysis-and-visualization-likert-items">Analysis and Visualization Likert Items</h2>
 <p>The <code>{Likert}</code> is an R package designed to help analyzing and visualizing Likert type items. It has been developped by Jason Bryer and Kim Speerschneider. This barplot comes from the demo page and has been sent by Carlos Ortega. It allows to analyse the reading attitudes from a panel of people.</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/likert.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="1800"></p>
+<figure class="figure"><p><img src="images/likert.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="1800"></p>
 </figure>
 </div>
 </div>
 </div>
-</section>
-<section id="reproducible-academic-writing-with-rmarkdownquarto" class="level2">
-<h2 class="anchored" data-anchor-id="reproducible-academic-writing-with-rmarkdownquarto">Reproducible Academic Writing with Rmarkdown/Quarto</h2>
+</section><section id="reproducible-academic-writing-with-rmarkdownquarto" class="level2"><h2 class="anchored" data-anchor-id="reproducible-academic-writing-with-rmarkdownquarto">Reproducible Academic Writing with Rmarkdown/Quarto</h2>
 <p>R Markdown documents are fully reproducible. Use a productive notebook interface to weave together narrative text and code to produce elegantly formatted output. Use multiple languages including R, Python, and SQL.</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/rmarkdown.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="1350"></p>
+<figure class="figure"><p><img src="images/rmarkdown.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="1350"></p>
 </figure>
 </div>
 </div>
 </div>
-</section>
-<section id="required-software" class="level2">
-<h2 class="anchored" data-anchor-id="required-software">Required software</h2>
+</section><section id="required-software" class="level2"><h2 class="anchored" data-anchor-id="required-software">Required software</h2>
 <ul>
 <li>R: <a href="http://www.r-project.org/" class="uri">http://www.r-project.org/</a> (FREE)</li>
 <li>RStudio (additional libraries required): <a href="http://www.rstudio.com/" class="uri">http://www.rstudio.com/</a> (FREE)</li>
+</ul></section><section id="core-packages" class="level2"><h2 class="anchored" data-anchor-id="core-packages">Core Packages</h2>
+<p>In R, several core packages provide essential tools for data manipulation, visualization, and analysis. These packages form the foundation of the R ecosystem, enabling efficient workflows and reproducible research.</p>
+<section id="installation-and-use" class="level3"><h3 class="anchored" data-anchor-id="installation-and-use">Installation and Use</h3>
+<ul>
+<li><p>To install a package in R, use the <code>install.packages(tidyverse)</code> function. This function downloads and installs the specified package from CRAN (Comprehensive R Archive Network) or other repositories.</p></li>
+<li><p>Run <code><a href="https://tidyverse.tidyverse.org">library(tidyverse)</a></code> to load the core tidyverse and make it available in your current R session.</p></li>
 </ul>
-</section>
-<section id="recording-of-classes" class="level2">
-<h2 class="anchored" data-anchor-id="recording-of-classes">Recording of classes</h2>
+<div class="grid">
+<div class="g-col-3">
+<p><img src="images/dplyr.png" class="img-fluid"></p>
+</div>
+<div class="g-col-9">
+<p>The <a href="https://dplyr.tidyverse.org">dplyr</a> package in R provides a concise grammar of data manipulation, offering consistent verbs for common tasks. Key functions include <code>select()</code> to extract columns, <code><a href="https://rdrr.io/r/stats/filter.html">filter()</a></code> to subset rows, <code>mutate()</code> to create or modify variables, <code>arrange()</code> to sort rows, and <code>summarize()</code> with <code>group_by()</code> for grouped aggregations. Additionally, <code>rename()</code> simplifies column renaming. These tools streamline data transformation, making workflows efficient and readable for modern data analysis in R.</p>
+</div>
+</div>
+<div class="grid">
+<div class="g-col-3">
+<p><img src="images/ggplot2.png" class="img-fluid"></p>
+</div>
+<div class="g-col-9">
+<p>The <a href="https://ggplot2.tidyverse.org">ggplot2</a> package in R is a powerful tool for data visualization, based on the grammar of graphics. It allows users to build plots layer by layer, starting with data and aesthetic mappings defined in <code>ggplot()</code>. Key layers include <code>geom_</code> functions for adding geometric elements (e.g., <code>geom_point()</code> for scatterplots, <code>geom_bar()</code> for bar charts), <code>facet_</code> functions for creating subplots, and <code>theme()</code> for customizing appearances. Its flexibility in mapping data to visual elements, combined with a rich set of options for customization, makes <code>ggplot2</code> a cornerstone of exploratory and presentation-ready visualizations.</p>
+</div>
+</div>
+<div class="grid">
+<div class="g-col-3">
+<p><img src="images/tidyr.png" class="img-fluid"></p>
+</div>
+<div class="g-col-9">
+<p>The <a href="https://tidyr.tidyverse.org">tidyr</a> package in R is designed for tidying data, ensuring it is in a consistent, tidy format where each variable is a column and each observation is a row. Key functions include <code>pivot_longer()</code> to convert wide data into long format, <code>pivot_wider()</code> for the reverse transformation, <code>separate()</code> to split a single column into multiple, and <code>unite()</code> to combine multiple columns into one. These functions enable efficient reshaping and restructuring of data, facilitating better data analysis and preparation for modeling or visualization tasks.</p>
+</div>
+</div>
+<div class="grid">
+<div class="g-col-3">
+<p><img src="images/readr.png" class="img-fluid"></p>
+</div>
+<div class="g-col-9">
+<p>The <a href="https://readr.tidyverse.org">readr</a> package in R provides fast and efficient functions for reading and writing data. It simplifies importing data from various file formats, such as CSV, TSV, and fixed-width files, with functions like <code>read_csv()</code>, <code>read_tsv()</code>, and <code>read_fwf()</code>. These functions automatically handle common data issues such as type conversion and missing values. Additionally, <code>readr</code> provides <code>write_csv()</code> and <code>write_tsv()</code> for exporting data, ensuring compatibility with other tools while maintaining efficiency and consistency in data import/export tasks.</p>
+</div>
+</div>
+<div class="grid">
+<div class="g-col-3">
+<p><img src="images/stringr.png" class="img-fluid"></p>
+</div>
+<div class="g-col-9">
+<p>The <a href="https://stringr.tidyverse.org">stringr</a> package in R provides a set of consistent and user-friendly functions for string manipulation. It simplifies common tasks such as detecting patterns with <code>str_detect()</code>, extracting substrings with <code>str_extract()</code>, and replacing text with <code>str_replace()</code>. Additionally, <code>stringr</code> offers functions like <code>str_sub()</code> for substring extraction, <code>str_length()</code> for string length, and <code>str_c()</code> for concatenating strings. These functions help streamline text processing, ensuring consistency and efficiency when working with string data.</p>
+</div>
+</div>
+<div class="grid">
+<div class="g-col-3">
+<p><img src="images/forcats.png" class="img-fluid"></p>
+</div>
+<div class="g-col-9">
+<p>The <a href="https://forcats.tidyverse.org/">forcats</a> package in R is designed for working with categorical data, specifically factors. It provides functions for reordering, recoding, and combining factor levels in a straightforward way. Key functions include <code>fct_reorder()</code> to reorder factor levels based on another variable, <code>fct_lump()</code> to combine infrequent levels, <code>fct_recode()</code> for renaming factor levels, and <code>fct_drop()</code> to remove unused levels. <code>forcats</code> helps manage and manipulate factors effectively, ensuring clean and meaningful categorical data for analysis and visualization.</p>
+</div>
+</div>
+<div class="grid">
+<div class="g-col-3">
+<p><img src="images/easystats.png" class="img-fluid"></p>
+</div>
+<div class="g-col-9">
+<p>The <a href="https://easystats.github.io/easystats/">easystats</a> package in R is a collection of tools designed to simplify the process of statistical analysis, reporting, and visualization. It provides a unified interface for working with various statistical models and outputs, making it easier to interpret and communicate results. Key functions include <code>parameters()</code> for extracting model parameters, <code>performance()</code> for assessing model fit, and <code>effectsize()</code> for calculating effect sizes. Additionally, <code>easystats</code> offers functions for model comparisons, diagnostics, and visualizations, streamlining the workflow for both beginners and advanced users in statistical analysis.</p>
+</div>
+</div>
+<div class="grid">
+<div class="g-col-3">
+<p><img src="images/gtsummary.png" class="img-fluid"></p>
+</div>
+<div class="g-col-9">
+<p>The <a href="https://github.com/ddsjoberg/gtsummary">gtsummary</a> package in R is designed for creating publication-ready summary tables from statistical models and data. It allows users to easily summarize data, describe statistics, and present results in a clear, formatted table. Key functions include <code>tbl_summary()</code> for descriptive statistics of datasets, <code>tbl_regression()</code> for summarizing regression model results, and <code>tbl_uvregression()</code> for univariate regression analyses. The package supports customization of table styles, variable transformations, and statistical tests, making it a valuable tool for producing professional reports and visual summaries in clinical and social science research.</p>
+</div>
+</div>
+<div class="grid">
+<div class="g-col-3">
+<p><img src="images/gt.jpg" class="img-fluid"></p>
+</div>
+<div class="g-col-9">
+<p>The <a href="https://gt.rstudio.com">gt</a> package in R is used for creating beautiful, customizable tables for data presentation. It allows users to easily create tables from data frames or tibbles with functions like <code>gt()</code> to initiate the table and <code>tab_spanner()</code> for grouping columns. Users can apply various formatting options, such as color, bold, and font styles, to enhance the table’s readability using functions like <code>tab_style()</code> and <code>tab_footnote()</code>. <code>gt</code> also supports features like adding summary statistics, row/column grouping, and rendering tables in HTML or LaTeX for use in reports and publications.</p>
+</div>
+</div>
+<div class="grid">
+<div class="g-col-3">
+<p><img src="images/gt.jpg" class="img-fluid"></p>
+</div>
+<div class="g-col-9">
+<p>The <a href="https://gt.rstudio.com">gt</a> package in R is used for creating beautiful, customizable tables for data presentation. It allows users to easily create tables from data frames or tibbles with functions like <code>gt()</code> to initiate the table and <code>tab_spanner()</code> for grouping columns. Users can apply various formatting options, such as color, bold, and font styles, to enhance the table’s readability using functions like <code>tab_style()</code> and <code>tab_footnote()</code>. <code>gt</code> also supports features like adding summary statistics, row/column grouping, and rendering tables in HTML or LaTeX for use in reports and publications.</p>
+</div>
+</div>
+<div class="grid">
+<div class="g-col-3">
+<p><img src="images/quarto.png" class="img-fluid"></p>
+</div>
+<div class="g-col-9">
+<p><a href="https://quarto.org/">Quarto</a> is an open-source, next-generation publishing system that enables users to create dynamic documents, reports, presentations, and websites. It supports a wide range of formats, including HTML, PDF, Word, and slides, and integrates seamlessly with R, Python, Julia, and Observable. Quarto allows for literate programming, where code and narrative are combined in a single document. It supports advanced features like interactive visualizations, cross-referencing, and citation management, making it an ideal tool for academic and technical writing, data analysis, and reproducible research.</p>
+</div>
+</div>
+</section></section><section id="recording-of-classes" class="level2"><h2 class="anchored" data-anchor-id="recording-of-classes">Recording of classes</h2>
 <p>Class lectures will be recorded automatically using cloud. The links will be posted to CHIRAL Classes when they are available.</p>
-</section>
-<section id="prework" class="level2">
-<h2 class="anchored" data-anchor-id="prework">Prework</h2>
+</section><section id="prework" class="level2"><h2 class="anchored" data-anchor-id="prework">Prework</h2>
 <p>Before attending the workshop please have the following installed and configured on your machine.</p>
 <ul>
 <li><p>Recent version of <strong>R</strong></p></li>
 <li><p>Recent version of <strong>RStudio</strong></p></li>
-<li><p>Most recent release of the <a href="https://www.danieldsjoberg.com/gtsummary/"><strong>gtsummary</strong></a> and other packages used in workshop.</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>instll_pkgs <span class="ot">&lt;-</span> </span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">c</span>(<span class="st">"gtsummary"</span>, <span class="st">"tidyverse"</span>, <span class="st">"gapminder"</span>, <span class="st">"ggpubr"</span>, </span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">"likert"</span>, <span class="st">"skimr"</span>, <span class="st">"car"</span>)</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(instll_pkgs)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
-<li><p>Ensure you can knit R quarto documents</p>
+<li>
+<p>Most recent release of the <a href="https://www.danieldsjoberg.com/gtsummary/"><strong>gtsummary</strong></a> and other packages used in workshop.</p>
+<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># Define the package list</span></span>
+<span><span class="va">install_pkgs</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"gtsummary"</span>, <span class="st">"tidyverse"</span>, <span class="st">"gapminder"</span>, <span class="st">"ggpubr"</span>, </span>
+<span>              <span class="st">"likert"</span>, <span class="st">"skimr"</span>, <span class="st">"car"</span>, <span class="st">"dplyr"</span>, <span class="st">"ggplot2"</span>, </span>
+<span>              <span class="st">"tidyr"</span>, <span class="st">"readr"</span>, <span class="st">"stringr"</span>, <span class="st">"forcats"</span>, <span class="st">"easystats"</span>, </span>
+<span>              <span class="st">"devtools"</span>, <span class="st">"gt"</span>, <span class="st">"quarto"</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># Install the packages</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html">install.packages</a></span><span class="op">(</span><span class="va">instll_pkgs</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</li>
+<li>
+<p>Ensure you can knit R quarto documents</p>
 <ul>
 <li>Open RStudio and create a new quarto document</li>
 <li>Save the document and check you are able to knit it.</li>
-</ul></li>
 </ul>
-</section>
-<section id="team" class="level2">
-<h2 class="anchored" data-anchor-id="team">Team</h2>
-<section id="md.-jubayer-hossain-lead-organizer-instructor" class="level4">
-<h4 class="anchored" data-anchor-id="md.-jubayer-hossain-lead-organizer-instructor"><strong>Md. Jubayer Hossain, Lead Organizer &amp; Instructor</strong></h4>
-<p><img src="images/jubayer.jpg" class="img-fluid" style="float:right;padding: 0 0 0 10px;" alt="Headshot of Jubayer" width="200"> <a href="https://hossainlab.github.io/">Md. Jubayer Hossain</a> is the Founder and Executive Director of <a href="https://chiralbd.org/">CHIRAL Bangladesh</a>. CHIRAL Bangladesh is a non-profit organization dedicated to health research to improve lives in Bangladesh. He aspires to maximize the quality of life of people around him by working at the intersection of education, technology, and biomedical research. Detailed research and teaching activities were found on his <a href="https://hossainlab.github.io/">website.</a></p>
-</section>
-<section id="muhibullah-shahjahan-instructor" class="level4">
-<h4 class="anchored" data-anchor-id="muhibullah-shahjahan-instructor"><strong>Muhibullah Shahjahan, Instructor</strong></h4>
+</li>
+</ul></section><section id="team" class="level2"><h2 class="anchored" data-anchor-id="team">Team</h2>
+<section id="md.-jubayer-hossain" class="level4"><h4 class="anchored" data-anchor-id="md.-jubayer-hossain"><strong>Md. Jubayer Hossain</strong></h4>
+<section id="founder-executive-director-chiral" class="level5"><h5 class="anchored" data-anchor-id="founder-executive-director-chiral">Founder &amp; Executive Director, CHIRAL</h5>
+<p><img src="images/jubayer.jpg" class="img-fluid" style="float:right;padding: 0 0 0 10px;" alt="Headshot of Jubayer" width="200"><a href="https://hossainlab.github.io/">Md. Jubayer Hossain</a> is the Founder and Executive Director of <a href="https://chiralbd.org/">CHIRAL Bangladesh</a>. CHIRAL Bangladesh is a non-profit organization dedicated to health research to improve lives in Bangladesh. He aspires to maximize the quality of life of people around him by working at the intersection of education, technology, and biomedical research. Detailed research and teaching activities were found on his <a href="https://hossainlab.github.io/">website.</a></p>
+</section></section><section id="muhibullah-shahjahan" class="level4"><h4 class="anchored" data-anchor-id="muhibullah-shahjahan"><strong>Muhibullah Shahjahan</strong></h4>
+<section id="research-assistant-big-bioinformatics-lab-chiral" class="level5"><h5 class="anchored" data-anchor-id="research-assistant-big-bioinformatics-lab-chiral">Research Assistant, Big Bioinformatics Lab, CHIRAL</h5>
 <p><img src="images/muhib.jpg" class="img-fluid" style="float:right;padding: 0 0 0 10px;" alt="Headshot of Muhib" width="200"> Muhibullah Shahjahan is a researcher specializing in Cancer Bioinformatics and Machine Learning. As a Research Assistant at the Big Bioinformatics Lab of CHIRAL Bangladesh, he focuses on applying computational tools to address biological research questions. With experience in statistical analysis and R programming, he contributes to advancing biomedical data science education and supports researchers in analyzing and interpreting complex datasets.</p>
-</section>
-<section id="muhammad-mohtasim-billah-instructor" class="level4">
-<h4 class="anchored" data-anchor-id="muhammad-mohtasim-billah-instructor"><strong>Muhammad Mohtasim Billah, Instructor</strong></h4>
+<p><br></p>
+</section></section><section id="muhammad-mohtasim-billah-instructor" class="level4"><h4 class="anchored" data-anchor-id="muhammad-mohtasim-billah-instructor"><strong>Muhammad Mohtasim Billah, Instructor</strong></h4>
+<section id="research-assistant-big-bioinformatics-lab-chiral-1" class="level5"><h5 class="anchored" data-anchor-id="research-assistant-big-bioinformatics-lab-chiral-1">Research Assistant, Big Bioinformatics Lab, CHIRAL</h5>
 <p><img src="images/rifat.png" class="img-fluid" style="float:right;padding: 0 0 0 10px;" alt="Headshot of Rifat" width="200"></p>
 <p>Muhammad Mohtasim Billah is a researcher with a focus on Cancer Bioinformatics. Affiliated with the Big Bioinformatics Lab at CHIRAL Bangladesh, he applies computational approaches to study cancer biology and support data-driven research. His work involves statistical analysis and bioinformatics techniques, contributing to the understanding and management of complex biological data.</p>
-</section>
-<section id="sajjad-hossain-instructor" class="level4">
-<h4 class="anchored" data-anchor-id="sajjad-hossain-instructor"><strong>Sajjad Hossain, Instructor</strong></h4>
+</section></section><section id="sajjad-hossain-instructor" class="level4"><h4 class="anchored" data-anchor-id="sajjad-hossain-instructor"><strong>Sajjad Hossain, Instructor</strong></h4>
+<section id="research-assistant-big-bioinformatics-lab-chiral-2" class="level5"><h5 class="anchored" data-anchor-id="research-assistant-big-bioinformatics-lab-chiral-2">Research Assistant, Big Bioinformatics Lab, CHIRAL</h5>
 <p><img src="images/sajjad.jpg" class="img-fluid" style="float:right;padding: 0 0 0 10px;" alt="Headshot of Sajjad" width="200"></p>
 <p>Sajjad Hossen is a researcher with expertise in Cancer Bioinformatics and serves as an instructor at the Big Bioinformatics Lab, CHIRAL Bangladesh. In addition to his research endeavors, he is responsible for managing and coordinating the lab’s training programs, fostering the dissemination of advanced bioinformatics knowledge. His work focuses on computational analysis and the interpretation of complex biological datasets, contributing to capacity-building efforts and the advancement of biomedical research.</p>
-</section>
-<section id="muntasim-fuad-instructor" class="level4">
-<h4 class="anchored" data-anchor-id="muntasim-fuad-instructor"><strong>Muntasim Fuad, Instructor</strong></h4>
+</section></section><section id="muntasim-fuad-instructor" class="level4"><h4 class="anchored" data-anchor-id="muntasim-fuad-instructor"><strong>Muntasim Fuad, Instructor</strong></h4>
+<section id="research-assistant-big-bioinformatics-lab-chiral-3" class="level5"><h5 class="anchored" data-anchor-id="research-assistant-big-bioinformatics-lab-chiral-3">Research Assistant, Big Bioinformatics Lab, CHIRAL</h5>
 <p><img src="images/fuad.jpeg" class="img-fluid" style="float:right;padding: 0 0 0 10px;" alt="Headshot of Fuad" width="200"></p>
 <p>Muntasim Fuad is a researcher specializing in Cancer Bioinformatics. As a Research Assistant Instructor at the Big Bioinformatics Lab, CHIRAL Bangladesh, he applies computational techniques to explore complex biological data and advance cancer research. His role involves supporting research initiatives and contributing to the academic development of trainees in bioinformatics and data analysis.</p>
-</section>
-<section id="tajrian-rahman-training-manager" class="level4">
-<h4 class="anchored" data-anchor-id="tajrian-rahman-training-manager"><strong>Tajrian Rahman, Training Manager</strong></h4>
+</section></section><section id="tajrian-rahman" class="level4"><h4 class="anchored" data-anchor-id="tajrian-rahman"><strong>Tajrian Rahman</strong></h4>
+<section id="training-manager-training-unit-chiral" class="level5"><h5 class="anchored" data-anchor-id="training-manager-training-unit-chiral">Training Manager, Training Unit, CHIRAL</h5>
 <p><img src="images/tajrian.jpg" class="img-fluid" style="float:right;padding: 0 0 0 10px;" alt="Headshot of Fuad" width="200"> Tajrian Rahman is the Training Manager at CHIRAL Bangladesh, where she is responsible for overseeing the planning, execution, and management of training programs at the CHIRAL. Her work involves designing educational initiatives that enhance bioinformatics skills and support the professional development of researchers and students. Through her role, she contributes to strengthening the CHIRAL’s capacity-building efforts and advancing knowledge in biomedical data science.</p>
 
 
-</section>
-</section>
-
-</main> <!-- /main -->
-<script id="quarto-html-after-body" type="application/javascript">
+</section></section></section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -822,9 +865,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
 });
-</script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
+</script><nav class="page-navigation"><div class="nav-page nav-page-previous">
   </div>
   <div class="nav-page nav-page-next">
       <a href="./setup.html" class="pagination-link" aria-label="Setup">
@@ -833,8 +874,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav>
 </div> <!-- /content -->
-<footer class="footer">
-  <div class="nav-footer">
+<footer class="footer"><div class="nav-footer">
     <div class="nav-footer-left">
 <p>This page is built with ❤️ and <a href="https://quarto.org/">Quarto</a>.</p>
 </div>   
@@ -846,8 +886,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-
-
 
 
 </body></html>

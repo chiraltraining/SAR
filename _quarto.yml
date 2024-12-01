@@ -67,6 +67,6 @@ format:
     code-overflow: scroll
     mainfont: "Atkinson Hyperlegible"
     highlight-style: a11y
+    code-link: true
 
 editor: source
-
