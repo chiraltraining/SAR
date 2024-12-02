@@ -30,6 +30,5 @@ execute:
 cache: true
 ---
 
-
 {{< include 00-background.qmd >}}
 {{< include 01-barcharts.qmd >}}
