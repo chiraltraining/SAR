@@ -1,6 +1,6 @@
 ---
-title: "R for Research"
-subtitle: "Fundamentals of R: Part 2"
+title: "Statistical Analysis with R for Research"
+subtitle: "Fundamentals of R: Part II"
 author:
   - name: Md. Jubayer Hossain
     orcid: 0000-0001-9323-4997
@@ -30,11 +30,9 @@ execute:
 cache: true
 ---
 
-{{< include 00-data-structures.qmd >}} 
-{{< include 01-subsetting-robjects.qmd >}} 
-{{< include 02-control-flow.qmd >}} 
-{{< include 03-functions.qmd >}}
-{{< include 04-dates-and-times.qmd >}}
-{{< include 05-loop-functions.qmd >}}
-{{< include 06-simulations.qmd >}}
+{{< include 07-control-flow.qmd >}} 
+{{< include 08-functions.qmd >}}
+{{< include 09-dates-and-times.qmd >}}
+{{< include 10-loop-functions.qmd >}}
+{{< include 11-simulations.qmd >}}
 

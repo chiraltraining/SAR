@@ -6,11 +6,10 @@
 <script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
 <link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="index_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="index_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
-<link href="index_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.3.450">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-2486e1f0a3ee9ee1fc393803a1361cdb.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.6.32">
 
-  <meta name="author" content="Md. Jubayer Hossain">
+  <meta name="author" content="Sajjad Hossain">
   <title>R for Research</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -31,7 +30,7 @@
     }
     /* CSS for syntax highlighting */
     pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span { line-height: 1.25; }
     pre > code.sourceCode > span:empty { height: 1.2em; }
     .sourceCode { overflow: visible; }
     code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -42,7 +41,7 @@
     }
     @media print {
     pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
     }
     pre.numberSource code
       { counter-reset: source-line 0; }
@@ -70,7 +69,7 @@
     code span.at { color: #657422; } /* Attribute */
     code span.bn { color: #ad0000; } /* BaseN */
     code span.bu { } /* BuiltIn */
-    code span.cf { color: #003b4f; } /* ControlFlow */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
     code span.ch { color: #20794d; } /* Char */
     code span.cn { color: #8f5902; } /* Constant */
     code span.co { color: #5e5e5e; } /* Comment */
@@ -84,7 +83,7 @@
     code span.fu { color: #4758ab; } /* Function */
     code span.im { color: #00769e; } /* Import */
     code span.in { color: #5e5e5e; } /* Information */
-    code span.kw { color: #003b4f; } /* Keyword */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
     code span.op { color: #5e5e5e; } /* Operator */
     code span.ot { color: #003b4f; } /* Other */
     code span.pp { color: #ad0000; } /* Preprocessor */
@@ -95,7 +94,7 @@
     code span.vs { color: #20794d; } /* VerbatimString */
     code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto.css">
+  <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto-42b2ab1c1902677b286f8eca04fb10fc.css">
   <link rel="stylesheet" href="slides.scss">
   <link href="index_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -222,7 +221,8 @@
   }
 
   .callout.callout-titled .callout-body > .callout-content > :last-child {
-    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
   }
 
   .callout.callout-titled .callout-icon::before {
@@ -397,18 +397,18 @@
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-<a href="https://hossainlab.github.io/">Md. Jubayer Hossain</a> <a href="https://orcid.org/0000-0001-9323-4997" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a>
+<a href="https://hossainlab.github.io/">Sajjad Hossain</a> <a href="https://orcid.org/0000-0001-9323-4997" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a>
 </div>
         <p class="quarto-title-affiliation">
-            CHIRAL Bangladesh
+            Big Bioinformatics, CHIRAL Bangladesh
           </p>
         <p class="quarto-title-affiliation">
-            Founder &amp; Management Lead
+            Research Assistant
           </p>
     </div>
 </div>
 
-  <p class="date">Last Updated on September, 2023</p>
+  <p class="date">Last Updated on December, 2024</p>
 </section><section id="TOC">
 <nav role="doc-toc"> 
 <h2 id="toc-title">Agenda</h2>
@@ -419,6 +419,8 @@
 <li><a href="#/getting-started-with-r" id="/toc-getting-started-with-r">Getting Started With R</a></li>
 <li><a href="#/data-types-in-r" id="/toc-data-types-in-r">Data Types in R</a></li>
 <li><a href="#/operators-in-r" id="/toc-operators-in-r">Operators in R</a></li>
+<li><a href="#/data-structure" id="/toc-data-structure">Data Structure</a></li>
+<li><a href="#/subsetting-r-objects" id="/toc-subsetting-r-objects">Subsetting R Objects</a></li>
 </ul>
 </nav>
 </section>
@@ -495,8 +497,7 @@
 <p><img src="images/logo.png" alt="drawing" width="70%"></p>
 </div><div class="column" style="width:40%;">
 <p>This work is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> (CC BY-SA4.0).</p>
-</div>
-</div>
+</div></div>
 </section>
 <section id="questions" class="slide level2">
 <h2>Questions</h2>
@@ -509,8 +510,7 @@
 </ul>
 </div><div class="column" style="width:50%;">
 <p><img data-src="images/questions.jpg" style="width:100.0%"></p>
-</div>
-</div>
+</div></div>
 </section></section>
 <section>
 <section id="background" class="title-slide slide level1 center">
@@ -527,7 +527,7 @@
 <li><p>The aim of the S language, as expressed by John Chambers, is “to turn ideas into software, quickly and faithfully”</p></li>
 </ul>
 
-<img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Bell_Laboratories_logo.svg/2880px-Bell_Laboratories_logo.svg.png" style="width:20.0%" alt="Bell Labs old logo" class="r-stretch quarto-figure-center"></section>
+<img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Bell_Laboratories_logo.svg/2880px-Bell_Laboratories_logo.svg.png" class="quarto-figure quarto-figure-center r-stretch" style="width:20.0%" alt="Bell Labs old logo"></section>
 <section id="more-on-r-programming" class="slide level2">
 <h2>More on R Programming</h2>
 <ul>
@@ -538,7 +538,7 @@
 <li><p>The R language is widely used among statisticians and data miners for developing statistical software and data analysis.</p></li>
 </ul>
 
-<img data-src="https://www.r-project.org/Rlogo.png" style="width:20.0%" alt="R logo" class="r-stretch quarto-figure-center"></section>
+<img data-src="https://www.r-project.org/Rlogo.png" class="quarto-figure quarto-figure-center r-stretch" style="width:20.0%" alt="R logo"></section>
 <section id="why-r" class="slide level2">
 <h2>Why R?</h2>
 <ul>
@@ -564,8 +564,7 @@
 </ul>
 </div><div class="column" style="width:40%;">
 <p><img data-src="images/reproducibility-graphic-online1.jpeg"></p>
-</div>
-</div>
+</div></div>
 </section></section>
 <section>
 <section id="basic-terms" class="title-slide slide level1 center">
@@ -597,26 +596,23 @@
 </section>
 <section id="columns-and-rows" class="slide level2">
 <h2>Columns and Rows</h2>
-<div class="cell" data-hash="index_cache/revealjs/unnamed-chunk-3_f60ebd6c0fe31902a799bd6b8c45879f">
-<div class="cell-output-display">
-
-<div id="tgwspeafiw" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#tgwspeafiw table {
+<div id="qclfafabgp" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#qclfafabgp table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#tgwspeafiw thead, #tgwspeafiw tbody, #tgwspeafiw tfoot, #tgwspeafiw tr, #tgwspeafiw td, #tgwspeafiw th {
+#qclfafabgp thead, #qclfafabgp tbody, #qclfafabgp tfoot, #qclfafabgp tr, #qclfafabgp td, #qclfafabgp th {
   border-style: none;
 }
 
-#tgwspeafiw p {
+#qclfafabgp p {
   margin: 0;
   padding: 0;
 }
 
-#tgwspeafiw .gt_table {
+#qclfafabgp .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -642,12 +638,12 @@
   border-left-color: #D3D3D3;
 }
 
-#tgwspeafiw .gt_caption {
+#qclfafabgp .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#tgwspeafiw .gt_title {
+#qclfafabgp .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -659,7 +655,7 @@
   border-bottom-width: 0;
 }
 
-#tgwspeafiw .gt_subtitle {
+#qclfafabgp .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -671,7 +667,7 @@
   border-top-width: 0;
 }
 
-#tgwspeafiw .gt_heading {
+#qclfafabgp .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -683,13 +679,13 @@
   border-right-color: #D3D3D3;
 }
 
-#tgwspeafiw .gt_bottom_border {
+#qclfafabgp .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#tgwspeafiw .gt_col_headings {
+#qclfafabgp .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -704,7 +700,7 @@
   border-right-color: #D3D3D3;
 }
 
-#tgwspeafiw .gt_col_heading {
+#qclfafabgp .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -724,7 +720,7 @@
   overflow-x: hidden;
 }
 
-#tgwspeafiw .gt_column_spanner_outer {
+#qclfafabgp .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -736,15 +732,15 @@
   padding-right: 4px;
 }
 
-#tgwspeafiw .gt_column_spanner_outer:first-child {
+#qclfafabgp .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#tgwspeafiw .gt_column_spanner_outer:last-child {
+#qclfafabgp .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#tgwspeafiw .gt_column_spanner {
+#qclfafabgp .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -756,11 +752,11 @@
   width: 100%;
 }
 
-#tgwspeafiw .gt_spanner_row {
+#qclfafabgp .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#tgwspeafiw .gt_group_heading {
+#qclfafabgp .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -786,7 +782,7 @@
   text-align: left;
 }
 
-#tgwspeafiw .gt_empty_group_heading {
+#qclfafabgp .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -801,15 +797,15 @@
   vertical-align: middle;
 }
 
-#tgwspeafiw .gt_from_md > :first-child {
+#qclfafabgp .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#tgwspeafiw .gt_from_md > :last-child {
+#qclfafabgp .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#tgwspeafiw .gt_row {
+#qclfafabgp .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -828,7 +824,7 @@
   overflow-x: hidden;
 }
 
-#tgwspeafiw .gt_stub {
+#qclfafabgp .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -841,7 +837,7 @@
   padding-right: 5px;
 }
 
-#tgwspeafiw .gt_stub_row_group {
+#qclfafabgp .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -855,15 +851,15 @@
   vertical-align: top;
 }
 
-#tgwspeafiw .gt_row_group_first td {
+#qclfafabgp .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#tgwspeafiw .gt_row_group_first th {
+#qclfafabgp .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#tgwspeafiw .gt_summary_row {
+#qclfafabgp .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -873,16 +869,16 @@
   padding-right: 5px;
 }
 
-#tgwspeafiw .gt_first_summary_row {
+#qclfafabgp .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#tgwspeafiw .gt_first_summary_row.thick {
+#qclfafabgp .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#tgwspeafiw .gt_last_summary_row {
+#qclfafabgp .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -892,7 +888,7 @@
   border-bottom-color: #D3D3D3;
 }
 
-#tgwspeafiw .gt_grand_summary_row {
+#qclfafabgp .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -902,7 +898,7 @@
   padding-right: 5px;
 }
 
-#tgwspeafiw .gt_first_grand_summary_row {
+#qclfafabgp .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -912,7 +908,7 @@
   border-top-color: #D3D3D3;
 }
 
-#tgwspeafiw .gt_last_grand_summary_row_top {
+#qclfafabgp .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -922,11 +918,11 @@
   border-bottom-color: #D3D3D3;
 }
 
-#tgwspeafiw .gt_striped {
+#qclfafabgp .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#tgwspeafiw .gt_table_body {
+#qclfafabgp .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -935,7 +931,7 @@
   border-bottom-color: #D3D3D3;
 }
 
-#tgwspeafiw .gt_footnotes {
+#qclfafabgp .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -949,7 +945,7 @@
   border-right-color: #D3D3D3;
 }
 
-#tgwspeafiw .gt_footnote {
+#qclfafabgp .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -958,7 +954,7 @@
   padding-right: 5px;
 }
 
-#tgwspeafiw .gt_sourcenotes {
+#qclfafabgp .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -972,7 +968,7 @@
   border-right-color: #D3D3D3;
 }
 
-#tgwspeafiw .gt_sourcenote {
+#qclfafabgp .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -980,114 +976,132 @@
   padding-right: 5px;
 }
 
-#tgwspeafiw .gt_left {
+#qclfafabgp .gt_left {
   text-align: left;
 }
 
-#tgwspeafiw .gt_center {
+#qclfafabgp .gt_center {
   text-align: center;
 }
 
-#tgwspeafiw .gt_right {
+#qclfafabgp .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#tgwspeafiw .gt_font_normal {
+#qclfafabgp .gt_font_normal {
   font-weight: normal;
 }
 
-#tgwspeafiw .gt_font_bold {
+#qclfafabgp .gt_font_bold {
   font-weight: bold;
 }
 
-#tgwspeafiw .gt_font_italic {
+#qclfafabgp .gt_font_italic {
   font-style: italic;
 }
 
-#tgwspeafiw .gt_super {
+#qclfafabgp .gt_super {
   font-size: 65%;
 }
 
-#tgwspeafiw .gt_footnote_marks {
+#qclfafabgp .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#tgwspeafiw .gt_asterisk {
+#qclfafabgp .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#tgwspeafiw .gt_indent_1 {
+#qclfafabgp .gt_indent_1 {
   text-indent: 5px;
 }
 
-#tgwspeafiw .gt_indent_2 {
+#qclfafabgp .gt_indent_2 {
   text-indent: 10px;
 }
 
-#tgwspeafiw .gt_indent_3 {
+#qclfafabgp .gt_indent_3 {
   text-indent: 15px;
 }
 
-#tgwspeafiw .gt_indent_4 {
+#qclfafabgp .gt_indent_4 {
   text-indent: 20px;
 }
 
-#tgwspeafiw .gt_indent_5 {
+#qclfafabgp .gt_indent_5 {
   text-indent: 25px;
 }
+
+#qclfafabgp .katex-display {
+  display: inline-flex !important;
+  margin-bottom: 0.75em !important;
+}
+
+#qclfafabgp div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+  height: 0px !important;
+}
 </style>
-<table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
-  <thead>
-    
-    <tr class="gt_col_headings">
-      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="Sepal.Length">Sepal.Length</th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="Sepal.Width">Sepal.Width</th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="Petal.Length">Petal.Length</th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="Petal.Width">Petal.Width</th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="Species">Species</th>
-    </tr>
-  </thead>
-  <tbody class="gt_table_body">
-    <tr><td headers="Sepal.Length" class="gt_row gt_right">5.1</td>
-<td headers="Sepal.Width" class="gt_row gt_right">3.5</td>
-<td headers="Petal.Length" class="gt_row gt_right">1.4</td>
-<td headers="Petal.Width" class="gt_row gt_right">0.2</td>
-<td headers="Species" class="gt_row gt_center">setosa</td></tr>
-    <tr><td headers="Sepal.Length" class="gt_row gt_right">4.9</td>
-<td headers="Sepal.Width" class="gt_row gt_right">3.0</td>
-<td headers="Petal.Length" class="gt_row gt_right">1.4</td>
-<td headers="Petal.Width" class="gt_row gt_right">0.2</td>
-<td headers="Species" class="gt_row gt_center">setosa</td></tr>
-    <tr><td headers="Sepal.Length" class="gt_row gt_right">4.7</td>
-<td headers="Sepal.Width" class="gt_row gt_right">3.2</td>
-<td headers="Petal.Length" class="gt_row gt_right">1.3</td>
-<td headers="Petal.Width" class="gt_row gt_right">0.2</td>
-<td headers="Species" class="gt_row gt_center">setosa</td></tr>
-    <tr><td headers="Sepal.Length" class="gt_row gt_right">4.6</td>
-<td headers="Sepal.Width" class="gt_row gt_right">3.1</td>
-<td headers="Petal.Length" class="gt_row gt_right">1.5</td>
-<td headers="Petal.Width" class="gt_row gt_right">0.2</td>
-<td headers="Species" class="gt_row gt_center">setosa</td></tr>
-    <tr><td headers="Sepal.Length" class="gt_row gt_right">5.0</td>
-<td headers="Sepal.Width" class="gt_row gt_right">3.6</td>
-<td headers="Petal.Length" class="gt_row gt_right">1.4</td>
-<td headers="Petal.Width" class="gt_row gt_right">0.2</td>
-<td headers="Species" class="gt_row gt_center">setosa</td></tr>
-    <tr><td headers="Sepal.Length" class="gt_row gt_right">5.4</td>
-<td headers="Sepal.Width" class="gt_row gt_right">3.9</td>
-<td headers="Petal.Length" class="gt_row gt_right">1.7</td>
-<td headers="Petal.Width" class="gt_row gt_right">0.4</td>
-<td headers="Species" class="gt_row gt_center">setosa</td></tr>
-  </tbody>
-  
-  
+
+<table class="gt_table caption-top" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<thead>
+<tr class="gt_col_headings header">
+<th id="Sepal.Length" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Sepal.Length</th>
+<th id="Sepal.Width" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Sepal.Width</th>
+<th id="Petal.Length" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Petal.Length</th>
+<th id="Petal.Width" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Petal.Width</th>
+<th id="Species" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col">Species</th>
+</tr>
+</thead>
+<tbody class="gt_table_body">
+<tr class="odd">
+<td class="gt_row gt_right" headers="Sepal.Length">5.1</td>
+<td class="gt_row gt_right" headers="Sepal.Width">3.5</td>
+<td class="gt_row gt_right" headers="Petal.Length">1.4</td>
+<td class="gt_row gt_right" headers="Petal.Width">0.2</td>
+<td class="gt_row gt_center" headers="Species">setosa</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_right" headers="Sepal.Length">4.9</td>
+<td class="gt_row gt_right" headers="Sepal.Width">3.0</td>
+<td class="gt_row gt_right" headers="Petal.Length">1.4</td>
+<td class="gt_row gt_right" headers="Petal.Width">0.2</td>
+<td class="gt_row gt_center" headers="Species">setosa</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_right" headers="Sepal.Length">4.7</td>
+<td class="gt_row gt_right" headers="Sepal.Width">3.2</td>
+<td class="gt_row gt_right" headers="Petal.Length">1.3</td>
+<td class="gt_row gt_right" headers="Petal.Width">0.2</td>
+<td class="gt_row gt_center" headers="Species">setosa</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_right" headers="Sepal.Length">4.6</td>
+<td class="gt_row gt_right" headers="Sepal.Width">3.1</td>
+<td class="gt_row gt_right" headers="Petal.Length">1.5</td>
+<td class="gt_row gt_right" headers="Petal.Width">0.2</td>
+<td class="gt_row gt_center" headers="Species">setosa</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_right" headers="Sepal.Length">5.0</td>
+<td class="gt_row gt_right" headers="Sepal.Width">3.6</td>
+<td class="gt_row gt_right" headers="Petal.Length">1.4</td>
+<td class="gt_row gt_right" headers="Petal.Width">0.2</td>
+<td class="gt_row gt_center" headers="Species">setosa</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_right" headers="Sepal.Length">5.4</td>
+<td class="gt_row gt_right" headers="Sepal.Width">3.9</td>
+<td class="gt_row gt_right" headers="Petal.Length">1.7</td>
+<td class="gt_row gt_right" headers="Petal.Width">0.4</td>
+<td class="gt_row gt_center" headers="Species">setosa</td>
+</tr>
+</tbody>
 </table>
-</div>
-</div>
+
 </div>
 <ul>
 <li><p>Sample/Observations = Row<br>
@@ -1107,20 +1121,16 @@
 <section id="argumentparameter" class="slide level2">
 <h2>Argument/Parameter</h2>
 <p><strong>Argument/Parameter</strong> - what you pass to a function</p>
-<div class="cell" data-hash="index_cache/revealjs/unnamed-chunk-4_fb95e0ca160423c5d584e2fe9e97534a">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="fu">sum</span>(<span class="dv">1</span>, <span class="dv">20234</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href=""></a><span class="fu">sum</span>(<span class="dv">1</span>, <span class="dv">20234</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] 20235</p>
-</div>
 <ul>
 <li>Can be data like the number 1 or 20234</li>
 <li>Can be options about how you want the function to work such as <code>digits</code></li>
 </ul>
-<div class="cell" data-hash="index_cache/revealjs/unnamed-chunk-5_cbe276515af242ec8149fb290c13c7d1">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a><span class="fu">round</span>(<span class="fl">0.627</span>, <span class="at">digits =</span> <span class="dv">2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href=""></a><span class="fu">round</span>(<span class="fl">0.627</span>, <span class="at">digits =</span> <span class="dv">2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] 0.63</p>
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1"></a><span class="fu">round</span>(<span class="fl">0.627</span>, <span class="at">digits =</span> <span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href=""></a><span class="fu">round</span>(<span class="fl">0.627</span>, <span class="at">digits =</span> <span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] 0.6</p>
-</div>
 </section>
 <section id="package" class="slide level2">
 <h2>Package</h2>
@@ -1287,19 +1297,15 @@
 <li><p>Now that you have installed R and RStudio successfully, let’s try to create your first R program. We will try to create a simple Hello World program.</p></li>
 <li><p>A Hello World program is a simple program that simply prints a <code>Hello World</code> message on the screen. It’s generally used to introduce a new language to learners.</p></li>
 </ul>
-<div class="cell" data-hash="index_cache/revealjs/hello-world-1_70cb7260360122abc0459d5e448cbfc2">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1"></a>message <span class="ot">&lt;-</span><span class="st">"Hello World!"</span></span>
-<span id="cb4-2"><a href="#cb4-2"></a><span class="fu">print</span>(message)  </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href=""></a>message <span class="ot">&lt;-</span><span class="st">"Hello World!"</span></span>
+<span id="cb4-2"><a href=""></a><span class="fu">print</span>(message)  </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] “Hello World!”</p>
-</div>
 </section>
 <section id="running-your-first-r-program-1" class="slide level2">
 <h2>Running Your First R Program</h2>
-<div class="cell" data-hash="index_cache/revealjs/hello-world-2_99bcabbcc4479656a5a31501e90fb7f1">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1"></a>message <span class="ot">&lt;-</span><span class="st">"Hello World!"</span></span>
-<span id="cb5-2"><a href="#cb5-2"></a><span class="fu">print</span>(message)  </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href=""></a>message <span class="ot">&lt;-</span><span class="st">"Hello World!"</span></span>
+<span id="cb5-2"><a href=""></a><span class="fu">print</span>(message)  </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] “Hello World!”</p>
-</div>
 <ul>
 <li><p>Here, we have created a simple variable called <code>message.</code> We have initialized this variable with a simple message string called <code>"Hello World!"</code>. On execution, this program prints the message stored inside the variable.</p></li>
 <li><p>Every output in R is preceded by a number (say n) in square brackets. This number means that the displayed value is the nth element printed.</p></li>
@@ -1307,14 +1313,12 @@
 </section>
 <section id="r-as-a-calculator" class="slide level2">
 <h2>R as a Calculator</h2>
-<div class="cell" data-hash="index_cache/revealjs/calcDemo_8890d9b64659a51847030bc8a68e2126">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1"></a><span class="dv">2</span> <span class="sc">+</span> <span class="dv">2</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href=""></a><span class="dv">2</span> <span class="sc">+</span> <span class="dv">2</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] 4</p>
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1"></a><span class="dv">2</span> <span class="sc">*</span> <span class="dv">4</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href=""></a><span class="dv">2</span> <span class="sc">*</span> <span class="dv">4</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] 8</p>
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1"></a><span class="dv">2</span><span class="sc">^</span><span class="dv">3</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href=""></a><span class="dv">2</span><span class="sc">^</span><span class="dv">3</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] 8</p>
-</div>
 <p><em>Note:</em> when you type your command, R inherently thinks you want to print the result.</p>
 </section>
 <section id="r-as-a-calculator-1" class="slide level2">
@@ -1332,14 +1336,12 @@
 </section>
 <section id="r-as-a-calculator-2" class="slide level2">
 <h2>R as a Calculator</h2>
-<div class="cell" data-hash="index_cache/revealjs/calcDemo2_5e6c1279a0b9563a015ceabc36287d80">
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1"></a><span class="dv">2</span> <span class="sc">+</span> (<span class="dv">2</span> <span class="sc">*</span> <span class="dv">3</span>)<span class="sc">^</span><span class="dv">2</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href=""></a><span class="dv">2</span> <span class="sc">+</span> (<span class="dv">2</span> <span class="sc">*</span> <span class="dv">3</span>)<span class="sc">^</span><span class="dv">2</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] 38</p>
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1"></a>(<span class="dv">1</span> <span class="sc">+</span> <span class="dv">3</span>) <span class="sc">/</span> <span class="dv">2</span> <span class="sc">+</span> <span class="dv">45</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href=""></a>(<span class="dv">1</span> <span class="sc">+</span> <span class="dv">3</span>) <span class="sc">/</span> <span class="dv">2</span> <span class="sc">+</span> <span class="dv">45</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] 47</p>
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1"></a><span class="dv">6</span> <span class="sc">/</span> <span class="dv">2</span> <span class="sc">*</span> (<span class="dv">1</span> <span class="sc">+</span> <span class="dv">2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href=""></a><span class="dv">6</span> <span class="sc">/</span> <span class="dv">2</span> <span class="sc">*</span> (<span class="dv">1</span> <span class="sc">+</span> <span class="dv">2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] 9</p>
-</div>
 </section>
 <section id="r-as-a-calculator-3" class="slide level2">
 <h2>R as a Calculator</h2>
@@ -1388,74 +1390,56 @@
 <li>R uses <code>&lt;-</code> to assign values to an object name (you might also see <code>=</code> used, but this is not best practice)</li>
 <li>Object names are case-sensitive, i.e.&nbsp;X and x are different</li>
 </ul>
-<div class="cell" data-hash="index_cache/revealjs/assign_810a163e0a8c29b9e672d98c385914ba">
-<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1"></a>x <span class="ot">&lt;-</span> <span class="dv">2</span></span>
-<span id="cb12-2"><a href="#cb12-2"></a>x</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href=""></a>x <span class="ot">&lt;-</span> <span class="dv">2</span></span>
+<span id="cb12-2"><a href=""></a>x</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] 2</p>
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1"></a>x <span class="sc">*</span> <span class="dv">4</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href=""></a>x <span class="sc">*</span> <span class="dv">4</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] 8</p>
-<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1"></a>x <span class="sc">+</span> <span class="dv">2</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href=""></a>x <span class="sc">+</span> <span class="dv">2</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] 4</p>
-</div>
 </section>
 <section id="creating-variables" class="slide level2">
 <h2>Creating Variables</h2>
 <p>Using equal(<code>=</code>) operator</p>
-<div class="cell" data-hash="index_cache/revealjs/unnamed-chunk-6_5e0a7bcc1c93f61fe246ebe91ef01ad3">
-<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1"></a>x <span class="ot">=</span> <span class="dv">10</span> </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href=""></a>x <span class="ot">=</span> <span class="dv">10</span> </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Using leftward(<code>&lt;-</code>) operator</p>
-<div class="cell" data-hash="index_cache/revealjs/unnamed-chunk-7_b93b8e8d3d2dd518cbebfecf126a51d8">
-<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1"></a>y <span class="ot">&lt;-</span> <span class="dv">15</span>  </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href=""></a>y <span class="ot">&lt;-</span> <span class="dv">15</span>  </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="reserved-keaywords-in-r" class="slide level2">
 <h2>Reserved Keaywords in R</h2>
 <ul>
 <li>Don’t use any reserved keyword as variable name. List all of reserved words in R by using (?Reserved).</li>
 </ul>
-<div class="cell" data-hash="index_cache/revealjs/unnamed-chunk-8_fa19252df67024b79696bfccc59a6e5b">
-<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1"></a>?Reserved</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href=""></a>?Reserved</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="entering-input" class="slide level2">
 <h2>Entering Input</h2>
 <p>At the R prompt/console we type expressions.</p>
-<div class="cell" data-hash="index_cache/revealjs/unnamed-chunk-9_e1096f78a59594ff4ba55c8b06166a3d">
-<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1"></a>num <span class="ot">&lt;-</span> <span class="dv">10</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href=""></a>num <span class="ot">&lt;-</span> <span class="dv">10</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>The <code>&lt;-</code> symbol is the <strong>assignment</strong> operator. The grammar of the language determines whether an expression is complete or not.</p>
 </section>
 <section id="evaluation" class="slide level2">
 <h2>Evaluation</h2>
 <p>When a complete expression is entered at the R console, it is evaluated and the result of evaluated expression is returned. The result may be auto-printed.</p>
-<div class="cell" data-hash="index_cache/revealjs/unnamed-chunk-10_eb9cbc87392497fab32cbbf495fce1e6">
-<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1"></a>x <span class="ot">&lt;-</span> <span class="dv">10</span></span>
-<span id="cb19-2"><a href="#cb19-2"></a>x</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href=""></a>x <span class="ot">&lt;-</span> <span class="dv">10</span></span>
+<span id="cb19-2"><a href=""></a>x</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] 10</p>
-</div>
-<div class="cell" data-hash="index_cache/revealjs/unnamed-chunk-11_80aa4570457dc378aa43c58e2bf59ad6">
-<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1"></a>x <span class="ot">&lt;-</span> <span class="dv">10</span></span>
-<span id="cb20-2"><a href="#cb20-2"></a><span class="fu">print</span>(x)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href=""></a>x <span class="ot">&lt;-</span> <span class="dv">10</span></span>
+<span id="cb20-2"><a href=""></a><span class="fu">print</span>(x)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] 10</p>
-</div>
-<div class="cell" data-hash="index_cache/revealjs/unnamed-chunk-12_5320d2fe305708f7b2dc540092c9ca40">
-<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1"></a>x <span class="ot">&lt;-</span> <span class="dv">10</span></span>
-<span id="cb21-2"><a href="#cb21-2"></a><span class="fu">cat</span>(x)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href=""></a>x <span class="ot">&lt;-</span> <span class="dv">10</span></span>
+<span id="cb21-2"><a href=""></a><span class="fu">cat</span>(x)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>10</p>
-</div>
 </section>
 <section id="r-comments" class="slide level2">
 <h2>R Comments</h2>
 <p>Comments are portions of a computer program that are used to describe a piece of code. For example,</p>
-<div class="cell" data-hash="index_cache/revealjs/comments_ba158751fc32814e21b484a11fb87bed">
-<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1"></a><span class="co"># declare variable</span></span>
-<span id="cb22-2"><a href="#cb22-2"></a>age <span class="ot">=</span> <span class="dv">24</span></span>
-<span id="cb22-3"><a href="#cb22-3"></a></span>
-<span id="cb22-4"><a href="#cb22-4"></a><span class="co"># print variable</span></span>
-<span id="cb22-5"><a href="#cb22-5"></a><span class="fu">print</span>(age)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href=""></a><span class="co"># declare variable</span></span>
+<span id="cb22-2"><a href=""></a>age <span class="ot">=</span> <span class="dv">24</span></span>
+<span id="cb22-3"><a href=""></a></span>
+<span id="cb22-4"><a href=""></a><span class="co"># print variable</span></span>
+<span id="cb22-5"><a href=""></a><span class="fu">print</span>(age)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] 24</p>
-</div>
 </section>
 <section id="types-of-comments-in-r" class="slide level2">
 <h2>Types of Comments in R</h2>
@@ -1468,15 +1452,13 @@
 </section>
 <section id="r-single-line-comments" class="slide level2">
 <h2>R Single-Line Comments</h2>
-<div class="cell" data-hash="index_cache/revealjs/single-comment_7b4c3dee111b35d2e0fe0ff15865d731">
-<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1"></a><span class="co"># this code prints Hello World</span></span>
-<span id="cb23-2"><a href="#cb23-2"></a><span class="fu">print</span>(<span class="st">"Hello World"</span>) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href=""></a><span class="co"># this code prints Hello World</span></span>
+<span id="cb23-2"><a href=""></a><span class="fu">print</span>(<span class="st">"Hello World"</span>) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] “Hello World”</p>
-<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1"></a><span class="co"># check type of variables</span></span>
-<span id="cb24-2"><a href="#cb24-2"></a>age <span class="ot">&lt;-</span> <span class="dv">30</span> </span>
-<span id="cb24-3"><a href="#cb24-3"></a><span class="fu">class</span>(age)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href=""></a><span class="co"># check type of variables</span></span>
+<span id="cb24-2"><a href=""></a>age <span class="ot">&lt;-</span> <span class="dv">30</span> </span>
+<span id="cb24-3"><a href=""></a><span class="fu">class</span>(age)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] “numeric”</p>
-</div>
 </section>
 <section id="r-multi-line-comments" class="slide level2">
 <h2>R Multi-Line Comments</h2>
@@ -1484,13 +1466,11 @@
 <li><p>As already mentioned, R does not have any syntax to create multi-line comments.</p></li>
 <li><p>However, you can use consecutive single-line comments to create a multi-line comment in R. For example,</p></li>
 </ul>
-<div class="cell" data-hash="index_cache/revealjs/multi-line-comments_d72d2e156f2d099384cbc2ee48b8ea69">
-<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1"></a><span class="co"># this is a print statement</span></span>
-<span id="cb25-2"><a href="#cb25-2"></a><span class="co"># it prints Hello World</span></span>
-<span id="cb25-3"><a href="#cb25-3"></a></span>
-<span id="cb25-4"><a href="#cb25-4"></a><span class="fu">print</span>(<span class="st">"Hello World"</span>) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href=""></a><span class="co"># this is a print statement</span></span>
+<span id="cb25-2"><a href=""></a><span class="co"># it prints Hello World</span></span>
+<span id="cb25-3"><a href=""></a></span>
+<span id="cb25-4"><a href=""></a><span class="fu">print</span>(<span class="st">"Hello World"</span>) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] “Hello World”</p>
-</div>
 </section>
 <section id="purpose-of-comments" class="slide level2">
 <h2>Purpose of Comments</h2>
@@ -1524,9 +1504,7 @@
 <li><p>A variable can store different types of values such as numbers, characters etc.</p></li>
 <li><p>These different types of data that we can use in our code are called data types. For example,</p></li>
 </ul>
-<div class="cell" data-hash="index_cache/revealjs/dtype-1_493c871d63b6f29f1bb1e19af965d64f">
-<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1"></a>x <span class="ot">&lt;-</span> 123L</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
+<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href=""></a>x <span class="ot">&lt;-</span> <span class="dv">123</span>L</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
 <li>Here, <code>123L</code> is an integer data. So the data type of the variable <code>x</code> is <code>integer.</code></li>
 </ul>
@@ -1534,19 +1512,17 @@
 <section id="r-data-types-1" class="slide level2">
 <h2>R Data Types</h2>
 <p>We can verify this by printing the class of <code>x</code> using <code>class()</code> function.</p>
-<div class="cell" data-hash="index_cache/revealjs/dtype-2_0aef13b88c9a996692c21a200f3fc673">
-<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1"></a>x <span class="ot">&lt;-</span> 123L</span>
-<span id="cb27-2"><a href="#cb27-2"></a><span class="co"># print value of x</span></span>
-<span id="cb27-3"><a href="#cb27-3"></a>x</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href=""></a>x <span class="ot">&lt;-</span> <span class="dv">123</span>L</span>
+<span id="cb27-2"><a href=""></a><span class="co"># print value of x</span></span>
+<span id="cb27-3"><a href=""></a>x</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] 123</p>
-<div class="sourceCode cell-code" id="cb28"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a href="#cb28-1"></a><span class="co"># print type of x</span></span>
-<span id="cb28-2"><a href="#cb28-2"></a><span class="fu">class</span>(x)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb28"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a href=""></a><span class="co"># print type of x</span></span>
+<span id="cb28-2"><a href=""></a><span class="fu">class</span>(x)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] “integer”</p>
-</div>
 </section>
 <section id="different-types-of-data-types" class="slide level2">
 <h2>Different Types of Data Types</h2>
-<table>
+<table class="caption-top">
 <colgroup>
 <col style="width: 16%">
 <col style="width: 16%">
@@ -1580,7 +1556,7 @@
 </section>
 <section id="different-types-of-data-types-1" class="slide level2">
 <h2>Different Types of Data Types</h2>
-<table>
+<table class="caption-top">
 <colgroup>
 <col style="width: 19%">
 <col style="width: 19%">
@@ -1615,78 +1591,68 @@
 <section id="logical-data-type" class="slide level2">
 <h2>Logical Data Type</h2>
 <p>The <code>logical</code> data type in R is also known as <code>boolean</code> data type. It can only have two values: <code>TRUE</code> and <code>FALSE.</code> For example,</p>
-<div class="cell" data-hash="index_cache/revealjs/unnamed-chunk-13_f0bc98f382a07eed32a5a0ba6daaebfa">
-<div class="sourceCode cell-code" id="cb29"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1"></a>bool1 <span class="ot">&lt;-</span> <span class="cn">TRUE</span></span>
-<span id="cb29-2"><a href="#cb29-2"></a><span class="co"># print bool1</span></span>
-<span id="cb29-3"><a href="#cb29-3"></a>bool1</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb29"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a href=""></a>bool1 <span class="ot">&lt;-</span> <span class="cn">TRUE</span></span>
+<span id="cb29-2"><a href=""></a><span class="co"># print bool1</span></span>
+<span id="cb29-3"><a href=""></a>bool1</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] TRUE</p>
-<div class="sourceCode cell-code" id="cb30"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb30-1"><a href="#cb30-1"></a><span class="co"># print type of bool1</span></span>
-<span id="cb30-2"><a href="#cb30-2"></a><span class="fu">class</span>(bool1)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb30"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb30-1"><a href=""></a><span class="co"># print type of bool1</span></span>
+<span id="cb30-2"><a href=""></a><span class="fu">class</span>(bool1)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] “logical”</p>
-<div class="sourceCode cell-code" id="cb31"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1"></a><span class="co"># print bool2</span></span>
-<span id="cb31-2"><a href="#cb31-2"></a>bool2 <span class="ot">&lt;-</span> <span class="cn">FALSE</span></span>
-<span id="cb31-3"><a href="#cb31-3"></a>bool2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb31"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href=""></a><span class="co"># print bool2</span></span>
+<span id="cb31-2"><a href=""></a>bool2 <span class="ot">&lt;-</span> <span class="cn">FALSE</span></span>
+<span id="cb31-3"><a href=""></a>bool2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] FALSE</p>
-<div class="sourceCode cell-code" id="cb32"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb32-1"><a href="#cb32-1"></a><span class="co"># print type of bool2</span></span>
-<span id="cb32-2"><a href="#cb32-2"></a><span class="fu">class</span>(bool2)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb32"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb32-1"><a href=""></a><span class="co"># print type of bool2</span></span>
+<span id="cb32-2"><a href=""></a><span class="fu">class</span>(bool2)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] “logical”</p>
-</div>
 </section>
 <section id="logical-data-type-1" class="slide level2">
 <h2>Logical Data Type</h2>
 <p>You can also define <code>logical</code> variables with a single letter - <code>T</code> for <code>TRUE</code> or <code>F</code> for <code>FALSE.</code> For example,</p>
-<div class="cell" data-hash="index_cache/revealjs/unnamed-chunk-14_213a6995f91b19defdcef1cabf5a3c30">
-<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1"></a>is_weekend <span class="ot">&lt;-</span> F</span>
-<span id="cb33-2"><a href="#cb33-2"></a><span class="fu">class</span>(is_weekend)  <span class="co"># "logical"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href=""></a>is_weekend <span class="ot">&lt;-</span> F</span>
+<span id="cb33-2"><a href=""></a><span class="fu">class</span>(is_weekend)  <span class="co"># "logical"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] “logical”</p>
-<div class="sourceCode cell-code" id="cb34"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb34-1"><a href="#cb34-1"></a>is_weekday <span class="ot">&lt;-</span> T</span>
-<span id="cb34-2"><a href="#cb34-2"></a><span class="fu">class</span>(is_weekday)  <span class="co"># "logical"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb34"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb34-1"><a href=""></a>is_weekday <span class="ot">&lt;-</span> T</span>
+<span id="cb34-2"><a href=""></a><span class="fu">class</span>(is_weekday)  <span class="co"># "logical"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] “logical”</p>
-</div>
 </section>
 <section id="numeric-data-type" class="slide level2">
 <h2>Numeric Data Type</h2>
 <p>In R, the <code>numeric</code> data type represents all real numbers with or without decimal values. For example,</p>
-<div class="cell" data-hash="index_cache/revealjs/unnamed-chunk-15_9255e1f2733efce26a6aa37a69705b33">
-<div class="sourceCode cell-code" id="cb35"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb35-1"><a href="#cb35-1"></a><span class="co"># floating point values</span></span>
-<span id="cb35-2"><a href="#cb35-2"></a>weight <span class="ot">&lt;-</span> <span class="fl">63.5</span></span>
-<span id="cb35-3"><a href="#cb35-3"></a>weight</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb35"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb35-1"><a href=""></a><span class="co"># floating point values</span></span>
+<span id="cb35-2"><a href=""></a>weight <span class="ot">&lt;-</span> <span class="fl">63.5</span></span>
+<span id="cb35-3"><a href=""></a>weight</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] 63.5</p>
-<div class="sourceCode cell-code" id="cb36"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb36-1"><a href="#cb36-1"></a><span class="co"># check variable types </span></span>
-<span id="cb36-2"><a href="#cb36-2"></a><span class="fu">class</span>(weight)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb36"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb36-1"><a href=""></a><span class="co"># check variable types </span></span>
+<span id="cb36-2"><a href=""></a><span class="fu">class</span>(weight)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] “numeric”</p>
-<div class="sourceCode cell-code" id="cb37"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb37-1"><a href="#cb37-1"></a><span class="co"># real numbers</span></span>
-<span id="cb37-2"><a href="#cb37-2"></a>height <span class="ot">&lt;-</span> <span class="dv">182</span></span>
-<span id="cb37-3"><a href="#cb37-3"></a>height</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb37"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb37-1"><a href=""></a><span class="co"># real numbers</span></span>
+<span id="cb37-2"><a href=""></a>height <span class="ot">&lt;-</span> <span class="dv">182</span></span>
+<span id="cb37-3"><a href=""></a>height</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] 182</p>
-<div class="sourceCode cell-code" id="cb38"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb38-1"><a href="#cb38-1"></a><span class="co"># check variable types </span></span>
-<span id="cb38-2"><a href="#cb38-2"></a><span class="fu">class</span>(height)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb38"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb38-1"><a href=""></a><span class="co"># check variable types </span></span>
+<span id="cb38-2"><a href=""></a><span class="fu">class</span>(height)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] “numeric”</p>
-</div>
 </section>
 <section id="integer-data-type" class="slide level2">
 <h2>Integer Data Type</h2>
 <p>The integer data type specifies real values without decimal points. We use the suffix L to specify integer data. For example,</p>
-<div class="cell" data-hash="index_cache/revealjs/unnamed-chunk-16_8585a55d8b05fe3d983dd42adc4f8e1e">
-<div class="sourceCode cell-code" id="cb39"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb39-1"><a href="#cb39-1"></a>integer_variable <span class="ot">&lt;-</span> 186L</span>
-<span id="cb39-2"><a href="#cb39-2"></a>integer_variable</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb39"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb39-1"><a href=""></a>integer_variable <span class="ot">&lt;-</span> <span class="dv">186</span>L</span>
+<span id="cb39-2"><a href=""></a>integer_variable</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] 186</p>
-<div class="sourceCode cell-code" id="cb40"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb40-1"><a href="#cb40-1"></a><span class="co"># check variable types </span></span>
-<span id="cb40-2"><a href="#cb40-2"></a><span class="fu">class</span>(integer_variable)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb40"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb40-1"><a href=""></a><span class="co"># check variable types </span></span>
+<span id="cb40-2"><a href=""></a><span class="fu">class</span>(integer_variable)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] “integer”</p>
-</div>
 </section>
 <section id="complex-data-type" class="slide level2">
 <h2>Complex Data Type</h2>
 <p>The <code>complex</code> data type is used to specify purely imaginary values in R. We use the suffix <code>i</code> to specify the imaginary part. For example,</p>
-<div class="cell" data-hash="index_cache/revealjs/unnamed-chunk-17_26ee698c4c8accc01ed55c2da2b54fd4">
-<div class="sourceCode cell-code" id="cb41"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb41-1"><a href="#cb41-1"></a><span class="co"># 2i represents imaginary part</span></span>
-<span id="cb41-2"><a href="#cb41-2"></a>complex_value <span class="ot">&lt;-</span> <span class="dv">3</span> <span class="sc">+</span> 2i</span>
-<span id="cb41-3"><a href="#cb41-3"></a></span>
-<span id="cb41-4"><a href="#cb41-4"></a><span class="co"># print class of complex_value</span></span>
-<span id="cb41-5"><a href="#cb41-5"></a><span class="fu">class</span>(complex_value)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb41"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb41-1"><a href=""></a><span class="co"># 2i represents imaginary part</span></span>
+<span id="cb41-2"><a href=""></a>complex_value <span class="ot">&lt;-</span> <span class="dv">3</span> <span class="sc">+</span> <span class="dv">2</span>i</span>
+<span id="cb41-3"><a href=""></a></span>
+<span id="cb41-4"><a href=""></a><span class="co"># print class of complex_value</span></span>
+<span id="cb41-5"><a href=""></a><span class="fu">class</span>(complex_value)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] “complex”</p>
-</div>
 </section>
 <section id="character-data-type" class="slide level2">
 <h2>Character Data Type</h2>
@@ -1703,16 +1669,14 @@
 <section id="character-data-type-1" class="slide level2">
 <h2>Character Data Type</h2>
 <p>For example,</p>
-<div class="cell" data-hash="index_cache/revealjs/unnamed-chunk-18_cd0ed7f22024e1ec8abc2d77ea52be8a">
-<div class="sourceCode cell-code" id="cb42"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb42-1"><a href="#cb42-1"></a><span class="co"># create a string variable</span></span>
-<span id="cb42-2"><a href="#cb42-2"></a>fruit <span class="ot">&lt;-</span> <span class="st">"Apple"</span></span>
-<span id="cb42-3"><a href="#cb42-3"></a><span class="fu">class</span>(fruit)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb42"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb42-1"><a href=""></a><span class="co"># create a string variable</span></span>
+<span id="cb42-2"><a href=""></a>fruit <span class="ot">&lt;-</span> <span class="st">"Apple"</span></span>
+<span id="cb42-3"><a href=""></a><span class="fu">class</span>(fruit)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] “character”</p>
-<div class="sourceCode cell-code" id="cb43"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb43-1"><a href="#cb43-1"></a><span class="co"># create a character variable</span></span>
-<span id="cb43-2"><a href="#cb43-2"></a>my_char <span class="ot">&lt;-</span> <span class="st">'A'</span></span>
-<span id="cb43-3"><a href="#cb43-3"></a><span class="fu">class</span>(my_char)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb43"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb43-1"><a href=""></a><span class="co"># create a character variable</span></span>
+<span id="cb43-2"><a href=""></a>my_char <span class="ot">&lt;-</span> <span class="st">'A'</span></span>
+<span id="cb43-3"><a href=""></a><span class="fu">class</span>(my_char)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] “character”</p>
-</div>
 </section>
 <section id="raw-data-type" class="slide level2">
 <h2>Raw Data Type</h2>
@@ -1725,22 +1689,20 @@
 <section id="raw-data-type-1" class="slide level2">
 <h2>Raw Data Type</h2>
 <p>For example,</p>
-<div class="cell" data-hash="index_cache/revealjs/unnamed-chunk-19_d5c9a49a013fb5f4c72197c0f4b3e9bb">
-<div class="sourceCode cell-code" id="cb44"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb44-1"><a href="#cb44-1"></a><span class="co"># convert character to raw</span></span>
-<span id="cb44-2"><a href="#cb44-2"></a>raw_variable <span class="ot">&lt;-</span> <span class="fu">charToRaw</span>(<span class="st">"Welcome to Programiz"</span>)</span>
-<span id="cb44-3"><a href="#cb44-3"></a></span>
-<span id="cb44-4"><a href="#cb44-4"></a><span class="fu">print</span>(raw_variable)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb44"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb44-1"><a href=""></a><span class="co"># convert character to raw</span></span>
+<span id="cb44-2"><a href=""></a>raw_variable <span class="ot">&lt;-</span> <span class="fu">charToRaw</span>(<span class="st">"Welcome to Programiz"</span>)</span>
+<span id="cb44-3"><a href=""></a></span>
+<span id="cb44-4"><a href=""></a><span class="fu">print</span>(raw_variable)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] 57 65 6c 63 6f 6d 65 20 74 6f 20 50 72 6f 67 72 61 6d 69 7a</p>
-<div class="sourceCode cell-code" id="cb45"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb45-1"><a href="#cb45-1"></a><span class="fu">print</span>(<span class="fu">class</span>(raw_variable))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb45"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb45-1"><a href=""></a><span class="fu">print</span>(<span class="fu">class</span>(raw_variable))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] “raw”</p>
-<div class="sourceCode cell-code" id="cb46"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb46-1"><a href="#cb46-1"></a><span class="co"># convert raw to character</span></span>
-<span id="cb46-2"><a href="#cb46-2"></a>char_variable <span class="ot">&lt;-</span> <span class="fu">rawToChar</span>(raw_variable)</span>
-<span id="cb46-3"><a href="#cb46-3"></a></span>
-<span id="cb46-4"><a href="#cb46-4"></a><span class="fu">print</span>(char_variable)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb46"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb46-1"><a href=""></a><span class="co"># convert raw to character</span></span>
+<span id="cb46-2"><a href=""></a>char_variable <span class="ot">&lt;-</span> <span class="fu">rawToChar</span>(raw_variable)</span>
+<span id="cb46-3"><a href=""></a></span>
+<span id="cb46-4"><a href=""></a><span class="fu">print</span>(char_variable)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] “Welcome to Programiz”</p>
-<div class="sourceCode cell-code" id="cb47"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb47-1"><a href="#cb47-1"></a><span class="fu">print</span>(<span class="fu">class</span>(char_variable))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb47"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb47-1"><a href=""></a><span class="fu">print</span>(<span class="fu">class</span>(char_variable))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] “character”</p>
-</div>
 </section></section>
 <section>
 <section id="operators-in-r" class="title-slide slide level1 center">
@@ -1762,7 +1724,7 @@
 </section>
 <section id="arithmetic-operators" class="slide level2">
 <h2>Arithmetic Operators</h2>
-<table>
+<table class="caption-top">
 <thead>
 <tr class="header">
 <th>Operator</th>
@@ -1806,41 +1768,37 @@
 </section>
 <section id="example-arithmetic-operators" class="slide level2">
 <h2>Example: Arithmetic Operators</h2>
-<div class="cell" data-hash="index_cache/revealjs/arithmetic-operators_85ad342941ddd91b2047f50b8b7c1826">
-<div class="sourceCode cell-code" id="cb48"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb48-1"><a href="#cb48-1"></a>x <span class="ot">&lt;-</span> <span class="dv">10</span> </span>
-<span id="cb48-2"><a href="#cb48-2"></a>y <span class="ot">&lt;-</span> <span class="dv">2</span> </span>
-<span id="cb48-3"><a href="#cb48-3"></a></span>
-<span id="cb48-4"><a href="#cb48-4"></a><span class="co"># Addition</span></span>
-<span id="cb48-5"><a href="#cb48-5"></a>x<span class="sc">+</span>y</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb48"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb48-1"><a href=""></a>x <span class="ot">&lt;-</span> <span class="dv">10</span> </span>
+<span id="cb48-2"><a href=""></a>y <span class="ot">&lt;-</span> <span class="dv">2</span> </span>
+<span id="cb48-3"><a href=""></a></span>
+<span id="cb48-4"><a href=""></a><span class="co"># Addition</span></span>
+<span id="cb48-5"><a href=""></a>x<span class="sc">+</span>y</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] 12</p>
-<div class="sourceCode cell-code" id="cb49"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb49-1"><a href="#cb49-1"></a><span class="co"># Subtraction</span></span>
-<span id="cb49-2"><a href="#cb49-2"></a><span class="dv">2-5</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb49"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb49-1"><a href=""></a><span class="co"># Subtraction</span></span>
+<span id="cb49-2"><a href=""></a><span class="dv">2-5</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] -3</p>
-<div class="sourceCode cell-code" id="cb50"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb50-1"><a href="#cb50-1"></a><span class="co"># Multiplication</span></span>
-<span id="cb50-2"><a href="#cb50-2"></a><span class="dv">2</span> <span class="sc">*</span> <span class="dv">5</span> </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb50"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb50-1"><a href=""></a><span class="co"># Multiplication</span></span>
+<span id="cb50-2"><a href=""></a><span class="dv">2</span> <span class="sc">*</span> <span class="dv">5</span> </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] 10</p>
-<div class="sourceCode cell-code" id="cb51"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb51-1"><a href="#cb51-1"></a><span class="co"># Division</span></span>
-<span id="cb51-2"><a href="#cb51-2"></a><span class="dv">2</span> <span class="sc">/</span> <span class="dv">5</span> </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb51"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb51-1"><a href=""></a><span class="co"># Division</span></span>
+<span id="cb51-2"><a href=""></a><span class="dv">2</span> <span class="sc">/</span> <span class="dv">5</span> </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] 0.4</p>
-</div>
 </section>
 <section id="example-arithmetic-operators-1" class="slide level2">
 <h2>Example: Arithmetic Operators</h2>
-<div class="cell" data-hash="index_cache/revealjs/arithmetic-operators-2_6af7537c00e803b73710dcf5106bba0c">
-<div class="sourceCode cell-code" id="cb52"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb52-1"><a href="#cb52-1"></a>x <span class="ot">&lt;-</span> <span class="dv">10</span> </span>
-<span id="cb52-2"><a href="#cb52-2"></a>y <span class="ot">&lt;-</span> <span class="dv">2</span> </span>
-<span id="cb52-3"><a href="#cb52-3"></a></span>
-<span id="cb52-4"><a href="#cb52-4"></a><span class="co"># Exponent </span></span>
-<span id="cb52-5"><a href="#cb52-5"></a><span class="dv">2</span> <span class="sc">^</span> <span class="dv">5</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb52"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb52-1"><a href=""></a>x <span class="ot">&lt;-</span> <span class="dv">10</span> </span>
+<span id="cb52-2"><a href=""></a>y <span class="ot">&lt;-</span> <span class="dv">2</span> </span>
+<span id="cb52-3"><a href=""></a></span>
+<span id="cb52-4"><a href=""></a><span class="co"># Exponent </span></span>
+<span id="cb52-5"><a href=""></a><span class="dv">2</span> <span class="sc">^</span> <span class="dv">5</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] 32</p>
-<div class="sourceCode cell-code" id="cb53"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb53-1"><a href="#cb53-1"></a><span class="co"># Modulus(Remainder from division)</span></span>
-<span id="cb53-2"><a href="#cb53-2"></a><span class="dv">2</span> <span class="sc">%%</span> <span class="dv">5</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb53"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb53-1"><a href=""></a><span class="co"># Modulus(Remainder from division)</span></span>
+<span id="cb53-2"><a href=""></a><span class="dv">2</span> <span class="sc">%%</span> <span class="dv">5</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] 2</p>
-</div>
 </section>
 <section id="relational-operators" class="slide level2">
 <h2>Relational Operators</h2>
-<table>
+<table class="caption-top">
 <thead>
 <tr class="header">
 <th>Operator</th>
@@ -1885,23 +1843,19 @@
 <section id="example-relational-operators" class="slide level2">
 <h2>Example: Relational Operators</h2>
 <p>The <code>output</code> of a comparison is a <code>boolean value</code>. For example, to check if two numbers are equal, you can use the <code>==</code> operator.</p>
-<div class="cell" data-hash="index_cache/revealjs/relational-operators-1_93f76a58032d2df5ed698046cc34045d">
-<div class="sourceCode cell-code" id="cb54"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb54-1"><a href="#cb54-1"></a>x <span class="ot">&lt;-</span> <span class="dv">10</span></span>
-<span id="cb54-2"><a href="#cb54-2"></a>y <span class="ot">&lt;-</span> <span class="dv">23</span></span>
-<span id="cb54-3"><a href="#cb54-3"></a></span>
-<span id="cb54-4"><a href="#cb54-4"></a><span class="co"># compare x and y</span></span>
-<span id="cb54-5"><a href="#cb54-5"></a>x <span class="sc">==</span> y <span class="co"># FALSE</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb54"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb54-1"><a href=""></a>x <span class="ot">&lt;-</span> <span class="dv">10</span></span>
+<span id="cb54-2"><a href=""></a>y <span class="ot">&lt;-</span> <span class="dv">23</span></span>
+<span id="cb54-3"><a href=""></a></span>
+<span id="cb54-4"><a href=""></a><span class="co"># compare x and y</span></span>
+<span id="cb54-5"><a href=""></a>x <span class="sc">==</span> y <span class="co"># FALSE</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] FALSE</p>
-</div>
 <p>Similarly, to check if x is less than y, you can use the <code>&lt;</code> operator.</p>
-<div class="cell" data-hash="index_cache/revealjs/relational-operators-2_5a7ad1caa654a5066bfa77e2896c5c92">
-<div class="sourceCode cell-code" id="cb55"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb55-1"><a href="#cb55-1"></a>x <span class="ot">&lt;-</span> <span class="dv">10</span></span>
-<span id="cb55-2"><a href="#cb55-2"></a>y <span class="ot">&lt;-</span> <span class="dv">23</span></span>
-<span id="cb55-3"><a href="#cb55-3"></a></span>
-<span id="cb55-4"><a href="#cb55-4"></a><span class="co"># compare x and y</span></span>
-<span id="cb55-5"><a href="#cb55-5"></a>x <span class="sc">&lt;</span> y <span class="co"># TRUE</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb55"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb55-1"><a href=""></a>x <span class="ot">&lt;-</span> <span class="dv">10</span></span>
+<span id="cb55-2"><a href=""></a>y <span class="ot">&lt;-</span> <span class="dv">23</span></span>
+<span id="cb55-3"><a href=""></a></span>
+<span id="cb55-4"><a href=""></a><span class="co"># compare x and y</span></span>
+<span id="cb55-5"><a href=""></a>x <span class="sc">&lt;</span> y <span class="co"># TRUE</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] TRUE</p>
-</div>
 </section>
 <section id="logical-operators" class="slide level2">
 <h2>Logical Operators</h2>
@@ -1919,7 +1873,7 @@
 <li><p>The output of the operator is <code>TRUE</code> only when <code>both</code> the input logical values are either <code>TRUE</code> or evaluated to <code>TRUE.</code></p></li>
 <li><p>Let a and b represent two operands. 0 represents FALSE and 1 represents TRUE. Then,</p></li>
 </ul>
-<table>
+<table class="caption-top">
 <thead>
 <tr class="header">
 <th style="text-align: center;">a</th>
@@ -1953,32 +1907,28 @@
 </section>
 <section id="example-and-operator" class="slide level2">
 <h2>Example: AND Operator (&amp;)</h2>
-<div class="cell" data-hash="index_cache/revealjs/and-1_2d383bcffb8e620eca06ac322a16ccb6">
-<div class="sourceCode cell-code" id="cb56"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb56-1"><a href="#cb56-1"></a><span class="co"># print &amp; of TRUE and FALSE combinations</span></span>
-<span id="cb56-2"><a href="#cb56-2"></a><span class="cn">TRUE</span> <span class="sc">&amp;</span> <span class="cn">TRUE</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb56"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb56-1"><a href=""></a><span class="co"># print &amp; of TRUE and FALSE combinations</span></span>
+<span id="cb56-2"><a href=""></a><span class="cn">TRUE</span> <span class="sc">&amp;</span> <span class="cn">TRUE</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] TRUE</p>
-<div class="sourceCode cell-code" id="cb57"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb57-1"><a href="#cb57-1"></a><span class="cn">TRUE</span> <span class="sc">&amp;</span> <span class="cn">FALSE</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb57"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb57-1"><a href=""></a><span class="cn">TRUE</span> <span class="sc">&amp;</span> <span class="cn">FALSE</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] FALSE</p>
-<div class="sourceCode cell-code" id="cb58"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb58-1"><a href="#cb58-1"></a><span class="cn">FALSE</span> <span class="sc">&amp;</span> <span class="cn">TRUE</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb58"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb58-1"><a href=""></a><span class="cn">FALSE</span> <span class="sc">&amp;</span> <span class="cn">TRUE</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] FALSE</p>
-<div class="sourceCode cell-code" id="cb59"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb59-1"><a href="#cb59-1"></a><span class="cn">FALSE</span> <span class="sc">&amp;</span> <span class="cn">FALSE</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb59"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb59-1"><a href=""></a><span class="cn">FALSE</span> <span class="sc">&amp;</span> <span class="cn">FALSE</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] FALSE</p>
-</div>
-<div class="cell" data-hash="index_cache/revealjs/and-2_8f46ba99e06f962b74c92bd5625ff317">
-<div class="sourceCode cell-code" id="cb60"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb60-1"><a href="#cb60-1"></a><span class="co"># print &amp; of TRUE and FALSE combinations</span></span>
-<span id="cb60-2"><a href="#cb60-2"></a>x <span class="ot">&lt;-</span> <span class="dv">10</span></span>
-<span id="cb60-3"><a href="#cb60-3"></a>y <span class="ot">&lt;-</span> <span class="dv">23</span></span>
-<span id="cb60-4"><a href="#cb60-4"></a>z <span class="ot">&lt;-</span> <span class="dv">12</span></span>
-<span id="cb60-5"><a href="#cb60-5"></a></span>
-<span id="cb60-6"><a href="#cb60-6"></a><span class="co"># compare </span></span>
-<span id="cb60-7"><a href="#cb60-7"></a>x<span class="sc">&lt;</span>y <span class="sc">&amp;</span> y<span class="sc">&gt;</span>z</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb60"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb60-1"><a href=""></a><span class="co"># print &amp; of TRUE and FALSE combinations</span></span>
+<span id="cb60-2"><a href=""></a>x <span class="ot">&lt;-</span> <span class="dv">10</span></span>
+<span id="cb60-3"><a href=""></a>y <span class="ot">&lt;-</span> <span class="dv">23</span></span>
+<span id="cb60-4"><a href=""></a>z <span class="ot">&lt;-</span> <span class="dv">12</span></span>
+<span id="cb60-5"><a href=""></a></span>
+<span id="cb60-6"><a href=""></a><span class="co"># compare </span></span>
+<span id="cb60-7"><a href=""></a>x<span class="sc">&lt;</span>y <span class="sc">&amp;</span> y<span class="sc">&gt;</span>z</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] TRUE</p>
-</div>
 </section>
 <section id="or-operator" class="slide level2">
 <h2>OR Operator (|)</h2>
 <p>The OR operator | returns TRUE if all or any one of the logical inputs is TRUE or evaluates to TRUE. If all of them are FALSE, then it returns FALSE. Consider the table below.</p>
-<table>
+<table class="caption-top">
 <thead>
 <tr class="header">
 <th style="text-align: center;">a</th>
@@ -2012,32 +1962,28 @@
 </section>
 <section id="example-or-operator" class="slide level2">
 <h2>Example: OR Operator (|)</h2>
-<div class="cell" data-hash="index_cache/revealjs/or_caf03798db1ae10335bcc8eba6d297cc">
-<div class="sourceCode cell-code" id="cb61"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb61-1"><a href="#cb61-1"></a><span class="co"># print | of TRUE and FALSE combinations</span></span>
-<span id="cb61-2"><a href="#cb61-2"></a><span class="cn">TRUE</span> <span class="sc">|</span> <span class="cn">TRUE</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb61"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb61-1"><a href=""></a><span class="co"># print | of TRUE and FALSE combinations</span></span>
+<span id="cb61-2"><a href=""></a><span class="cn">TRUE</span> <span class="sc">|</span> <span class="cn">TRUE</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] TRUE</p>
-<div class="sourceCode cell-code" id="cb62"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb62-1"><a href="#cb62-1"></a><span class="cn">TRUE</span> <span class="sc">|</span> <span class="cn">FALSE</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb62"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb62-1"><a href=""></a><span class="cn">TRUE</span> <span class="sc">|</span> <span class="cn">FALSE</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] TRUE</p>
-<div class="sourceCode cell-code" id="cb63"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb63-1"><a href="#cb63-1"></a><span class="cn">FALSE</span> <span class="sc">|</span> <span class="cn">TRUE</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb63"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb63-1"><a href=""></a><span class="cn">FALSE</span> <span class="sc">|</span> <span class="cn">TRUE</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] TRUE</p>
-<div class="sourceCode cell-code" id="cb64"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb64-1"><a href="#cb64-1"></a><span class="cn">FALSE</span> <span class="sc">|</span> <span class="cn">FALSE</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb64"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb64-1"><a href=""></a><span class="cn">FALSE</span> <span class="sc">|</span> <span class="cn">FALSE</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] FALSE</p>
-</div>
-<div class="cell" data-hash="index_cache/revealjs/or-2_b0f8c4e5c4cabbb52feb09e360b3f36e">
-<div class="sourceCode cell-code" id="cb65"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb65-1"><a href="#cb65-1"></a><span class="co"># print | of TRUE and FALSE combinations</span></span>
-<span id="cb65-2"><a href="#cb65-2"></a>w <span class="ot">&lt;-</span> <span class="dv">54</span></span>
-<span id="cb65-3"><a href="#cb65-3"></a>x <span class="ot">&lt;-</span> <span class="dv">12</span></span>
-<span id="cb65-4"><a href="#cb65-4"></a>y <span class="ot">&lt;-</span> <span class="dv">25</span></span>
-<span id="cb65-5"><a href="#cb65-5"></a>z <span class="ot">&lt;-</span> <span class="dv">1</span></span>
-<span id="cb65-6"><a href="#cb65-6"></a></span>
-<span id="cb65-7"><a href="#cb65-7"></a>w<span class="sc">&gt;</span>x <span class="sc">|</span> x<span class="sc">&gt;</span>y <span class="sc">|</span> z<span class="sc">&gt;</span>w</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb65"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb65-1"><a href=""></a><span class="co"># print | of TRUE and FALSE combinations</span></span>
+<span id="cb65-2"><a href=""></a>w <span class="ot">&lt;-</span> <span class="dv">54</span></span>
+<span id="cb65-3"><a href=""></a>x <span class="ot">&lt;-</span> <span class="dv">12</span></span>
+<span id="cb65-4"><a href=""></a>y <span class="ot">&lt;-</span> <span class="dv">25</span></span>
+<span id="cb65-5"><a href=""></a>z <span class="ot">&lt;-</span> <span class="dv">1</span></span>
+<span id="cb65-6"><a href=""></a></span>
+<span id="cb65-7"><a href=""></a>w<span class="sc">&gt;</span>x <span class="sc">|</span> x<span class="sc">&gt;</span>y <span class="sc">|</span> z<span class="sc">&gt;</span>w</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] TRUE</p>
-</div>
 </section>
 <section id="not-operator" class="slide level2">
 <h2>NOT (!) Operator</h2>
 <p>The NOT operator ! is used to negate the logical values it is used on. If the input value is TRUE, it will turn to FALSE and vice-versa.</p>
-<table>
+<table class="caption-top">
 <thead>
 <tr class="header">
 <th>a</th>
@@ -2058,25 +2004,535 @@
 </section>
 <section id="example-not-operator" class="slide level2">
 <h2>Example: NOT (!) Operator</h2>
-<div class="cell" data-hash="index_cache/revealjs/not_8e8309a0b3a42e0570fc619f524cb707">
-<div class="sourceCode cell-code" id="cb66"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb66-1"><a href="#cb66-1"></a><span class="co"># print ! of TRUE and FALSE</span></span>
-<span id="cb66-2"><a href="#cb66-2"></a><span class="sc">!</span><span class="cn">TRUE</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb66"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb66-1"><a href=""></a><span class="co"># print ! of TRUE and FALSE</span></span>
+<span id="cb66-2"><a href=""></a><span class="sc">!</span><span class="cn">TRUE</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] FALSE</p>
-<div class="sourceCode cell-code" id="cb67"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb67-1"><a href="#cb67-1"></a><span class="sc">!</span><span class="cn">FALSE</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb67"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb67-1"><a href=""></a><span class="sc">!</span><span class="cn">FALSE</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>[1] TRUE</p>
-</div>
 <p>Here, the output is the negation of the input.</p>
 <ul>
 <li>We can use the ! operator with comparisons.</li>
 <li>For example, !(x &gt; 12) is the same as x &lt;= 12. This means that x is not greater than 12. Which means that x can be less than or equal to 12.</li>
 </ul>
+</section></section>
+<section>
+<section id="data-structure" class="title-slide slide level1 center">
+<h1>Data Structure</h1>
 
-<img src="images/chirallogo.jpg" class="slide-logo r-stretch"><div class="footer footer-default">
-<p>R for Bioinformatics | © 2023 Md. Jubayer Hossain</p>
-</div>
+</section>
+<section id="what-is-data-structure" class="slide level2">
+<h2>What is Data Structure?</h2>
+<ul>
+<li>Data structures are ways of organizing and storing data in a computer system.</li>
+<li>They define the format, organization, and relationship between data elements.</li>
+<li>Data structures facilitate efficient operations such as insertion, deletion, searching, and sorting of data.</li>
+<li>They provide a foundation for building algorithms and designing efficient programs.</li>
+</ul>
+</section>
+<section id="data-structures-in-r" class="slide level2">
+<h2>Data Structures in R</h2>
+<ul>
+<li>Vectors</li>
+<li>Matrix</li>
+<li>Lists</li>
+<li>Data Frame</li>
+<li>Factor</li>
+</ul>
+</section>
+<section id="types-of-data-structures-in-r" class="slide level2">
+<h2>Types of Data Structures in R</h2>
+<ul>
+<li>One-Dimensional Data Structures
+<ul>
+<li>One-dimensional data structures in R are used to store and manipulate data along a single dimension.</li>
+<li>The main one-dimensional data structure in R is the <code>vector.</code></li>
+</ul></li>
+<li>Two-Dimensional Data Structures
+<ul>
+<li>Two-dimensional data structures in R are used to store and manipulate data in a tabular format with rows and columns.</li>
+<li>The main two-dimensional data structures in R are <code>matrices</code> and <code>data frames</code>.</li>
+</ul></li>
+</ul>
+</section>
+<section id="strings" class="slide level2">
+<h2>Strings</h2>
+<ul>
+<li><p>A string is a sequence of characters. For example, <code>"Programming"</code> is a string that includes characters: P, r, o, g, r, a, m, m, i, n, g.</p></li>
+<li><p>In R, we represent strings using quotation marks (double quotes, ” ” or single quotes, ’ ’). For example,</p></li>
+</ul>
+<div class="sourceCode cell-code" id="cb68"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb68-1"><a href=""></a><span class="co"># string value using single quotes</span></span>
+<span id="cb68-2"><a href=""></a><span class="st">'Hello'</span> </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>[1] “Hello”</p>
+<div class="sourceCode cell-code" id="cb69"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb69-1"><a href=""></a><span class="co"># string value using double quotes </span></span>
+<span id="cb69-2"><a href=""></a><span class="st">"Hello"</span> </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>[1] “Hello”</p>
+</section>
+<section id="string-operations-in-r" class="slide level2">
+<h2>String Operations in R</h2>
+<p>R provides us various built-in functions that allow us to perform different operations on strings. Here, we will look at some of the commonly used string functions.</p>
+<ul>
+<li>Find the length of a string</li>
+<li>Join two strings</li>
+<li>Compare two strings</li>
+<li>Change the string case</li>
+</ul>
+</section>
+<section id="find-length-of-string" class="slide level2">
+<h2>Find Length of String</h2>
+<p>We use the <code>nchar()</code> method to find the length of a string. For example,</p>
+<div class="sourceCode cell-code" id="cb70"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb70-1"><a href=""></a>message1 <span class="ot">&lt;-</span> <span class="st">"CHIRAL Bangladesh"</span></span>
+<span id="cb70-2"><a href=""></a><span class="co"># use of nchar() to find length of message1 </span></span>
+<span id="cb70-3"><a href=""></a><span class="fu">nchar</span>(message1)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>[1] 17</p>
+<p>Here, <code>nchar()</code> returns the number of characters present inside the string.</p>
+</section>
+<section id="join-strings-together" class="slide level2">
+<h2>Join Strings Together</h2>
+<p>In R, we can use the <code>paste()</code> function to join two or more strings together. For example,</p>
+<div class="sourceCode cell-code" id="cb71"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb71-1"><a href=""></a>message1 <span class="ot">&lt;-</span> <span class="st">"CHIRAL"</span></span>
+<span id="cb71-2"><a href=""></a>message2 <span class="ot">&lt;-</span> <span class="st">"Bangladesh"</span></span>
+<span id="cb71-3"><a href=""></a></span>
+<span id="cb71-4"><a href=""></a><span class="co"># use paste() to join two strings</span></span>
+<span id="cb71-5"><a href=""></a><span class="fu">paste</span>(message1, message2)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>[1] “CHIRAL Bangladesh”</p>
+<p>Here, we have used the <code>paste()</code> function to join two strings: <code>message1</code> and <code>message2</code>.</p>
+</section>
+<section id="compare-two-strings-in-r-programming" class="slide level2">
+<h2>Compare Two Strings in R Programming</h2>
+<p>We use the <code>==</code> operator to compare two strings. If two strings are equal, the operator returns <code>TRUE.</code> Otherwise, it returns <code>FALSE.</code> For example,</p>
+<div class="sourceCode cell-code" id="cb72"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb72-1"><a href=""></a>message1 <span class="ot">&lt;-</span> <span class="st">"Hello, World!"</span></span>
+<span id="cb72-2"><a href=""></a>message2 <span class="ot">&lt;-</span> <span class="st">"Hi, Bangladesh!"</span></span>
+<span id="cb72-3"><a href=""></a>message3 <span class="ot">&lt;-</span> <span class="st">"Hello, CHIRAL!"</span></span>
+<span id="cb72-4"><a href=""></a><span class="co"># `message1 == message2` - returns FALSE because two strings are not equal</span></span>
+<span id="cb72-5"><a href=""></a><span class="fu">print</span>(message1 <span class="sc">==</span> message2)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>[1] FALSE</p>
+<div class="sourceCode cell-code" id="cb73"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb73-1"><a href=""></a><span class="co">#`message1 == message3` - returns TRUE because both strings are equal </span></span>
+<span id="cb73-2"><a href=""></a><span class="fu">print</span>(message1 <span class="sc">==</span> message3)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>[1] FALSE</p>
+</section>
+<section id="change-case-of-r-string" class="slide level2">
+<h2>Change Case of R String</h2>
+<p>In R, we can change the case of a string using</p>
+<ul>
+<li><code>toupper()</code> - convert string to uppercase</li>
+<li><code>tolower()</code> - convert string to lowercase</li>
+</ul>
+<div class="sourceCode cell-code" id="cb74"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb74-1"><a href=""></a>message <span class="ot">&lt;-</span> <span class="st">"R Programming"</span></span>
+<span id="cb74-2"><a href=""></a></span>
+<span id="cb74-3"><a href=""></a><span class="co"># change string to uppercase</span></span>
+<span id="cb74-4"><a href=""></a>message_upper <span class="ot">&lt;-</span> <span class="fu">toupper</span>(message)</span>
+<span id="cb74-5"><a href=""></a>message_upper</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>[1] “R PROGRAMMING”</p>
+<div class="sourceCode cell-code" id="cb75"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb75-1"><a href=""></a><span class="co"># change string to lowercase</span></span>
+<span id="cb75-2"><a href=""></a>message_lower <span class="ot">&lt;-</span> <span class="fu">tolower</span>(message)</span>
+<span id="cb75-3"><a href=""></a>message_lower</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>[1] “r programming”</p>
+</section>
+<section id="vector" class="slide level2">
+<h2>Vector</h2>
+<ul>
+<li>Vector is a basic data structure in R.</li>
+<li>It contains element of the same type.</li>
+<li>The data types can be logical, integer, double, character, and complex.</li>
+<li>A vector’s type can be checked with the <code>typeof()</code> function.</li>
+</ul>
+</section>
+<section id="creating-vectors---using-the-c-function" class="slide level2">
+<h2>Creating Vectors - Using the c() Function</h2>
+<p>The <code>c()</code> function is used to concatenate or combine elements into a vector.</p>
+<div class="sourceCode cell-code" id="cb76"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb76-1"><a href=""></a><span class="co"># Numeric vector</span></span>
+<span id="cb76-2"><a href=""></a>numeric_vector <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>)</span>
+<span id="cb76-3"><a href=""></a></span>
+<span id="cb76-4"><a href=""></a><span class="co"># Character vector</span></span>
+<span id="cb76-5"><a href=""></a>character_vector <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"apple"</span>, <span class="st">"banana"</span>, <span class="st">"orange"</span>)</span>
+<span id="cb76-6"><a href=""></a></span>
+<span id="cb76-7"><a href=""></a><span class="co"># Logical vector</span></span>
+<span id="cb76-8"><a href=""></a>logical_vector <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="cn">TRUE</span>, <span class="cn">FALSE</span>, <span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="creating-vectors---using-the-operator" class="slide level2">
+<h2>Creating Vectors - Using the <code>:</code> Operator</h2>
+<p>The <code>:</code> operator generates a sequence of numbers from the starting value to the ending value.</p>
+<div class="sourceCode cell-code" id="cb77"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb77-1"><a href=""></a><span class="co"># Numeric sequence vector</span></span>
+<span id="cb77-2"><a href=""></a>numeric_sequence <span class="ot">&lt;-</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">10</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="creating-vectors---using-sequence-generation-functions" class="slide level2">
+<h2>Creating Vectors - Using Sequence Generation Functions</h2>
+<p>R provides functions like <code>seq()</code>, <code>rep()</code>, and <code>seq_len()</code> to generate sequences of numbers.</p>
+<div class="sourceCode cell-code" id="cb78"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb78-1"><a href=""></a><span class="co"># Numeric sequence vector using seq()</span></span>
+<span id="cb78-2"><a href=""></a>numeric_sequence <span class="ot">&lt;-</span> <span class="fu">seq</span>(<span class="at">from =</span> <span class="dv">1</span>, <span class="at">to =</span> <span class="dv">10</span>, <span class="at">by =</span> <span class="dv">2</span>)</span>
+<span id="cb78-3"><a href=""></a></span>
+<span id="cb78-4"><a href=""></a><span class="co"># Repeated values vector using rep()</span></span>
+<span id="cb78-5"><a href=""></a>repeated_values <span class="ot">&lt;-</span> <span class="fu">rep</span>(<span class="dv">0</span>, <span class="at">times =</span> <span class="dv">5</span>)</span>
+<span id="cb78-6"><a href=""></a></span>
+<span id="cb78-7"><a href=""></a><span class="co"># Index sequence vector using seq_len()</span></span>
+<span id="cb78-8"><a href=""></a>index_sequence <span class="ot">&lt;-</span> <span class="fu">seq_len</span>(<span class="dv">10</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="creating-vectors---using-vectorized-operations" class="slide level2">
+<h2>Creating Vectors - Using Vectorized Operations</h2>
+<p>Vectors can be created by performing operations on existing vectors or values.</p>
+<div class="sourceCode cell-code" id="cb79"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb79-1"><a href=""></a><span class="co"># Vector created using vectorized operation</span></span>
+<span id="cb79-2"><a href=""></a>new_vector <span class="ot">&lt;-</span> numeric_vector <span class="sc">*</span> <span class="dv">2</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="creating-vectors---mixing-objects" class="slide level2">
+<h2>Creating Vectors - Mixing Objects</h2>
+<div class="sourceCode cell-code" id="cb80"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb80-1"><a href=""></a><span class="co"># Character </span></span>
+<span id="cb80-2"><a href=""></a>x <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="fl">1.7</span>, <span class="st">"a"</span>)</span>
+<span id="cb80-3"><a href=""></a><span class="co"># Numeric </span></span>
+<span id="cb80-4"><a href=""></a>y <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="cn">TRUE</span>, <span class="dv">2</span>)</span>
+<span id="cb80-5"><a href=""></a><span class="co"># Character </span></span>
+<span id="cb80-6"><a href=""></a>z <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"a"</span>, <span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="matrix" class="slide level2">
+<h2>Matrix</h2>
+<ul>
+<li>Matrix is a two dimensional data structure in R programming.</li>
+<li>Matrix is similar to vector but additionally contains the dimension attributes.</li>
+<li>All attributes of an object can be checked by <code>attributes()</code> function.</li>
+<li>Dimension can be checked by directly with the <code>dim()</code>function. We can check if a variable is a matrix or not with the <code>class()</code> function.</li>
+</ul>
+</section>
+<section id="creatinig-matrix" class="slide level2">
+<h2>Creatinig Matrix</h2>
+<ul>
+<li>Matrix can be created using the <code>matrix()</code> function. Here’s the general syntax:</li>
+</ul>
+<div class="sourceCode cell-code" id="cb81"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb81-1"><a href=""></a><span class="fu">matrix</span>(data, nrow, ncol, byrow, dimnames)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li><code>data:</code> The data elements used to fill the matrix. It can be a vector or a combination of vectors.</li>
+<li><code>nrow:</code> The number of rows in the matrix.</li>
+<li><code>ncol:</code> The number of columns in the matrix.</li>
+<li><code>byrow:</code> A logical value specifying whether the matrix should be filled by row (TRUE) or by column (FALSE) (default).</li>
+<li><code>dimnames:</code> Optional names for the rows and columns of the matrix.</li>
+</ul>
+</section>
+<section id="creatinig-matrix-1" class="slide level2">
+<h2>Creatinig Matrix</h2>
+<div class="sourceCode cell-code" id="cb82"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb82-1"><a href=""></a><span class="co"># Create a matrix using matrix function </span></span>
+<span id="cb82-2"><a href=""></a>mat1 <span class="ot">&lt;-</span> <span class="fu">matrix</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">9</span>, <span class="at">nrow =</span> <span class="dv">3</span>, <span class="at">ncol =</span> <span class="dv">3</span>) </span>
+<span id="cb82-3"><a href=""></a></span>
+<span id="cb82-4"><a href=""></a><span class="co"># Create a matrix using matrix function: only one dimension  </span></span>
+<span id="cb82-5"><a href=""></a>mat2 <span class="ot">&lt;-</span> <span class="fu">matrix</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">9</span>, <span class="at">nrow =</span> <span class="dv">3</span>)</span>
+<span id="cb82-6"><a href=""></a></span>
+<span id="cb82-7"><a href=""></a><span class="co"># Create a matrix using matrix function: filling by row-wise </span></span>
+<span id="cb82-8"><a href=""></a>mat3 <span class="ot">&lt;-</span> <span class="fu">matrix</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">9</span>, <span class="at">nrow =</span> <span class="dv">3</span>, <span class="at">byrow =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb82-9"><a href=""></a></span>
+<span id="cb82-10"><a href=""></a><span class="co"># Create a matrix using matrix function: dimension names </span></span>
+<span id="cb82-11"><a href=""></a>mat4 <span class="ot">&lt;-</span> <span class="fu">matrix</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">9</span>, <span class="at">nrow =</span> <span class="dv">3</span>, <span class="at">dimnames =</span> <span class="fu">list</span>(<span class="fu">c</span>(<span class="st">"X"</span>, <span class="st">"Y"</span>, <span class="st">"Z"</span>), </span>
+<span id="cb82-12"><a href=""></a>                                             <span class="fu">c</span>(<span class="st">"A"</span>,<span class="st">"B"</span>,<span class="st">"C"</span>)))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="matrix-properties" class="slide level2">
+<h2>Matrix Properties</h2>
+<div class="sourceCode cell-code" id="cb83"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb83-1"><a href=""></a><span class="co"># Create a matrix using matrix function </span></span>
+<span id="cb83-2"><a href=""></a>mat <span class="ot">&lt;-</span> <span class="fu">matrix</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">9</span>, <span class="at">nrow =</span> <span class="dv">3</span>, <span class="at">dimnames =</span> <span class="fu">list</span>(<span class="fu">c</span>(<span class="st">"X"</span>, <span class="st">"Y"</span>, <span class="st">"Z"</span>), </span>
+<span id="cb83-3"><a href=""></a>                                             <span class="fu">c</span>(<span class="st">"A"</span>,<span class="st">"B"</span>,<span class="st">"C"</span>)))</span>
+<span id="cb83-4"><a href=""></a><span class="co"># Column Names </span></span>
+<span id="cb83-5"><a href=""></a><span class="fu">colnames</span>(mat) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>[1] “A” “B” “C”</p>
+<div class="sourceCode cell-code" id="cb84"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb84-1"><a href=""></a><span class="co"># Row Names </span></span>
+<span id="cb84-2"><a href=""></a><span class="fu">rownames</span>(mat)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>[1] “X” “Y” “Z”</p>
+<div class="sourceCode cell-code" id="cb85"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb85-1"><a href=""></a><span class="co"># Dimension </span></span>
+<span id="cb85-2"><a href=""></a><span class="fu">dim</span>(mat)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>[1] 3 3</p>
+</section>
+<section id="list" class="slide level2">
+<h2>List</h2>
+<ul>
+<li>List is a data structure having components of mixed data types.</li>
+<li>A vector having all elements of the same type is called atomic vector but a vector having elements of different type is called list.</li>
+<li>We can check if it’s a list with <code>typeof()</code> function and find its length using <code>length()</code> function.</li>
+</ul>
+</section>
+<section id="creating-list" class="slide level2">
+<h2>Creating List</h2>
+<p>List can be created using the list() function. Here’s the general syntax:</p>
+<div class="sourceCode cell-code" id="cb86"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb86-1"><a href=""></a><span class="fu">list</span>(..., <span class="at">recursive =</span> <span class="cn">FALSE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li><code>...</code>: The elements to be included in the list, separated by commas.</li>
+<li><code>recursive</code>: A logical value specifying whether the list should allow nested lists (TRUE) or not (FALSE) (default).</li>
+</ul>
+</section>
+<section id="creating-list-1" class="slide level2">
+<h2>Creating List</h2>
+<div class="sourceCode cell-code" id="cb87"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb87-1"><a href=""></a><span class="co"># Create a list </span></span>
+<span id="cb87-2"><a href=""></a>L <span class="ot">=</span> <span class="fu">list</span>(<span class="dv">1</span>, <span class="st">"a"</span>, <span class="cn">TRUE</span>, <span class="dv">1</span><span class="sc">+</span><span class="dv">3</span>i)</span>
+<span id="cb87-3"><a href=""></a></span>
+<span id="cb87-4"><a href=""></a><span class="co"># Create a list with different elements</span></span>
+<span id="cb87-5"><a href=""></a>my_list <span class="ot">&lt;-</span> <span class="fu">list</span>(</span>
+<span id="cb87-6"><a href=""></a>  <span class="at">name =</span> <span class="st">"John Doe"</span>,  <span class="co"># Character value</span></span>
+<span id="cb87-7"><a href=""></a>  <span class="at">age =</span> <span class="dv">30</span>,  <span class="co"># Numeric value</span></span>
+<span id="cb87-8"><a href=""></a>  <span class="at">is_student =</span> <span class="cn">TRUE</span>,  <span class="co"># Logical value</span></span>
+<span id="cb87-9"><a href=""></a>  <span class="at">scores =</span> <span class="fu">c</span>(<span class="dv">90</span>, <span class="dv">85</span>, <span class="dv">92</span>),  <span class="co"># Numeric vector</span></span>
+<span id="cb87-10"><a href=""></a>  <span class="at">matrix_data =</span> <span class="fu">matrix</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">6</span>, <span class="at">nrow =</span> <span class="dv">2</span>),  <span class="co"># Matrix</span></span>
+<span id="cb87-11"><a href=""></a>  <span class="at">sub_list =</span> <span class="fu">list</span>(<span class="st">"a"</span>, <span class="st">"b"</span>, <span class="st">"c"</span>)  <span class="co"># Nested list</span></span>
+<span id="cb87-12"><a href=""></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="factors" class="slide level2">
+<h2>Factors</h2>
+<ul>
+<li>In R, factors are used to represent categorical or discrete data with predefined levels or categories.</li>
+<li>Factors are useful when working with data that has distinct categories or when performing statistical analysis.</li>
+<li>Factors are used to represent categorical data and can be ordered and unordered.</li>
+</ul>
+</section>
+<section id="creating-factors" class="slide level2">
+<h2>Creating Factors</h2>
+<p>Factors are created using the factor() function in R. Here’s the general syntax:</p>
+<div class="sourceCode cell-code" id="cb88"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb88-1"><a href=""></a><span class="fu">factor</span>(x, levels, labels, <span class="at">ordered =</span> <span class="cn">FALSE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li><code>x</code>: A vector or column of data that represents the categorical variable.</li>
+<li><code>levels</code>: An optional argument specifying the unique levels or categories of the factor. If not provided, the distinct values in x are used as levels.</li>
+<li><code>labels</code>: An optional argument specifying the labels for the levels. If not provided, the levels themselves are used as labels.</li>
+<li><code>ordered</code>: A logical value indicating whether the factor should be treated as ordered (TRUE) or unordered (FALSE) (default).</li>
+</ul>
+</section>
+<section id="creating-factors-1" class="slide level2">
+<h2>Creating Factors</h2>
+<div class="sourceCode cell-code" id="cb89"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb89-1"><a href=""></a><span class="co"># Create a factor using factor() function </span></span>
+<span id="cb89-2"><a href=""></a>f <span class="ot">&lt;-</span> <span class="fu">factor</span>(<span class="fu">c</span>(<span class="st">"yes"</span>, <span class="st">"no"</span>, <span class="st">"yes"</span>, <span class="st">"no"</span>))</span>
+<span id="cb89-3"><a href=""></a></span>
+<span id="cb89-4"><a href=""></a><span class="co"># Check levels </span></span>
+<span id="cb89-5"><a href=""></a><span class="fu">levels</span>(f)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>[1] “no” “yes”</p>
+</section>
+<section id="data-frame" class="slide level2">
+<h2>Data Frame</h2>
+<ul>
+<li>In R, a data frame is a two-dimensional tabular data structure similar to a table in a relational database.</li>
+<li>It consists of rows and columns, where each column can have a different data type.</li>
+<li>Data frames are commonly used for storing and manipulating structured data, and they provide a convenient way to work with datasets.</li>
+<li>Data frames can be created using the <code>data.frame()</code> function or by importing data from external sources.</li>
+</ul>
+</section>
+<section id="create-data-frame" class="slide level2">
+<h2>Create Data Frame</h2>
+<p>Data frames can be created using the data.frame() function or by importing data from external sources. Here’s an example of creating a data frame in R:</p>
+<div class="sourceCode cell-code" id="cb90"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb90-1"><a href=""></a><span class="co"># Create a data frame</span></span>
+<span id="cb90-2"><a href=""></a>df <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb90-3"><a href=""></a>  <span class="at">name =</span> <span class="fu">c</span>(<span class="st">"John"</span>, <span class="st">"Alice"</span>, <span class="st">"Bob"</span>),</span>
+<span id="cb90-4"><a href=""></a>  <span class="at">age =</span> <span class="fu">c</span>(<span class="dv">25</span>, <span class="dv">30</span>, <span class="dv">35</span>),</span>
+<span id="cb90-5"><a href=""></a>  <span class="at">city =</span> <span class="fu">c</span>(<span class="st">"New York"</span>, <span class="st">"London"</span>, <span class="st">"Paris"</span>),</span>
+<span id="cb90-6"><a href=""></a>  <span class="at">stringsAsFactors =</span> <span class="cn">FALSE</span></span>
+<span id="cb90-7"><a href=""></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="data-conversion-functions-in-r" class="slide level2">
+<h2>Data Conversion Functions in R</h2>
+<ul>
+<li>Conversion functions in R help transform data between different types and formats.</li>
+<li><code>as.character()</code>, <code>as.numeric()</code>, <code>as.integer()</code>, <code>as.logical()</code>, and <code>as.factor()</code> are commonly used conversion functions.</li>
+<li>These functions are essential for data preprocessing, ensuring data compatibility, and performing operations on different data types.</li>
+</ul>
+</section>
+<section id="as.character" class="slide level2">
+<h2><code>as.character()</code></h2>
+<ul>
+<li>as.character() function converts an object to a character string representation.</li>
+<li>Syntax: as.character(x)</li>
+<li>x: The object to be converted.</li>
+</ul>
+<div class="sourceCode cell-code" id="cb91"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb91-1"><a href=""></a><span class="co"># Convert numeric values to character strings</span></span>
+<span id="cb91-2"><a href=""></a>numbers <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>)</span>
+<span id="cb91-3"><a href=""></a>character_numbers <span class="ot">&lt;-</span> <span class="fu">as.character</span>(numbers)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="as.numeric" class="slide level2">
+<h2><code>as.numeric()</code></h2>
+<ul>
+<li>as.numeric() function converts an object to numeric (floating-point) values.</li>
+<li>Syntax: as.numeric(x)</li>
+<li>x: The object to be converted.</li>
+</ul>
+<div class="sourceCode cell-code" id="cb92"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb92-1"><a href=""></a><span class="co"># Convert character strings to numeric values</span></span>
+<span id="cb92-2"><a href=""></a>character_numbers <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"1"</span>, <span class="st">"2"</span>, <span class="st">"3"</span>)</span>
+<span id="cb92-3"><a href=""></a>numeric_numbers <span class="ot">&lt;-</span> <span class="fu">as.numeric</span>(character_numbers)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="as.integer" class="slide level2">
+<h2><code>as.integer()</code></h2>
+<ul>
+<li>as.integer() function converts an object to integer values.</li>
+<li>Syntax: as.integer(x)</li>
+<li>x: The object to be converted.</li>
+</ul>
+<div class="sourceCode cell-code" id="cb93"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb93-1"><a href=""></a><span class="co"># Convert numeric values to integer values</span></span>
+<span id="cb93-2"><a href=""></a>numbers <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="fl">1.5</span>, <span class="fl">2.7</span>, <span class="fl">3.9</span>)</span>
+<span id="cb93-3"><a href=""></a>integer_numbers <span class="ot">&lt;-</span> <span class="fu">as.integer</span>(numbers)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="as.logical" class="slide level2">
+<h2><code>as.logical()</code></h2>
+<ul>
+<li>as.logical() function converts an object to logical (boolean) values.</li>
+<li>Syntax: as.logical(x)</li>
+<li>x: The object to be converted.</li>
+</ul>
+<div class="sourceCode cell-code" id="cb94"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb94-1"><a href=""></a><span class="co"># Convert numeric values to logical values</span></span>
+<span id="cb94-2"><a href=""></a>numbers <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">2</span>)</span>
+<span id="cb94-3"><a href=""></a>logical_values <span class="ot">&lt;-</span> <span class="fu">as.logical</span>(numbers)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="as.factor" class="slide level2">
+<h2><code>as.factor()</code></h2>
+<ul>
+<li>as.factor() function converts an object to a factor, which represents categorical data.</li>
+<li>Syntax: as.factor(x)</li>
+<li>x: The object to be converted.</li>
+</ul>
+</section></section>
+<section>
+<section id="subsetting-r-objects" class="title-slide slide level1 center">
+<h1>Subsetting R Objects</h1>
+
+</section>
+<section id="subsetting-a-vector" class="slide level2">
+<h2>Subsetting a Vector</h2>
+<ul>
+<li>Subsetting a vector allows you to extract specific elements based on their index or logical conditions.</li>
+<li>It is done using square brackets <code>[ ]</code> in R.</li>
+<li>Subsetting Vector Elements by Index - Subsetting elements by index retrieves specific elements from a vector.</li>
+<li>Subsetting Vector Elements by Logical Condition - Subsetting elements by logical condition retrieves elements based on a specified condition.</li>
+</ul>
+</section>
+<section id="subsetting-vector-elements-by-index" class="slide level2">
+<h2>Subsetting Vector Elements by Index</h2>
+<div class="sourceCode cell-code" id="cb95"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb95-1"><a href=""></a>vector <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">10</span>, <span class="dv">20</span>, <span class="dv">30</span>, <span class="dv">40</span>, <span class="dv">50</span>)</span>
+<span id="cb95-2"><a href=""></a>vector[<span class="dv">3</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>[1] 30</p>
+<ul>
+<li>The vector contains elements: 10, 20, 30, 40, 50.</li>
+<li><code>vector[3]</code> retrieves the third element, which is <code>30</code>.</li>
+<li><code>Result</code>: The third element (30) is displayed.</li>
+</ul>
+</section>
+<section id="subsetting-vector-elements-by-logical-condition" class="slide level2">
+<h2>Subsetting Vector Elements by Logical Condition</h2>
+<div class="sourceCode cell-code" id="cb96"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb96-1"><a href=""></a>vector <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">10</span>, <span class="dv">20</span>, <span class="dv">30</span>, <span class="dv">40</span>, <span class="dv">50</span>)</span>
+<span id="cb96-2"><a href=""></a>vector[vector <span class="sc">&gt;</span> <span class="dv">30</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>[1] 40 50</p>
+<ul>
+<li>The vector contains elements: 10, 20, 30, 40, 50.</li>
+<li><code>vector &gt; 30</code> evaluates to a logical vector: FALSE, FALSE, FALSE, TRUE, TRUE.</li>
+<li><code>vector[vector &gt; 30]</code> retrieves elements where the condition is TRUE.</li>
+<li><code>Result</code>: Elements greater than 30 (40, 50) are displayed.</li>
+</ul>
+</section>
+<section id="subsetting-vector-elements-using-operator" class="slide level2">
+<h2>Subsetting Vector Elements Using <code>:</code> Operator</h2>
+<p>The <code>:</code> operator allows you to specify a range of elements to subset from a vector.</p>
+<div class="sourceCode cell-code" id="cb97"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb97-1"><a href=""></a>vector <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">10</span>, <span class="dv">20</span>, <span class="dv">30</span>, <span class="dv">40</span>, <span class="dv">50</span>)</span>
+<span id="cb97-2"><a href=""></a>vector[<span class="dv">2</span><span class="sc">:</span><span class="dv">4</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>[1] 20 30 40</p>
+<ul>
+<li>The vector contains elements: 10, 20, 30, 40, 50.</li>
+<li><code>2:4</code> creates a sequence of indices from 2 to 4.</li>
+<li><code>vector[2:4]</code> retrieves elements at indices 2, 3, and 4.</li>
+<li><code>Result</code>: Elements 20, 30, and 40 are displayed.</li>
+</ul>
+</section>
+<section id="subsetting-vector-elements-using-c-function" class="slide level2">
+<h2>Subsetting Vector Elements Using <code>c()</code> Function</h2>
+<p>The <code>c()</code> function allows you to create a vector of specific indices to subset from a vector.</p>
+<div class="sourceCode cell-code" id="cb98"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb98-1"><a href=""></a>vector <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">10</span>, <span class="dv">20</span>, <span class="dv">30</span>, <span class="dv">40</span>, <span class="dv">50</span>)</span>
+<span id="cb98-2"><a href=""></a>vector[<span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">3</span>, <span class="dv">5</span>)]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>[1] 10 30 50</p>
+<ul>
+<li>The vector contains elements: 10, 20, 30, 40, 50.</li>
+<li><code>c(1, 3, 5)</code> creates a vector of indices: 1, 3, 5.</li>
+<li><code>vector[c(1, 3, 5)]</code> retrieves elements at indices 1, 3, and 5.</li>
+<li><code>Result</code>: Elements 10, 30, and 50 are displayed.</li>
+</ul>
+</section>
+<section id="subsetting-list" class="slide level2">
+<h2>Subsetting List</h2>
+<ul>
+<li>Subsetting a list allows you to extract specific elements or subsets from a list in R.</li>
+<li>It is done using double square brackets <code>[[ ]]</code> or single square brackets<code>[ ]</code> in R.</li>
+<li>Subsetting List Elements by Index - Subsetting elements by index retrieves specific elements from a list.</li>
+<li>Subsetting List Elements by Name - Subsetting elements by name allows you to retrieve elements based on their assigned names.</li>
+<li>Subsetting a Subset of List Elements - You can subset a subset of elements from a list using single square brackets <code>[ ]</code>.</li>
+</ul>
+</section>
+<section id="subsetting-list-elements-by-index" class="slide level2">
+<h2>Subsetting List Elements by Index</h2>
+<div class="sourceCode cell-code" id="cb99"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb99-1"><a href=""></a>my_list <span class="ot">&lt;-</span> <span class="fu">list</span>(<span class="st">"apple"</span>, <span class="st">"banana"</span>, <span class="st">"orange"</span>)</span>
+<span id="cb99-2"><a href=""></a>my_list[[<span class="dv">2</span>]]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>[1] “banana”</p>
+<ul>
+<li>The list contains elements: “apple”, “banana”, “orange”.</li>
+<li><code>my_list[[2]]</code> retrieves the second element of the list, which is “banana”.</li>
+<li><code>Result</code>: The second element (“banana”) is displayed.</li>
+</ul>
+</section>
+<section id="subsetting-list-elements-by-name" class="slide level2">
+<h2>Subsetting List Elements by Name</h2>
+<div class="sourceCode cell-code" id="cb100"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb100-1"><a href=""></a>my_list <span class="ot">&lt;-</span> <span class="fu">list</span>(<span class="at">fruit1 =</span> <span class="st">"apple"</span>, <span class="at">fruit2 =</span> <span class="st">"banana"</span>, <span class="at">fruit3 =</span> <span class="st">"orange"</span>)</span>
+<span id="cb100-2"><a href=""></a>my_list<span class="sc">$</span>fruit3</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>[1] “orange”</p>
+<ul>
+<li>The list contains named elements: fruit1, fruit2, fruit3.</li>
+<li><code>my_list$fruit3</code> retrieves the element with the name “fruit3”, which is “orange”.</li>
+<li><code>Result</code>: The element “orange” is displayed.</li>
+</ul>
+</section>
+<section id="subsetting-a-subset-of-list-elements" class="slide level2">
+<h2>Subsetting a Subset of List Elements</h2>
+<div class="sourceCode cell-code" id="cb101"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb101-1"><a href=""></a>my_list <span class="ot">&lt;-</span> <span class="fu">list</span>(<span class="st">"apple"</span>, <span class="st">"banana"</span>, <span class="st">"orange"</span>)</span>
+<span id="cb101-2"><a href=""></a>my_list[<span class="dv">2</span><span class="sc">:</span><span class="dv">3</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>[[1]] [1] “banana”</p>
+<p>[[2]] [1] “orange”</p>
+<ul>
+<li>The list contains elements: “apple”, “banana”, “orange”.</li>
+<li><code>my_list[2:3]</code> retrieves the second and third elements of the list.</li>
+<li><code>Result</code>: The second and third elements (“banana”, “orange”) are displayed.</li>
+</ul>
+</section>
+<section id="subsetting-matrix" class="slide level2">
+<h2>Subsetting Matrix</h2>
+<ul>
+<li>Subsetting a matrix allows you to extract specific rows, columns, or elements from a matrix in R.</li>
+<li>It is done using square brackets <code>[ ]</code> in combination with row and column indices.</li>
+<li>Subsetting Rows - Subsetting rows allows you to retrieve specific rows from a matrix.</li>
+<li>Subsetting Columns - Subsetting columns allows you to retrieve specific columns from a matrix.</li>
+<li>Subsetting Elements - Subsetting individual elements allows you to retrieve specific elements from a matrix.</li>
+</ul>
+</section>
+<section id="subsetting-rows" class="slide level2">
+<h2>Subsetting Rows</h2>
+<div class="sourceCode cell-code" id="cb102"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb102-1"><a href=""></a>matrix <span class="ot">&lt;-</span> <span class="fu">matrix</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">6</span>, <span class="at">nrow =</span> <span class="dv">2</span>)</span>
+<span id="cb102-2"><a href=""></a>matrix[<span class="dv">1</span>, ]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>[1] 1 3 5</p>
+<ul>
+<li>The matrix contains elements: 1, 2, 3, 4, 5, 6.</li>
+<li><code>matrix[1, ]</code> retrieves the first row of the matrix.</li>
+<li><code>Result</code>: The first row (1, 2) is displayed.</li>
+</ul>
+</section>
+<section id="subsetting-columns" class="slide level2">
+<h2>Subsetting Columns</h2>
+<div class="sourceCode cell-code" id="cb103"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb103-1"><a href=""></a>matrix <span class="ot">&lt;-</span> <span class="fu">matrix</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">6</span>, <span class="at">nrow =</span> <span class="dv">2</span>)</span>
+<span id="cb103-2"><a href=""></a>matrix[, <span class="dv">2</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>[1] 3 4</p>
+<ul>
+<li>The matrix contains elements: 1, 2, 3, 4, 5, 6.</li>
+<li><code>matrix[, 2]</code> retrieves the second column of the matrix.</li>
+<li><code>Result</code>: The second column (2, 4) is displayed.</li>
+</ul>
+</section>
+<section id="subsetting-elements" class="slide level2">
+<h2>Subsetting Elements</h2>
+<div class="sourceCode cell-code" id="cb104"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb104-1"><a href=""></a>matrix <span class="ot">&lt;-</span> <span class="fu">matrix</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">6</span>, <span class="at">nrow =</span> <span class="dv">2</span>)</span>
+<span id="cb104-2"><a href=""></a>matrix[<span class="dv">2</span>, <span class="dv">1</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>[1] 2</p>
+<ul>
+<li>The matrix contains elements: 1, 2, 3, 4, 5, 6.</li>
+<li><code>matrix[2, 1]</code>retrieves the element at the second row and first column.</li>
+<li><code>Result</code>: The element at the second row and first column (3) is displayed.</li>
+</ul>
+
 </section></section>
     </div>
-  </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<p><img src="images/chirallogo.jpg" class="slide-logo"></p>
+<div class="footer footer-default">
+<p>Statistical Analysis with R for Research | © 2024 Md. Jubayer Hossain</p>
+</div>
+</div></div>
 
   <script>window.backupDefine = window.define; window.define = undefined;</script>
   <script src="index_files/libs/revealjs/dist/reveal.js"></script>
@@ -2101,12 +2557,12 @@
       Reveal.initialize({
 'controlsAuto': true,
 'previewLinksAuto': false,
-'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
-'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -2260,7 +2716,7 @@
         margin: 0.1,
 
         math: {
-          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
@@ -2287,42 +2743,80 @@
       });
     </script>
     
+
     <script>
+
       // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+
       // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+
       // slide changes (different for each slide format).
+
       (function () {
+
         // dispatch for htmlwidgets
+
         function fireSlideEnter() {
+
           const event = window.document.createEvent("Event");
+
           event.initEvent("slideenter", true, true);
+
           window.document.dispatchEvent(event);
+
         }
+
+    
 
         function fireSlideChanged(previousSlide, currentSlide) {
+
           fireSlideEnter();
 
+    
+
           // dispatch for shiny
+
           if (window.jQuery) {
+
             if (previousSlide) {
+
               window.jQuery(previousSlide).trigger("hidden");
+
             }
+
             if (currentSlide) {
+
               window.jQuery(currentSlide).trigger("shown");
+
             }
+
           }
+
         }
+
+    
 
         // hookup for slidy
+
         if (window.w3c_slidy) {
+
           window.w3c_slidy.add_observer(function (slide_num) {
+
             // slide_num starts at position 1
+
             fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+
           });
+
         }
 
+    
+
       })();
+
     </script>
+
+    
 
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -2356,18 +2850,7 @@
         }
         return false;
       }
-      const clipboard = new window.ClipboardJS('.code-copy-button', {
-        text: function(trigger) {
-          const codeEl = trigger.previousElementSibling.cloneNode(true);
-          for (const childEl of codeEl.children) {
-            if (isCodeAnnotation(childEl)) {
-              childEl.remove();
-            }
-          }
-          return codeEl.innerText;
-        }
-      });
-      clipboard.on('success', function(e) {
+      const onCopySuccess = function(e) {
         // button target
         const button = e.trigger;
         // don't keep focus
@@ -2399,11 +2882,50 @@
         }, 1000);
         // clear code selection
         e.clearSelection();
+      }
+      const getTextToCopy = function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+        text: getTextToCopy
       });
-      function tippyHover(el, contentFn) {
+      clipboard.on('success', onCopySuccess);
+      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        // For code content inside modals, clipBoardJS needs to be initialized with a container option
+        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+          text: getTextToCopy,
+          container: window.document.getElementById('quarto-embedded-source-code-modal')
+        });
+        clipboardModal.on('success', onCopySuccess);
+      }
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp('/' + window.location.host + '/');
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
         const config = {
           allowHTML: true,
-          content: contentFn,
           maxWidth: 500,
           delay: 100,
           arrow: false,
@@ -2413,8 +2935,17 @@
           interactive: true,
           interactiveBorder: 10,
           theme: 'light-border',
-          placement: 'bottom-start'
+          placement: 'bottom-start',
         };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
           config['offset'] = [0,0];
           config['maxWidth'] = 700;
         window.tippy(el, config); 
@@ -2428,7 +2959,11 @@
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
-          return note.innerHTML;
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
         });
       }
       const findCites = (el) => {

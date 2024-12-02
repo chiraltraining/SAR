@@ -1,8 +1,16 @@
 ---
-title: "R for Research"
-subtitle: "Data Manipulation: Part 1"
-author: "Md. Jubayer Hossain <br/>Founder & Management Lead <br/>CHIRAL Bangladesh"
-footer: "R for Research  | &copy; 2023 Md. Jubayer Hossain, CHIRAL Bangladesh"
+title: "Statistical Analysis with R for Research"
+subtitle: "Data Wrangling with R: Part I"
+author:
+  - name: Sajjad Hossain
+    orcid: 0000-0001-9323-4997
+    url: https://hossainlab.github.io/
+    affiliations: 
+    - Big Bioinformatics, CHIRAL Bangladesh
+    - Research Assistant 
+date: last-modified
+date-format: "[Last Updated on] MMMM, YYYY"
+footer: "Statistical Analysis with R for Research | &copy; 2024 Md. Jubayer Hossain"
 editor: source
 format: 
   revealjs: 
@@ -12,6 +20,9 @@ format:
     transition: fade
     slide-number: true
     chalkboard: false
+    toc: true
+    toc-depth: 1
+    toc-title: Agenda
 execute:
   echo: true
   output: asis
@@ -26,6 +37,4 @@ cache: true
 {{< include 04-subset-columns.qmd  >}}
 {{< include 05-make-new-variables.qmd  >}}
 {{< include 06-summarize-data.qmd  >}}
-{{< include 07-group-data.qmd  >}}
-{{< include 08-reshape-data.qmd  >}}
-{{< include 09-combine-data.qmd  >}}
+
