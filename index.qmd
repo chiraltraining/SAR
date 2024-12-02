@@ -10,7 +10,6 @@ editor: source
 }
 ```
 
-
 ------------------------------------------------------------------------
 
 🗓December 10-31, 2024 \| 9:00am - 5:30pm (Bangladesh Time)
@@ -185,18 +184,6 @@ The `{easystats}` package in R is a collection of tools designed to simplify the
 The `{gtsummary}` package in R is designed for creating publication-ready summary tables from statistical models and data. It allows users to easily summarize data, describe statistics, and present results in a clear, formatted table. Key functions include `tbl_summary()` for descriptive statistics of datasets, `tbl_regression()` for summarizing regression model results, and `tbl_uvregression()` for univariate regression analyses. The package supports customization of table styles, variable transformations, and statistical tests, making it a valuable tool for producing professional reports and visual summaries in clinical and social science research.
 :::
 :::
-
-
-::: {.grid}
-::: {.g-col-3}
-![](images/gt.jpg)
-:::
-::: {.g-col-9}
-The `{gt}` package in R is used for creating beautiful, customizable tables for data presentation. It allows users to easily create tables from data frames or tibbles with functions like `gt()` to initiate the table and `tab_spanner()` for grouping columns. Users can apply various formatting options, such as color, bold, and font styles, to enhance the table’s readability using functions like `tab_style()` and `tab_footnote()`. `gt` also supports features like adding summary statistics, row/column grouping, and rendering tables in HTML or LaTeX for use in reports and publications.
-:::
-:::
-
-
 
 ::: {.grid}
 ::: {.g-col-3}
