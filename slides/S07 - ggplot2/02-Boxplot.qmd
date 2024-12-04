@@ -1,0 +1,19 @@
+# Box Plot
+
+## Simple Box Plot
+
+```{r}
+library(ggplot2)
+data |> 
+  ggplot(aes(x = Exercise, y = BMI))+
+  geom_boxplot()
+```
+
+
+## Grouped Box Plot
+
+```{r}
+data |> 
+  ggplot(aes(x = Exercise, y = BMI, fill = Gender))+
+  geom_boxplot()
+```
