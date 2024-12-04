@@ -1,0 +1,16 @@
+# Line Chart
+
+## Simple Line Chart
+```{r}
+data |> 
+  ggplot(aes(x = Age, y = Height))+
+  geom_line()
+```
+
+
+## Grouped Line Chart
+```{r}
+data |> 
+  ggplot(aes(x = Age, y = Height, colour = Gender))+
+  geom_line()
+```

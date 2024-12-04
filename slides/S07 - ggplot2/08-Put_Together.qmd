@@ -1,0 +1,16 @@
+# Final Customization and Export
+
+```{r}
+Visual + scale_fill_manual(values = c("#ffeda0", "#f03b20"))+ theme_base(base_size = 11, base_family = "Times New Roman")
+
+```
+
+## Save it with 300 dpi
+```{r}
+ggsave("D:/R/SAR/images/basic_visualization.png", dpi = 300)
+
+```
+
+
+
+

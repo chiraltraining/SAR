@@ -2,15 +2,15 @@
 title: "Statistical Analysis with R for Research"
 subtitle: "Data Visualization: Part I"
 author:
-  - name: Md. Jubayer Hossain
-    orcid: 0000-0001-9323-4997
-    url: https://hossainlab.github.io/
+  - name: Md Mohtasim Billah
+    orcid: 0000-0001-8848-7738
+    Github: https://github.com/MdMohtasimBillah
     affiliations: 
     - CHIRAL Bangladesh
-    - Founder & Exectutive Director
+    - Research Assistant, Instructor & Community Manager
 date: last-modified
 date-format: "[Last Updated on] MMMM, YYYY"
-footer: "Statistical Analysis with R for Research | &copy; 2024 Md. Jubayer Hossain"
+footer: "Statistical Analysis with R for Research | &copy; 2024 Md Mohtasim Billah"
 editor: source
 format: 
   revealjs: 
@@ -32,3 +32,11 @@ cache: true
 
 {{< include 00-background.qmd >}}
 {{< include 01-barcharts.qmd >}}
+{{< include 02-Boxplot.qmd >}}
+{{< include 03-Violinplot.qmd >}}
+{{< include 04-Scatterplot.qmd >}}
+{{< include 05-Line_Chart.qmd >}}
+{{< include 06-Distribution_plot.qmd >}}
+{{< include 07-Customization.qmd >}}
+{{< include 08-Put_Together.qmd >}}
+
