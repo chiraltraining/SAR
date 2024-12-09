@@ -31,12 +31,12 @@ cache: true
 ---
 
 {{< include 00-background.qmd >}}
-{{< include 01-barcharts.qmd >}}
-{{< include 02-Boxplot.qmd >}}
-{{< include 03-Violinplot.qmd >}}
-{{< include 04-Scatterplot.qmd >}}
-{{< include 05-Line_Chart.qmd >}}
-{{< include 06-Distribution_plot.qmd >}}
-{{< include 07-Customization.qmd >}}
-{{< include 08-Put_Together.qmd >}}
+<!-- {{< include 01-barcharts.qmd >}} -->
+<!-- {{< include 02-boxplot.qmd >}} -->
+<!-- {{< include 03-violinplot.qmd >}} -->
+<!-- {{< include 04-scatterplot.qmd >}} -->
+<!-- {{< include 05-line_chart.qmd >}} -->
+<!-- {{< include 06-distribution_plot.qmd >}} -->
+<!-- {{< include 07-customization.qmd >}} -->
+<!-- {{< include 08-put_together.qmd >}} -->
 
