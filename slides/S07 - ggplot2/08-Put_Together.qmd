@@ -5,6 +5,7 @@ Visual + scale_fill_manual(values = c("#ffeda0", "#f03b20"))+ theme_base(base_si
 
 ```
 
+
 ## Save it with 300 dpi
 ```{r}
 ggsave("D:/R/SAR/images/basic_visualization.png", dpi = 300)
