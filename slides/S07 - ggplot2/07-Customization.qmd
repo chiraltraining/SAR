@@ -21,6 +21,7 @@ library(hrbrthemes)
 library(ggsci)
 ```
 
+
 ## Themes (Step: 2)
  - Then we need to store the visualization file in a variable
 ```{r}

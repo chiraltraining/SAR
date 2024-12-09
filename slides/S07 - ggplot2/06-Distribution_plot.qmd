@@ -9,6 +9,7 @@ data |>
   geom_histogram(color = "black", binwidth = 2)
 ```
 
+
 ## Grouped Histogram
 - In `position` it can be `identity`, `stack`, `dodge`, `fill`
 ```{r}
