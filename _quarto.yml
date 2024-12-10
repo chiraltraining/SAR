@@ -6,6 +6,7 @@ project:
     #- "*.Rmd"
     #- "!exercises/exercises.Rmd"
     - "!slides/"
+    - "!cheatsheets/"
 website:
   page-navigation: true
   title: "Statistical Analysis with R for Research"

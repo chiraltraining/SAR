@@ -1,292 +1,146 @@
-# 10 ~ whether negative? positive? 
+# Determining Positive or Negative Numbers
 
-# How to decide? ~ based on logic (condition)
-# 1. if num > 0 - positive 
-# 2. if num < 0 - negative 
+# Using one condition
+# If the number is greater than 0, it is positive. Otherwise, it is negative.
 
-# Using one condition 
-# 1. if num > 0 - positive
-# 2. else - negative 
-
-
-# one condition  
-if (condition) {
-  # make a decision 
-}
-
-num <- 10 
+num <- 10
 if (num > 0) {
-  # make a decision 
-  print("positive")
+  print("positive")  # Decision: number is positive
 }
 
-# two conditions
-if (condition) {
-  # make a decision - if block 
-} else {
-  # make a decision - else block 
-}
+# Using two conditions
+# If block for positive, else block for negative.
 
-num2 <- -10 
+num2 <- -10
 if (num2 > 0) {
-  print("positive")
+  print("positive")  # Decision: number is positive
 } else {
-  print("negative")
+  print("negative")  # Decision: number is negative
 }
 
-# more than 2 conditions 
-if (condition) {
-  # do something 
-} else if (condition) {
-  # do something 
-} else if (condition) {
-  # do something 
-} else {
-  # do something 
-}
-
+# Using more than two conditions (example: BMI classification)
 bmi <- 31
-
 if (bmi < 18.5) {
-  print("under weight")
+  print("underweight")  # BMI less than 18.5
 } else if (bmi < 25) {
-  print("normal weight")
+  print("normal weight")  # BMI between 18.5 and 24.9
 } else if (bmi < 30) {
-  print("over weight")
+  print("overweight")  # BMI between 25 and 29.9
 } else {
-  print("obese")
+  print("obese")  # BMI 30 and above
 }
 
-# ifelse()
-ifelse(condition, "true", "false")
+# Using `ifelse` for compact conditional decisions
+a <- 10
+ifelse(a > 0, "positive", "negative")  # Decision: positive if a > 0, else negative
 
-a <- 10 
-ifelse(a > 0, "postive", "negative")
-
+# Applying `ifelse()` on vectors
 ages <- c(22, 21, 20, 24, 56, 78, 90, 34, 56, 11, 10, 13)
-age_group <- ifelse(ages < 18, "child", "adult")
-age_group <- factor(age_group)
-summary(age_group)
+age_group <- ifelse(ages < 18, "child", "adult")  # Classify as child or adult
+age_group <- factor(age_group)  # Convert to a factor
+summary(age_group)  # Summary of age group distribution
 
+# Handling missing values
+ages <- c(22, 21, 20, 24, NA, 78, 90, 34, 56, 11, 10, 13)  # Vector with NA
+is.na(ages)  # Check for missing values
+sum(is.na(ages))  # Count missing values
 
-# Handling missing values 
-ages <- c(22, 21, 20, 24, NA, 78, 90, 34, 56, 11, 10, 13)
-ages <- c(22, 21, 20, 24, NaN, 78, 90, 34, 56, 11, 10, 13)
+# Looping to Perform Repeated Actions
 
-# Print Bangladesh 5 times 
-print("Bangladesh")
-print("Bangladesh")
-print("Bangladesh")
-print("Bangladesh")
-print("Bangladesh")
-
-print("Bangladesh") * 5 
-
-
-# loops 
-
-# for 
-# vectors > collections > sequence > collection of items 
-seq <- 1:5
-for (i in seq) {
-  # do something 
-  print("Bangladesh")
-}
-
+# Print "Bangladesh" five times using `for` loop
 for (i in 1:5) {
-  # do something 
-  print("Bangladesh")
+  print("Bangladesh")  # Repeated action
 }
 
-# print 1 to 5 numbers 
+# Print numbers from 1 to 5
 for (i in 1:5) {
-  print(i)
+  print(i)  # Print the current iteration number
 }
 
+# Using a custom sequence
 for (i in seq(1, 20, 3)) {
-  print(i)
+  print(i)  # Increment by 3 and print
 }
 
-# break statement 
+# Using `break` to stop the loop
 for (var in 1:20) {
   if (var == 5) {
-    break
+    break  # Exit loop when var equals 5
   }
   print(var)
 }
 
-# next statement 
+# Using `next` to skip an iteration
 for (var in 1:20) {
   if (var == 5) {
-    next
+    next  # Skip printing when var equals 5
   }
   print(var)
 }
 
-
-# while ~ infinite loop 
-count <- 1 
-while (count <= 10) {
-  print(count)
-}
-
-
-# while ~ increament 
-count <- 1 
-while (count <= 10) {
-  print(count)
-  count = count + 1 
-}
-
-# while ~ break 
-count <- 1 
-while (count <= 10) {
-  if (count == 3) {
-    break
-  }
-  print(count)
-  count = count + 1 
-}
-
-# while ~ next  
+# While loops: Example with increment
 count <- 1
 while (count <= 10) {
-  if (count == 3) {
-    count = count + 1
-    next
-  }
-  print(count)
-  count = count + 1
+  print(count)  # Print current count
+  count <- count + 1  # Increment count
 }
 
+# User-defined Functions
 
-# Functions 
-# 1. built-in functions - mean, sd, median,sum 
-sum(10,20)
-sum(1, 2, 3, 4,5)
-
-# 2. user defined functions - you have to create your own function 
-num1 <- 10 
-num2 <- 20 
-num1 + num2 
-
-# How to give a function name? 
-my_function <- function(params) {
-  # do something 
-}
-
-# Create a function - can add two numbers 
+# Function to add two numbers
 add <- function(num1, num2) {
-  # why? 
-  result <- num1 + num2 
-  # return result 
-  return(result)
+  result <- num1 + num2  # Calculate sum
+  return(result)  # Return the result
 }
-# function call > use this function 
-add(10, 20)
+add(10, 20)  # Function call
 
-# Create a function - can add multiple numbers 
+# Function to add multiple numbers
 add2 <- function(...) {
-  # capture all the arguments as a list 
-  numbers <- list(...)
-  
-  # sum all the numbers in the list 
-  result <- sum(unlist(numbers))
-  
-  # return the result 
-  return(result)
-  
+  numbers <- list(...)  # Capture all arguments
+  result <- sum(unlist(numbers))  # Sum all arguments
+  return(result)  # Return the result
 }
+add2(1, 2, 3, 4, 5)  # Function call
 
-# function call > use this function 
-add2(1,2,3,4,5)
+# Data Import and Exploration
 
-# importing data 
+# Import data
 data <- read.csv("data/Heart_Attack.csv")
 
-
-# exploring data 
+# Explore data structure
 str(data)
 
-# fixing data structure
+# Fixing data structure
 data$Gender <- as.factor(data$Gender)
 data$Outcome <- as.factor(data$Outcome)
 
-# check missing values 
-is.na(data)
-sum(is.na(data))
+# Handling missing values
+is.na(data)  # Check for missing values
+sum(is.na(data))  # Count missing values
+data <- na.omit(data)  # Remove rows with missing values
 
-# removing missing values 
-data <- na.omit(data)
+# Calculate mean of a numeric column
+mean(data$Systolic.blood.pressure, na.rm = TRUE)  # Exclude NA values
 
-# column access
-data$Gender
+# Statistical Insights
 
-# frequency 
-table(data$Gender)
-
-# percentage 
-prop.table(table(data$Gender))
-prop.table(table(data$Gender)) * 100
-
-# calculate mean SB
-mean(data$Systolic.blood.pressure)
-mean(data$Systolic.blood.pressure, na.rm = T)
-
-median()
-sd()
-quantile()
-
-
-# impact of outlines 
+# Comparing mean and median for outlier impact
 ages <- c(22, 21, 20, 24, 56, 78, 90, 34, 56, 11, 10, 13)
-mean(ages)
-median(ages)
+mean(ages)  # Mean of ages
+median(ages)  # Median of ages
 
-max(ages)
-min(ages)
-range <- max(ages) - min(ages)
-range
+ages2 <- c(ages, 120)  # Add an outlier
+mean(ages2)  # Mean with outlier
+median(ages2)  # Median with outlier
 
-ages2 <- c(22, 21, 20, 24, 56, 78, 90, 34, 56, 11, 10, 13, 120)
-mean(ages2)
-median(ages2)
-
-max(ages2)
-min(ages2)
-range <- max(ages2) - min(ages2)
-range
-
-
-# IQR (Inter Quartile Range)
-ages <- c(22, 21, 20, 24, 56, 78, 90, 34, 56, 11, 10, 13)
-q1 <- quantile(ages, .25)
-q2 <- quantile(ages, .5)
-q3 <-quantile(ages, .75)
-q3 - q1 
-
-
-ages2 <- c(22, 21, 20, 24, 56, 78, 90, 34, 56, 11, 10, 13, 120)
-
-q1 <- quantile(ages2, .25)
-q2 <- quantile(ages2, .5)
-q3 <-quantile(ages2, .75)
-iqr <- q3 - q1 
+# Interquartile Range (IQR)
+q1 <- quantile(ages, 0.25)  # First quartile
+q3 <- quantile(ages, 0.75)  # Third quartile
+iqr <- q3 - q1  # Calculate IQR
 iqr
 
-# Uniform distribution 
+# Random Number Generation
 
-# Generate 5 random numbers between 0 and 1
-random_numbers <- runif(5)
-random_numbers
-
-# Generate 5 random numbers from a normal distribution with mean 0 and standard deviation 1
-random_numbers <- rnorm(5, mean = 0, sd = 1)
-random_numbers
-
-
-# 1. Variables 
-# 2. Data types (numbers, character, logical)
-# 3. Data structure (vector, factor, dataframe, matrix, list)
-# 4. ifelse()
-# 5. Installing packages and loading library 
+# Generate random numbers
+runif(5, 0, 1)  # Uniform distribution between 0 and 1
+rnorm(5, mean = 0, sd = 1)  # Normal distribution with mean 0, sd 1
