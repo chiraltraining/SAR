@@ -1,4 +1,4 @@
-# Determining Positive or Negative Numbers
+# Control Flow 
 
 # Using one condition
 # If the number is greater than 0, it is positive. Otherwise, it is negative.
@@ -34,7 +34,7 @@ if (bmi < 18.5) {
 a <- 10
 ifelse(a > 0, "positive", "negative")  # Decision: positive if a > 0, else negative
 
-# Applying `ifelse()` on vectors
+# Applying `ifelse` on vectors
 ages <- c(22, 21, 20, 24, 56, 78, 90, 34, 56, 11, 10, 13)
 age_group <- ifelse(ages < 18, "child", "adult")  # Classify as child or adult
 age_group <- factor(age_group)  # Convert to a factor
@@ -101,46 +101,3 @@ add2 <- function(...) {
   return(result)  # Return the result
 }
 add2(1, 2, 3, 4, 5)  # Function call
-
-# Data Import and Exploration
-
-# Import data
-data <- read.csv("data/Heart_Attack.csv")
-
-# Explore data structure
-str(data)
-
-# Fixing data structure
-data$Gender <- as.factor(data$Gender)
-data$Outcome <- as.factor(data$Outcome)
-
-# Handling missing values
-is.na(data)  # Check for missing values
-sum(is.na(data))  # Count missing values
-data <- na.omit(data)  # Remove rows with missing values
-
-# Calculate mean of a numeric column
-mean(data$Systolic.blood.pressure, na.rm = TRUE)  # Exclude NA values
-
-# Statistical Insights
-
-# Comparing mean and median for outlier impact
-ages <- c(22, 21, 20, 24, 56, 78, 90, 34, 56, 11, 10, 13)
-mean(ages)  # Mean of ages
-median(ages)  # Median of ages
-
-ages2 <- c(ages, 120)  # Add an outlier
-mean(ages2)  # Mean with outlier
-median(ages2)  # Median with outlier
-
-# Interquartile Range (IQR)
-q1 <- quantile(ages, 0.25)  # First quartile
-q3 <- quantile(ages, 0.75)  # Third quartile
-iqr <- q3 - q1  # Calculate IQR
-iqr
-
-# Random Number Generation
-
-# Generate random numbers
-runif(5, 0, 1)  # Uniform distribution between 0 and 1
-rnorm(5, mean = 0, sd = 1)  # Normal distribution with mean 0, sd 1
