@@ -1,0 +1,7 @@
+# Background
+
+## ggpubr Highlights
+- Designed for easy customization of `ggplot2` plots.
+- Simplifies the creation of publication-ready plots.
+- User-friendly functions for non-experts in R programming.
+- Reduces complexity while maintaining the power of `ggplot2.`

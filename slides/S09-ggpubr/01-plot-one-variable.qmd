@@ -1,0 +1,24 @@
+# Plot One Variable - X, Continuous  
+
+```{r}
+library(tidyverse)
+library(ggpubr)
+library(ggthemes)
+library(ggsci)
+library(RColorBrewer)
+```
+
+```{r}
+data <- read.csv("data/pulse_data.csv")
+```
+
+## Histogram 
+```{r}
+gghistogram(data, x = "BMI", fill = "lightgray", add = "mean")
+```
+
+
+
+
+
+

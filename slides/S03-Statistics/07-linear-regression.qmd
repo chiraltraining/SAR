@@ -1,0 +1,35 @@
+# Linear Regression
+
+```{r}
+#| label: load-package
+#| warning: false
+#| message: false
+library(tidyverse)
+library(easystats)
+library(readxl)
+```
+
+```{r}
+#| label: load-data 
+#| warning: false
+data  <- read.csv("data/pulse_data.csv")
+```
+
+```{r}
+#| label: uvlm-model
+uvlm_model <- lm(BMI ~ Age, data = data)
+report(uvlm_model) |> 
+  summary()
+```
+
+```{r}
+#| label: mvlm-model
+mvlm_model <- lm(BMI ~ Age + Height + Weight + Gender, data = data)
+report(mvlm_model) |> 
+  summary()
+```
+
+
+
+
+

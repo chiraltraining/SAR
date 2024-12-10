@@ -1,0 +1,55 @@
+# Bar Chrat
+## Simple Bar Charts 
+ - A barplot shows the relationship between a numeric and a categorical variable.
+ - Each entity of the categoric variable is represented as a bar. 
+ - The size of the bar represents its numeric value.
+
+## Purpose Simple Bar Charts
+ - To describe the number of observations in each category of the discrete variable.
+ - To visualize estimated error for discrete variables.
+
+## Simple Bar Chart (Vertical Orientation)
+```{r}
+# For a Single Categorical Variable
+library(ggplot2)
+data |> 
+  ggplot(aes(x = BMICat))+
+  geom_bar()
+
+```
+## Simple Bar Charts (Horizontal)
+```{r}
+data |> 
+  ggplot(aes(x = BMICat))+
+  geom_bar()+
+  coord_flip()
+```
+
+
+## Sorting Bar Chart
+- For sort down ascending order we can just use `fct_reorder()` from `forcats` package. 
+- .fun = length counts the number of occurrences for each level in BMICat.
+```{r}
+data |> 
+  ggplot(aes(x = forcats::fct_reorder(BMICat, BMICat, .fun = length)))+
+  geom_bar()
+  
+```
+
+
+## Grouped Bar Chart
+ - Grouped bar charts are used to compare multiple categories across multiple groups
+```{r}
+data |> 
+  ggplot(aes(x = BMICat, fill = Gender))+
+  geom_bar()
+```
+
+
+
+
+
+
+
+
+

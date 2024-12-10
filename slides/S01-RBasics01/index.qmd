@@ -1,0 +1,39 @@
+---
+title: "Statistical Analysis with R for Research"
+subtitle: "Fundamentals of R: Part I"
+author:
+  - name: Sajjad Hossain
+    orcid: 0000-0001-9323-4997
+    url: https://hossainlab.github.io/
+    affiliations: 
+    - Big Bioinformatics, CHIRAL Bangladesh
+    - Research Assistant 
+date: last-modified
+date-format: "[Last Updated on] MMMM, YYYY"
+footer: "Statistical Analysis with R for Research | &copy; 2024 Md. Jubayer Hossain"
+editor: source
+format: 
+  revealjs: 
+    logo: images/chirallogo.jpg 
+    css: slides.scss
+    theme: slides.scss
+    transition: fade
+    slide-number: true
+    chalkboard: false
+    toc: true
+    toc-depth: 1
+    toc-title: Agenda
+execute:
+  echo: true
+  output: asis
+  freeze: auto
+cache: true
+---
+
+{{< include 00-intro.qmd >}} 
+{{< include 01-background.qmd >}} 
+{{< include 02-getting-started.qmd >}} 
+{{< include 03-data-types.qmd >}}
+{{< include 04-operators.qmd >}}
+{{< include 05-data-structures.qmd >}}
+{{< include 06-subsetting-robjects.qmd >}}

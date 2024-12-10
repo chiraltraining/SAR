@@ -1,0 +1,11 @@
+
+
+```{r}
+#| label: load-package
+#| warning: false
+#| message: false
+library(tidyverse)
+library(easystats)
+library(readxl)
+```
+

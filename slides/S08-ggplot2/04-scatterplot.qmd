@@ -1,0 +1,10 @@
+# Scatterplot
+
+
+
+## Grouped Scatterplot
+```{r}
+data |> 
+  ggplot(aes(x = Age, y = Height, color = Gender)) + 
+  geom_point()
+```

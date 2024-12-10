@@ -1,0 +1,65 @@
+# Basic Statistical Concepts
+
+
+
+## Types of data variables 
+:::: {.columns}
+
+::: {.column width="60%"}
+```{r}
+#| echo: false
+#| fig-cap: "Image Source: Applied Medical Statistics for Beginners"
+knitr::include_graphics("img/data-types.png")
+```
+
+:::
+
+::: {.column width="40%"}
+::: {.incremental}
+- Data variables are classified generally into the following 2 types:
+
+  - **Categorical variables:** which are either nominal or ordinal.
+  
+  - **Numerical Variables:** which are either discrete or continuous. 
+
+:::
+:::
+::::
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Slite Title 
+:::: {.columns}
+
+::: {.column width="60%"}
+```{r}
+#| echo: false
+knitr::include_graphics("img/data-types.png")
+```
+
+:::
+
+::: {.column width="40%"}
+::: {.incremental}
+
+- item 1 
+- item 2
+
+:::
+:::
+::::
+
+
+
+
+
