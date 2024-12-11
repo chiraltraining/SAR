@@ -31,11 +31,15 @@ execute:
 cache: true
 ---
 
-## Thalassemia Prevention and Control 
-```{r}
-#| echo: false
-knitr::include_graphics("images/thals_qol.jpg")
-```
+## Learning outcomes 
+During this workshop, participants will:
+
+- Understand the fundamentals of R programming.
+- Learn data manipulation techniques using R.
+- Perform descriptive and inferential statistical analyses.
+- Create effective visualizations for data interpretation.
+- Apply R in research-specific scenarios.
+
 
 
 

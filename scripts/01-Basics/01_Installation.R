@@ -14,6 +14,11 @@ install.packages(summary_pkgs)
 analysis_pkgs <- c("likert", "car", "gapminder")
 install.packages(analysis_pkgs)
 
+# Survival Analysis 
+surv_pkgs <- c("survival", "survminer")
+install.packages(surv_pkgs)
+
+
 # Advanced Tools
 advanced_pkgs <- c("easystats", "devtools", "gt")
 install.packages(advanced_pkgs)

@@ -45,3 +45,9 @@ qol_data |>
   bold_p(t = 0.05) |> 
   as_gt() |> 
   gtsave("tables/UV_LogReg.docx")
+
+
+# merge tables 
+
+
+
