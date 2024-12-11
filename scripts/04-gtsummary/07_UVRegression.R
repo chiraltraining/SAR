@@ -1,30 +1,30 @@
-# load packages 
-library(tidyverse)
+# Load required libraries for data manipulation and table summarization
+library(tidyverse) # Provides tools for data manipulation and visualization
+library(gtsummary) # Creates elegant summary tables
+library(gt)         # Formats tables with advanced styling options
 library(easystats)
-library(gtsummary)
-library(gt)
 
-# load data 
-data <- readxl::read_excel("clean_data/QOL_Clean.xlsx")
+# Load the dataset containing Quality of Life (QoL) data for Thalassemia patients
+qol_data <- read.csv("data/Thalassemia_QoL.csv")
 
-# recode QOL_Status 
-data <- data |> 
-  mutate(QOL_Code = case_when(
-    QOL_Status == "Poor" ~ 0, 
-    QOL_Status == "Good" ~ 1
-  ))
+# Add a new column to classify Quality of Life (QoL) status based on QOL_Score
+qol_data <- qol_data |> 
+  mutate(QOL_Status = case_when(
+    QOL_Score <= 50 ~ 0,  # QoL score <= 50 is classified as "Poor"
+    QOL_Score > 50 ~ 1    # QoL score > 50 is classified as "Good"
+))
 
 # impact of gender on quality of life(QOL_Score)
-uv_lm <- lm(QOL_Score ~ Gender, data = data)
+uv_lm <- lm(QOL_Score ~ Gender, data = qol_data)
 report(uv_lm)
 
 # impact of gender on quality of life status (QOL_Status)
-uv_logreg <- glm(QOL_Code ~ Gender, data = data, family = "binomial")
+uv_logreg <- glm(QOL_Status ~ Gender, data = qol_data, family = "binomial")
 report(uv_logreg)
 
 # Factors associated with quality of life score in the linear regression analysis
-data |> 
-  select(1:19, QOL_Score) |> 
+qol_data |> 
+  select(1:17, QOL_Score) |> 
   tbl_uvregression(
     method = lm, 
     y = QOL_Score
@@ -33,15 +33,13 @@ data |>
   as_gt() |> 
   gtsave("tables/UV_LinReg.docx")
 
-
-
 # Factors associated with quality of life score in the univariate logistic regression analysis
-data |> 
-  select(1:19, QOL_Code) |> 
+qol_data |> 
+  select(1:17, QOL_Status) |> 
   tbl_uvregression(
     method = glm, 
     method.args = list(family = binomial), 
-    y = QOL_Code, 
+    y = QOL_Status, 
     exponentiate = TRUE
   ) |> 
   bold_p(t = 0.05) |> 
