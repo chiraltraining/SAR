@@ -9,6 +9,7 @@ n <- 1000
 mean <- 120  # Mean of the normal distribution (e.g., average blood pressure)
 sd <- 15     # Standard deviation (e.g., variability in blood pressure)
 normal_data <- rnorm(n, mean = mean, sd = sd)
+normal_data
 
 # Visualize Normal Distribution using base R
 hist(normal_data, 
@@ -24,6 +25,7 @@ hist(normal_data,
 size <- 100  # Number of trials (e.g., individuals in a study)
 prob <- 0.3  # Probability of success (e.g., infection rate)
 binomial_data <- rbinom(n, size, prob)
+binomial_data
 
 # Visualize Binomial Distribution using base R
 barplot(table(binomial_data), 
@@ -117,5 +119,4 @@ hist(weibull_data,
      xlab = "Survival Time", 
      ylab = "Frequency", 
      border = 'black')
-
 

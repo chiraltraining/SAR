@@ -1,6 +1,6 @@
 # 1. Introduction to Data Frames
 
-# A **data frame** is one of the most common data structures in R, used to store tabular health data.
+# A data frame is one of the most common data structures in R, used to store tabular health data.
 # It is a two-dimensional structure where each column can have a different type of data (e.g., numeric, character, factor).
 # Data frames are ideal for storing datasets where variables (columns) can have different types, such as patient information, clinical measurements, and categorical data like disease status.
 

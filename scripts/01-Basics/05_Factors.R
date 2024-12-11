@@ -1,8 +1,6 @@
-# Introduction to Factors in R
-
 # 1. Introduction to Factors
 
-# In R, a **factor** is a data structure used to represent categorical data, such as gender, age group, or species type.
+# In R, a factor is a data structure used to represent categorical data, such as gender, age group, or species type.
 # Factors are R's way of storing categorical variables, which can take a limited number of unique values (levels).
 # Factors are stored as integers, with a corresponding set of labels, and are useful for representing nominal or ordinal data.
 

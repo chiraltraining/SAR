@@ -1,5 +1,3 @@
-# Introduction to Matrices
-
 # 1. Introduction to Matrices 
 
 # A matrix is a two-dimensional array in R. It has rows and columns, with elements of the same type.
