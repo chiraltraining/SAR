@@ -1,2 +1,65 @@
 # Choosing the Suitable Statistical Test 
 
+## Steps of Statistical Test Selection 
+
+```{r}
+#| echo: false
+knitr::include_graphics("img/steps_of_tests.png")
+```
+
+*Choosing the proper statistical test, the five steps (questions)*
+
+
+## Q1: Bivariate Vs Multivariable
+:::: {.columns}
+::: {.column width="40%"}
+```{r}
+#| echo: false
+#| fig-align: center
+knitr::include_graphics("img/Q1.png")
+```
+
+:::
+::: {.column width="60%"}
+::: {.incremental}
+
+- The first question we need to ask is whether we are dealing with **bivariate** analysis or **multivariable** analysis.
+
+- **Bivariate analysis:** studying the relationship between two variables.
+- For example:
+  - Age and height
+  - Type of treatment and complication
+  - Gender and smoking
+  - Smoking and coffee consumption
+
+:::
+:::
+::::
+
+
+## Q1: Bivariate Vs Multivariable
+:::: {.columns}
+::: {.column width="40%"}
+```{r}
+#| echo: false
+#| fig-align: center
+knitr::include_graphics("img/Q1.png")
+```
+
+:::
+::: {.column width="60%"}
+::: {.incremental}
+
+- **Multivariable (regression modelling/analysis):** studying the effect of multiple variables on an outcome variable.
+
+- For example:
+  - Effect of smoking, sex, coffee consumption on blood pressure.
+  - Effect of smoking, sex, coffee consumption on having a heart attack.
+:::
+:::
+::::
+
+
+
+
+

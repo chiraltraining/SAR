@@ -33,5 +33,6 @@ cache: true
 
 {{< include 01-introduction.qmd >}} 
 
+{{< include 02-choose-tests.qmd >}} 
 
 

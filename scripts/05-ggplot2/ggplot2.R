@@ -1,223 +1,177 @@
-# install themes packages 
-install.packages(c("ggthemes", "hrbrthemes", "ggsci", "ggpubr"))
+# Install required packages
+install.packages(c("ggthemes", "hrbrthemes", "ggsci", "ggpubr", "RColorBrewer"))
 
-# install color packages 
-install.packages("RColorBrewer")
+# Load necessary libraries
+library(tidyverse)      # For data manipulation and visualization
+library(gtsummary)      # For summarizing data
+library(ggthemes)       # For additional ggplot themes
+library(ggsci)          # For scientific color palettes
+library(ggpubr)         # For creating plots with easy ggplot2 integration
+library(RColorBrewer)   # For color palettes
 
-# load package 
-library(tidyverse)
-library(gtsummary)
-library(ggthemes)
-library(ggsci)
-library(ggpubr)
-library(RColorBrewer)
-
-# data import 
+# Import the dataset
 data <- read.csv("data/pulse_data.csv")
 
-# check data structure 
+# Inspect the structure of the dataset
 glimpse(data)
 
-# convert data types 
-data$Gender <- as.factor(data$Gender)
-data$Smokes <- as.factor(data$Smokes)
-data$Alcohol <- as.factor(data$Alcohol)
+# Convert variables to appropriate factor types
+data$Gender   <- as.factor(data$Gender)
+data$Smokes   <- as.factor(data$Smokes)
+data$Alcohol  <- as.factor(data$Alcohol)
 data$Exercise <- as.factor(data$Exercise)
-data$Ran <- as.factor(data$Ran)
-data$BMICat <- as.factor(data$BMICat)
+data$Ran      <- as.factor(data$Ran)
+data$BMICat   <- as.factor(data$BMICat)
 
-# check data structure 
+# Recheck the structure after conversions
 glimpse(data)
 
-# steps in data visualization with `ggplot2` 
-# 1. Aesthetic 
-# 2. Visual property 
-# 3. Position, shape, color, etc. 
-# 4. Data 
-# 5. A column in a dataset / variable 
+# 1. Data Visualization Process with ggplot2
 
-# ggplot2 template 
-ggplot(data = "", mapping = aes(x = "", y = "")) + geom_type() 
+# 1.1 Define basic ggplot2 template structure
+ggplot(data = data, mapping = aes(x = "", y = "")) + 
+  geom_bar()  # Example: Replace with actual plot type
 
-# Statistical Summary 
-# 1. Numeric summary for categorical variables 
-# - frequency 
-# - percentage 
-data |> 
-  select(Ran) |> 
+# 2. Descriptive Statistics and Summarization
+
+# 2.1 Numeric summary for categorical variables (Frequency and Percentage)
+data %>%
+  select(Ran) %>%
   tbl_summary(type = everything() ~ "categorical")
 
-# 2. Graphical summary for categorical variables 
-# - bar chart 
-# - pie chart (not recommended)
+# 3. Graphical Summary of Categorical Data
 
-# simple bar chart 
+# 3.1 Simple bar chart (single categorical variable)
 ggplot(data, aes(x = Alcohol)) + 
-  geom_bar() 
-
-# basic customization 
-ggplot(data, aes(x = Alcohol, fill = Gender)) + 
-  geom_bar()+
-  labs(x = "Alcohol", 
-       y = "Frequency", 
-       title = "Distribution of alcohol status by gender", 
-       subtitle = "A sample subtitle", 
-       caption = "Data Source: CHIRAL")
-  
-# template 
-ggplot(data, aes(x = '', y = '')) +
-  geom_type() + 
-  labs(x = 'Xlab', 
-       y = 'ylab', 
-       title = "TITLE", 
-       subtitle = "Sub-Title", 
-       caption = "Caption")
-
-# simple bar chart 
-ggplot(data, aes(x = Gender)) + 
-  geom_bar()
-
-# group bar chart (fill by a category)
-ggplot(data, aes(x = Ran, fill = Gender)) +
-  geom_bar()
-
-# grouping and summarizing 
-data |> 
-  group_by(Gender) |> 
-  summarise(mean_bmi = mean(BMI))
-
-# box plot (small sample size)
-ggplot(data, aes(x = Gender, y = BMI)) + 
-  geom_boxplot()
-
-# violin plot (large sample size)
-ggplot(data, aes(x = Gender, y = BMI)) + 
-  geom_violin()
-
-# correlation 
-cor(data$BMI, data$Height)
-cor(data$BMI, data$Weight)
-cor(data$Age, data$Height)
-
-# scatter plot 
-ggplot(data, aes(x = BMI, y = Weight)) + 
-  geom_point()
-
-# group scatter plot 
-ggplot(data, aes(x = BMI, y = Weight, color = Gender)) + 
-  geom_point()
-
-# line chart 
-ggplot(data, aes(x = Age, y = Height)) + 
-  geom_line()
-
-# group line chart 
-ggplot(data, aes(x = Age, y = Height, color = Gender)) + 
-  geom_line()
-
-# distribution plot: histogram (bell shape, left skewed, right skewed)
-ggplot(data, aes(x = BMI)) + 
-  geom_histogram()
-
-# bins and binwidth 
-ggplot(data, aes(x = BMI)) + 
-  geom_histogram(bins = 15, binwidth = 4)
-
-# distribution plot: density 
-ggplot(data, aes(x = BMI)) + 
-  geom_density()
-
-# group distribution 
-ggplot(data, aes(x = BMI, fill = Gender)) + 
-  geom_density()
-
-# facet 
-ggplot(data, aes(x = BMI, fill = Gender)) + 
-  geom_density()+
-  facet_wrap(~Gender)
-
-# advance customization 
-basic <- data |> 
-  ggplot(aes(x = Exercise, fill = Gender)) + 
   geom_bar() + 
-  labs(x = "Exercise", 
-       y = "Frquency", 
-       title = "Distribution of exercise by gender", 
-       subtitle = "The figure shows the frequency distribution of exercise by gender", 
-       caption = "Data Source: CHIRAL Bangladesh")
+  labs(x = "Alcohol Status", y = "Frequency", title = "Alcohol Consumption Distribution")
 
-# show the plot 
+# 3.2 Customizing bar chart (fill by gender)
+ggplot(data, aes(x = Alcohol, fill = Gender)) + 
+  geom_bar() +
+  labs(
+    x = "Alcohol", 
+    y = "Frequency", 
+    title = "Alcohol Consumption by Gender", 
+    subtitle = "A comparison of alcohol consumption based on gender", 
+    caption = "Data Source: CHIRAL"
+  )
+
+# 3.3 Group bar chart (categorical variable with grouping)
+ggplot(data, aes(x = Ran, fill = Gender)) +
+  geom_bar() + 
+  labs(x = "Ran", y = "Frequency", title = "Running Status by Gender")
+
+# 4. Summary of Data (Grouping and Summarizing)
+
+# 4.1 Summarize BMI by gender
+data %>%
+  group_by(Gender) %>%
+  summarise(mean_bmi = mean(BMI, na.rm = TRUE))
+
+# 5. Box Plot and Violin Plot for Distribution
+
+# 5.1 Box plot for BMI by gender
+ggplot(data, aes(x = Gender, y = BMI)) + 
+  geom_boxplot() + 
+  labs(x = "Gender", y = "BMI", title = "BMI Distribution by Gender")
+
+# 5.2 Violin plot for BMI by gender (for larger sample sizes)
+ggplot(data, aes(x = Gender, y = BMI)) + 
+  geom_violin() + 
+  labs(x = "Gender", y = "BMI", title = "BMI Distribution by Gender (Violin Plot)")
+
+# 6. Correlation Analysis
+
+# 6.1 Calculate correlation between BMI and Height, BMI and Weight, Age and Height
+cor(data$BMI, data$Height, use = "complete.obs")
+cor(data$BMI, data$Weight, use = "complete.obs")
+cor(data$Age, data$Height, use = "complete.obs")
+
+# 7. Scatter Plots and Line Charts
+
+# 7.1 Scatter plot of BMI vs Weight
+ggplot(data, aes(x = BMI, y = Weight)) + 
+  geom_point() + 
+  labs(x = "BMI", y = "Weight", title = "Scatter Plot: BMI vs Weight")
+
+# 7.2 Grouped scatter plot by gender
+ggplot(data, aes(x = BMI, y = Weight, color = Gender)) + 
+  geom_point() + 
+  labs(x = "BMI", y = "Weight", title = "Scatter Plot: BMI vs Weight by Gender")
+
+# 7.3 Line chart for Age vs Height
+ggplot(data, aes(x = Age, y = Height)) + 
+  geom_line() + 
+  labs(x = "Age", y = "Height", title = "Line Chart: Age vs Height")
+
+# 7.4 Grouped line chart by gender
+ggplot(data, aes(x = Age, y = Height, color = Gender)) + 
+  geom_line() + 
+  labs(x = "Age", y = "Height", title = "Line Chart: Age vs Height by Gender")
+
+# 8. Distribution Plots (Histogram and Density)
+
+# 8.1 Histogram of BMI distribution
+ggplot(data, aes(x = BMI)) + 
+  geom_histogram(bins = 15) + 
+  labs(x = "BMI", y = "Frequency", title = "BMI Distribution")
+
+# 8.2 Density plot of BMI
+ggplot(data, aes(x = BMI)) + 
+  geom_density() + 
+  labs(x = "BMI", y = "Density", title = "Density Plot of BMI")
+
+# 8.3 Grouped density plot by gender
+ggplot(data, aes(x = BMI, fill = Gender)) + 
+  geom_density(alpha = 0.5) + 
+  labs(x = "BMI", y = "Density", title = "Density Plot of BMI by Gender")
+
+# 8.4 Faceted density plot by gender
+ggplot(data, aes(x = BMI, fill = Gender)) + 
+  geom_density() +
+  facet_wrap(~Gender) + 
+  labs(x = "BMI", y = "Density", title = "Density Plot of BMI by Gender (Faceted)")
+
+# 9. Advanced Customization
+
+# 9.1 Bar chart with custom themes and labels
+basic <- ggplot(data, aes(x = Exercise, fill = Gender)) + 
+  geom_bar() + 
+  labs(
+    x = "Exercise", 
+    y = "Frequency", 
+    title = "Distribution of Exercise by Gender", 
+    subtitle = "Frequency of exercise status grouped by gender", 
+    caption = "Data Source: CHIRAL Bangladesh"
+  )
+
+# Show the plot
 basic
 
-# themes 
-basic + theme_bw()
-basic + theme_gray()
-basic + theme_fivethirtyeight()
-basic + theme_foundation()
-basic + theme_economist()
-basic + theme_economist_white()
-basic + theme_pubr()
+# 9.2 Apply different ggplot themes
+basic + theme_bw()       # Black & white theme
+basic + theme_gray()     # Gray theme
+basic + theme_fivethirtyeight()  # FiveThirtyEight theme
+basic + theme_foundation()       # Foundation theme
+basic + theme_economist()        # Economist theme
+basic + theme_pubr()            # PubR theme
 
-# colors ~ fill (dynamic)
-# basic colors 
-basic + scale_fill_brewer()
-basic + scale_fill_canva()
-basic + scale_fill_colorblind()
+# 9.3 Custom colors for the plot
+basic + scale_fill_brewer()    # Brewer color palette
+basic + scale_fill_manual(values = c("#feb24c", "#fc4e2a", "#800026"))  # Custom color palette
 
-# journal colors 
-basic + scale_fill_bmj()
-basic + scale_fill_frontiers()
-basic + scale_fill_aaas()
-basic + scale_fill_lancet()
+# 9.4 Customize font size and family
+basic + theme_gray(base_size = 16)  # Set base font size globally
+basic + theme_gray(base_family = "Arial")  # Set font family globally
 
-# manual colors 
-basic + scale_fill_manual(values = c("#feb24c", "#fc4e2a", "#800026"))
-
-# fonts, font size, font family 
-# set font size globally 
-basic + theme_gray(base_size = 16)
-
-# set font family globally 
-basic + theme_gray(base_family = "Arial")
-
-# font size, font family globally 
-basic + theme_gray(base_size = 16, base_family = "Arial")
-
-# font size for labels 
-basic + theme(axis.title = element_text(size = 28)) # both axis 
-basic + theme(axis.title.x = element_text(size = 28)) # x-axis
-basic + theme(axis.title.y = element_text(size = 28)) # y-axis
-
-# font family 
-basic + theme(axis.title = element_text(family = "Arial"))
-
-# put it together 
+# 9.5 Customize axis titles and legend
 basic + theme(axis.title = element_text(size = 28, family = "Arial"))
-
-# legend position 
-basic + theme(legend.position = "left")
 basic + theme(legend.position = "top")
-basic + theme(legend.position = "bottom")
 
-# customize legend elements - fonts, font size, family 
-basic + theme(legend.title = element_text(size = 28, family = "Arial"))
-
-# customize title, subtitle 
+# 9.6 Customize plot titles and subtitles
 basic + theme(plot.title = element_text(size = 28, family = "Arial"))
-basic + theme(plot.subtitle = element_text(size = 28, family = "Arial"))
+basic + theme(plot.subtitle = element_text(size = 20, family = "Arial"))
 
-# put it together 
-basic <- data |> 
-  ggplot(aes(x = Exercise, fill = Gender)) + 
-  geom_bar() + 
-  labs(x = "Exercise", 
-       y = "Frquency", 
-       title = "Distribution of exercise by gender", 
-       subtitle = "The figure shows the frequency distribution of exercise by gender", 
-       caption = "Data Source: CHIRAL Bangladesh")
-basic + theme_gray(base_size = 16, base_family = "Arial")
-ggsave("Exercise.png", dpi = 300)
-
-
-
-
+# 9.7 Save the final plot as an image
+ggsave("Exercise_Distribution_by_Gender.png", plot = basic, dpi = 300)
