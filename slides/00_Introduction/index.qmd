@@ -30,15 +30,181 @@ execute:
   freeze: auto
 cache: true
 ---
+# Introduction 
 
-## Learning outcomes 
-During this workshop, participants will:
+## Welcome! 
+Welcome to the Statistical Analysis with R for Research Workshop! 
+This 1-day intensive program is designed to equip researchers, students, and professionals with essential R programming skills for statistical analysis.
 
-- Understand the fundamentals of R programming.
-- Learn data manipulation techniques using R.
-- Perform descriptive and inferential statistical analyses.
-- Create effective visualizations for data interpretation.
-- Apply R in research-specific scenarios.
+## Learning Objectives 
+
+* `Data Manipulation:` Learn how to import, clean, and transform data in R for research purposes.
+* `Data Visualization:` Master techniques for creating effective data visualizations in R to communicate research findings visually.
+* `Statistical Analysis:` Develop skills in conducting statistical analysis using R for hypothesis testing, regression analysis, and other statistical tests.
+* `Reproducible Research:` Implement principles of reproducible research using R to document and organize code, data, and analysis for replicability.
+
+
+## Course Platforms
+
+* Website: <https://chiraltraining.github.io/SAR/>
+* Github: <https://github.com/chiraltraining/SAR> 
+
+> We are constantly trying to improve content! Please refresh/download materials before class.
+
+## Session Format
+
+ * Lecture with live coding (possibly "Interactive")
+ * Practical experience
+ * 10-15 mins breaks each session - timing may vary
+
+
+
+## Required Textbooks
+
+The following books purchased and are available online! 
+
+- [Applied Medical Statistics for Beginners by Dr. Mohamed Elsherif]()
+- [Introduction to R Programming by Dr. Roger D. Peng]() 
+- [R for Data Science by Roger D.Peng](https://bookdown.org/rdpeng/rprogdatascience/)
+- [Exploratory Data Analysis with R by Roger D.Peng ](https://bookdown.org/rdpeng/rprogdatascience/)
+
+
+# R Programming - What? Why? How?
+
+## What is R?
+- R is a language and environment for statistical computing and graphics developed in 1991.
+
+- R is the open source implementation of the [S language](https://en.wikipedia.org/wiki/S_(programming_language)), which was developed by [Bell laboratories](https://ca.slack-edge.com/T023TPZA8LF-U024EN26Q0L-113294823b2c-512) in the 70s.
+
+- The aim of the S language, as expressed by John Chambers, is "to turn ideas into software, quickly and faithfully"
+
+- R is both [open source](https://en.wikipedia.org/wiki/Open_source) and [open development](https://en.wikipedia.org/wiki/Open-source_software_development).
+- The aim of the S language, as expressed by John Chambers, is "to turn ideas into software, quickly and faithfully"
+
+
+```{r, fig.alt="Bell Labs old logo", out.width = "20%", echo = FALSE, fig.align='center'}
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Bell_Laboratories_logo.svg/2880px-Bell_Laboratories_logo.svg.png")
+```
+
+## Why R?
+
+* Free (open source)
+
+* High level language designed for statistical computing
+
+* Powerful and flexible - especially for data wrangling and visualization
+
+* Extensive add-on software (packages)
+* R is popular – and increasing in popularity. 
+* R runs on all platforms.(Windows, Linux and Mac) 
+* R is being used by the biggest tech giants(google, facebook, microsoft, twitter)
+* Strong community 
+
+# What you will learn?
+
+
+## Probability Distributions 
+:::: {.columns}
+
+::: {.column width="50%"}
+```{r, fig.alt="Bell Labs old logo", out.width = "100%", echo = FALSE, fig.align='center'}
+knitr::include_graphics("images/prob-dist-1.png")
+```
+:::
+
+::: {.column width="50%"}
+```{r, fig.alt="Bell Labs old logo", out.width = "100%", echo = FALSE, fig.align='center'}
+knitr::include_graphics("images/prob-dist-2.png")
+```
+:::
+
+::::
+
+## Simulations 
+```{r, fig.alt="Bell Labs old logo", out.width = "100%", echo = FALSE, fig.align='center'}
+knitr::include_graphics("images/simulations.png")
+```
+
+
+## Survival Analysis
+:::: {.columns}
+
+::: {.column width="50%"}
+```{r, fig.alt="Bell Labs old logo", out.width = "100%", echo = FALSE, fig.align='center'}
+knitr::include_graphics("images/survival-1.png")
+```
+:::
+
+::: {.column width="50%"}
+```{r, fig.alt="Bell Labs old logo", out.width = "100%", echo = FALSE, fig.align='center'}
+knitr::include_graphics("images/survival-2.png")
+```
+:::
+
+::::
+
+
+## Publication-ready Descriptive Tables
+```{r}
+#| echo: false
+library(gtsummary)
+library(gt)
+trial |> 
+  select(age, trt, grade) |> 
+  tbl_summary(by = trt) |> 
+  add_overall() |> 
+  as_gt()
+```
+
+
+## Publication-ready Analytical Tables 
+```{r}
+#| echo: false
+library(gtsummary)
+library(gt)
+trial |> 
+  select(age, trt, grade) |> 
+  tbl_summary(by = trt) |> 
+  add_overall() |> 
+  add_p() |> 
+  bold_p(t = 0.05) |> 
+  as_gt()
+```
+
+## Publication-ready Regression Tables 
+```{r}
+#| echo: false
+trial |>
+  tbl_uvregression(
+    method = glm,
+    y = response,
+    include = c(age, grade),
+    method.args = list(family = binomial),
+    exponentiate = TRUE,
+    pvalue_fun = label_style_pvalue(digits = 2)
+  ) |>
+  bold_p() |> # bold p-values under a given threshold (default 0.05)
+  bold_p(t = 0.10) 
+```
+
+
+## Core Packages
+::: {.grid}
+::: {.g-col-3}
+![](images/dplyr.png)
+![](images/ggplot2.png)
+![](images/tidyr.png)
+![](images/readr.png)
+:::
+::: {.g-col-9}
+![](images/stringr.png)
+![](images/forcats.png)
+![](images/gtsummary.png)
+![](images/quarto.png)
+:::
+:::
+
+# Let's Get Started! 
 
 
 
