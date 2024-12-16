@@ -315,5 +315,390 @@
     "title": "Statistical Analysis with R for Research",
     "section": "",
     "text": "2+4\n\n[1] 6"
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#welcome",
+    "href": "SAR_JnU/00_Introduction/index.html#welcome",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Welcome!",
+    "text": "Welcome!\nWelcome to the Statistical Analysis with R for Research Workshop! This 1-day intensive program is designed to equip researchers, students, and professionals with essential R programming skills for statistical analysis."
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#learning-objectives",
+    "href": "SAR_JnU/00_Introduction/index.html#learning-objectives",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\n\nData Manipulation: Learn how to import, clean, and transform data in R for research purposes.\nData Visualization: Master techniques for creating effective data visualizations in R to communicate research findings visually.\nStatistical Analysis: Develop skills in conducting statistical analysis using R for hypothesis testing, regression analysis, and other statistical tests.\nReproducible Research: Implement principles of reproducible research using R to document and organize code, data, and analysis for replicability."
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#course-platforms",
+    "href": "SAR_JnU/00_Introduction/index.html#course-platforms",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Course Platforms",
+    "text": "Course Platforms\n\nWebsite: https://chiraltraining.github.io/SAR/\nGithub: https://github.com/chiraltraining/SAR\n\n\nWe are constantly trying to improve content! Please refresh/download materials before class."
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#session-format",
+    "href": "SAR_JnU/00_Introduction/index.html#session-format",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Session Format",
+    "text": "Session Format\n\nLecture with live coding (possibly “Interactive”)\nPractical experience\nParticipants must run code with the instructors using the provided R script\n10 mins breaks each session - timing may vary"
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#required-textbooks",
+    "href": "SAR_JnU/00_Introduction/index.html#required-textbooks",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Required Textbooks",
+    "text": "Required Textbooks\nThe following books purchased and are available online!\n\nApplied Medical Statistics for Beginners by Dr. Mohamed Elsherif\nIntroduction to R Programming by Dr. Roger D. Peng\nR for Data Science by Roger D.Peng\nExploratory Data Analysis with R by Roger D.Peng"
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#what-is-r",
+    "href": "SAR_JnU/00_Introduction/index.html#what-is-r",
+    "title": "Statistical Analysis with R for Research",
+    "section": "What is R?",
+    "text": "What is R?\n\nR is a language and environment for statistical computing and graphics developed in 1991.\nR is the open source implementation of the S language, which was developed by Bell laboratories in the 70s.\nThe aim of the S language, as expressed by John Chambers, is “to turn ideas into software, quickly and faithfully”\nR is both open source and open development.\nThe aim of the S language, as expressed by John Chambers, is “to turn ideas into software, quickly and faithfully”"
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#why-r",
+    "href": "SAR_JnU/00_Introduction/index.html#why-r",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Why R?",
+    "text": "Why R?\n\nFree (open source)\nHigh level language designed for statistical computing\nPowerful and flexible - especially for data wrangling and visualization\nExtensive add-on software (packages)\nR is popular – and increasing in popularity.\nR runs on all platforms.(Windows, Linux and Mac)\nR is being used by the biggest tech giants(google, facebook, microsoft, twitter)\nStrong community"
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#probability-distributions",
+    "href": "SAR_JnU/00_Introduction/index.html#probability-distributions",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Probability Distributions",
+    "text": "Probability Distributions"
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#simulations",
+    "href": "SAR_JnU/00_Introduction/index.html#simulations",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Simulations",
+    "text": "Simulations"
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#survival-analysis",
+    "href": "SAR_JnU/00_Introduction/index.html#survival-analysis",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Survival Analysis",
+    "text": "Survival Analysis"
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#publication-ready-descriptive-tables",
+    "href": "SAR_JnU/00_Introduction/index.html#publication-ready-descriptive-tables",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Publication-ready Descriptive Tables",
+    "text": "Publication-ready Descriptive Tables\n\n\n\n\n\n\n\n\n\n\n\n\nCharacteristic\nOverall N = 2001\nDrug A N = 981\nDrug B N = 1021\n\n\n\n\nAge\n47 (38, 57)\n46 (37, 60)\n48 (39, 56)\n\n\n    Unknown\n11\n7\n4\n\n\nGrade\n\n\n\n\n\n\n\n\n    I\n68 (34%)\n35 (36%)\n33 (32%)\n\n\n    II\n68 (34%)\n32 (33%)\n36 (35%)\n\n\n    III\n64 (32%)\n31 (32%)\n33 (32%)\n\n\n\n1 Median (Q1, Q3); n (%)"
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#publication-ready-analytical-tables",
+    "href": "SAR_JnU/00_Introduction/index.html#publication-ready-analytical-tables",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Publication-ready Analytical Tables",
+    "text": "Publication-ready Analytical Tables\n\n\n\n\n\n\n\n\n\n\n\n\n\nCharacteristic\nOverall N = 2001\nDrug A N = 981\nDrug B N = 1021\np-value2\n\n\n\n\nAge\n47 (38, 57)\n46 (37, 60)\n48 (39, 56)\n0.7\n\n\n    Unknown\n11\n7\n4\n\n\n\n\nGrade\n\n\n\n\n\n\n0.9\n\n\n    I\n68 (34%)\n35 (36%)\n33 (32%)\n\n\n\n\n    II\n68 (34%)\n32 (33%)\n36 (35%)\n\n\n\n\n    III\n64 (32%)\n31 (32%)\n33 (32%)\n\n\n\n\n\n1 Median (Q1, Q3); n (%)\n\n\n2 Wilcoxon rank sum test; Pearson’s Chi-squared test"
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#publication-ready-regression-tables",
+    "href": "SAR_JnU/00_Introduction/index.html#publication-ready-regression-tables",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Publication-ready Regression Tables",
+    "text": "Publication-ready Regression Tables\n\n\n\n\n\n\n\n\n\n\n\n\n\nCharacteristic\nN\nOR1\n95% CI1\np-value\n\n\n\n\nAge\n183\n1.02\n1.00, 1.04\n0.10\n\n\nGrade\n193\n\n\n\n\n\n\n\n\n    I\n\n\n—\n—\n\n\n\n\n    II\n\n\n0.95\n0.45, 2.00\n0.88\n\n\n    III\n\n\n1.10\n0.52, 2.29\n0.81\n\n\n\n1 OR = Odds Ratio, CI = Confidence Interval"
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#core-packages",
+    "href": "SAR_JnU/00_Introduction/index.html#core-packages",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Core Packages",
+    "text": "Core Packages"
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#we-we-are",
+    "href": "SAR_JnU/00_Introduction/index.html#we-we-are",
+    "title": "Statistical Analysis with R for Research",
+    "section": "We We Are",
+    "text": "We We Are"
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#research-division-at-chiral",
+    "href": "SAR_JnU/00_Introduction/index.html#research-division-at-chiral",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Research Division at cHIRAL",
+    "text": "Research Division at cHIRAL\n\n\nBig Bioinfromatics Lab (BBL)\n\nAI for Health (AI4H)"
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#big-bioinfromatics-lab",
+    "href": "SAR_JnU/00_Introduction/index.html#big-bioinfromatics-lab",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Big Bioinfromatics Lab",
+    "text": "Big Bioinfromatics Lab\n\ncontents…\n\ncontents…"
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#big-bioinfromatics-lab-bbl",
+    "href": "SAR_JnU/00_Introduction/index.html#big-bioinfromatics-lab-bbl",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Big Bioinfromatics Lab (BBL)",
+    "text": "Big Bioinfromatics Lab (BBL)\n\n\ncontents…\n\ncontents…\n\nAI for Health\n\n\nBig Bioinfromatics Lab (BBL)\n\nAI for Health (AI4H)\n\n\nLearning Objectives\n\nData Manipulation: Learn how to import, clean, and transform data in R for research purposes.\nData Visualization: Master techniques for creating effective data visualizations in R to communicate research findings visually.\nStatistical Analysis: Develop skills in conducting statistical analysis using R for hypothesis testing, regression analysis, and other statistical tests.\nReproducible Research: Implement principles of reproducible research using R to document and organize code, data, and analysis for replicability.\n\n\nCourse Platforms\n\nWebsite: https://chiraltraining.github.io/SAR/\nGithub: https://github.com/chiraltraining/SAR\n\n\nWe are constantly trying to improve content! Please refresh/download materials before class.\n\n\nSession Format\n\nLecture with live coding (possibly “Interactive”)\nPractical experience\n10-15 mins breaks each session - timing may vary\n\n\nRequired Textbooks\nThe following books purchased and are available online!\n\nApplied Medical Statistics for Beginners by Dr. Mohamed Elsherif\nIntroduction to R Programming by Dr. Roger D. Peng\nR for Data Science by Roger D.Peng\nExploratory Data Analysis with R by Roger D.Peng\n\n\nR Programming - What? Why? How?\n\n\n\nWhat is R?\n\nR is a language and environment for statistical computing and graphics developed in 1991.\nR is the open source implementation of the S language, which was developed by Bell laboratories in the 70s.\nThe aim of the S language, as expressed by John Chambers, is “to turn ideas into software, quickly and faithfully”\nR is both open source and open development.\nThe aim of the S language, as expressed by John Chambers, is “to turn ideas into software, quickly and faithfully”\n\n\n\n\nWhy R?\n\nFree (open source)\nHigh level language designed for statistical computing\nPowerful and flexible - especially for data wrangling and visualization\nExtensive add-on software (packages)\nR is popular – and increasing in popularity.\nR runs on all platforms.(Windows, Linux and Mac)\nR is being used by the biggest tech giants(google, facebook, microsoft, twitter)\nStrong community\n\n\n\nWhat you will learn?\n\n\n\nProbability Distributions\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSimulations\n\n\n\nSurvival Analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPublication-ready Descriptive Tables\n\n\n\n\n\n\n\n\n\n\n\n\nCharacteristic\nOverall N = 2001\nDrug A N = 981\nDrug B N = 1021\n\n\n\n\nAge\n47 (38, 57)\n46 (37, 60)\n48 (39, 56)\n\n\n    Unknown\n11\n7\n4\n\n\nGrade\n\n\n\n\n\n\n\n\n    I\n68 (34%)\n35 (36%)\n33 (32%)\n\n\n    II\n68 (34%)\n32 (33%)\n36 (35%)\n\n\n    III\n64 (32%)\n31 (32%)\n33 (32%)\n\n\n\n1 Median (Q1, Q3); n (%)\n\n\n\n\n\n\n\n\nPublication-ready Analytical Tables\n\n\n\n\n\n\n\n\n\n\n\n\n\nCharacteristic\nOverall N = 2001\nDrug A N = 981\nDrug B N = 1021\np-value2\n\n\n\n\nAge\n47 (38, 57)\n46 (37, 60)\n48 (39, 56)\n0.7\n\n\n    Unknown\n11\n7\n4\n\n\n\n\nGrade\n\n\n\n\n\n\n0.9\n\n\n    I\n68 (34%)\n35 (36%)\n33 (32%)\n\n\n\n\n    II\n68 (34%)\n32 (33%)\n36 (35%)\n\n\n\n\n    III\n64 (32%)\n31 (32%)\n33 (32%)\n\n\n\n\n\n1 Median (Q1, Q3); n (%)\n\n\n2 Wilcoxon rank sum test; Pearson’s Chi-squared test\n\n\n\n\n\n\n\n\nPublication-ready Regression Tables\n\n\n\n\n\n\n\n\n\n\n\n\n\nCharacteristic\nN\nOR1\n95% CI1\np-value\n\n\n\n\nAge\n183\n1.02\n1.00, 1.04\n0.10\n\n\nGrade\n193\n\n\n\n\n\n\n\n\n    I\n\n\n—\n—\n\n\n\n\n    II\n\n\n0.95\n0.45, 2.00\n0.88\n\n\n    III\n\n\n1.10\n0.52, 2.29\n0.81\n\n\n\n1 OR = Odds Ratio, CI = Confidence Interval\n\n\n\n\n\n\n\n\nCore Packages\n\n\n   \n\n\n   \n\n\n\n\nLet’s Get Started!"
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#ai-for-health",
+    "href": "SAR_JnU/00_Introduction/index.html#ai-for-health",
+    "title": "Statistical Analysis with R for Research",
+    "section": "AI for Health",
+    "text": "AI for Health"
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#who-we-are",
+    "href": "SAR_JnU/00_Introduction/index.html#who-we-are",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Who We Are",
+    "text": "Who We Are\nLegal Information\nCenter for Health Innovation, Research, Action, and Learning (CHIRAL Bangladesh) is a non-profit, non-governmental organization currently undergoing registration with the Registrar of Joint Stock Companies and Firms (RJSC) as CHIRAL Foundation. Our Taxpayer Identification Number (TIN): 154198266266.\nMission\nSolving public health problems and improving quality of life through modern biomedical research.\nVision\nTo be a leading multidisciplinary research organization leveraging data and AI for impactful solutions."
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#ai-for-health-applications-of-ai-to-neuro-imaging-techniques",
+    "href": "SAR_JnU/00_Introduction/index.html#ai-for-health-applications-of-ai-to-neuro-imaging-techniques",
+    "title": "Statistical Analysis with R for Research",
+    "section": "AI for Health: Applications of AI to Neuro-Imaging Techniques",
+    "text": "AI for Health: Applications of AI to Neuro-Imaging Techniques"
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#applications-of-ai-to-neuro-imaging-techniques",
+    "href": "SAR_JnU/00_Introduction/index.html#applications-of-ai-to-neuro-imaging-techniques",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Applications of AI to Neuro-Imaging Techniques",
+    "text": "Applications of AI to Neuro-Imaging Techniques"
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#ai-to-neuro-imaging-techniques",
+    "href": "SAR_JnU/00_Introduction/index.html#ai-to-neuro-imaging-techniques",
+    "title": "Statistical Analysis with R for Research",
+    "section": "AI to Neuro-Imaging Techniques",
+    "text": "AI to Neuro-Imaging Techniques\n\nZhu et al. 2019"
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#ai-and-neuro-imaging-techniques",
+    "href": "SAR_JnU/00_Introduction/index.html#ai-and-neuro-imaging-techniques",
+    "title": "Statistical Analysis with R for Research",
+    "section": "AI and Neuro-Imaging Techniques",
+    "text": "AI and Neuro-Imaging Techniques\n\nZhu et al. 2019"
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#rare-neurological-diseases",
+    "href": "SAR_JnU/00_Introduction/index.html#rare-neurological-diseases",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Rare Neurological Diseases",
+    "text": "Rare Neurological Diseases\n\nZhu et al. 2019"
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#slide",
+    "href": "SAR_JnU/00_Introduction/index.html#slide",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Slide",
+    "text": "Slide\n\n\ncontents…\n\ncontents…"
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#pan-cancer-analysis",
+    "href": "SAR_JnU/00_Introduction/index.html#pan-cancer-analysis",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Pan Cancer Analysis",
+    "text": "Pan Cancer Analysis\n\nZhu et al. 2019"
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#what-you-will-learn",
+    "href": "SAR_JnU/00_Introduction/index.html#what-you-will-learn",
+    "title": "Statistical Analysis with R for Research",
+    "section": "What you will learn?",
+    "text": "What you will learn?"
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#about-chiral",
+    "href": "SAR_JnU/00_Introduction/index.html#about-chiral",
+    "title": "Statistical Analysis with R for Research",
+    "section": "About CHIRAL",
+    "text": "About CHIRAL\nLegal Information\nCenter for Health Innovation, Research, Action, and Learning (CHIRAL Bangladesh) is a non-profit, non-governmental organization currently undergoing registration with the Registrar of Joint Stock Companies and Firms (RJSC) as CHIRAL Foundation. Our Taxpayer Identification Number (TIN): 154198266266.\nMission\nSolving public health problems and improving quality of life through modern biomedical research.\nVision\nTo be a leading multidisciplinary research organization leveraging data and AI for impactful solutions."
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#ai-can-help-radiologists-better-detect-breast-cancer",
+    "href": "SAR_JnU/00_Introduction/index.html#ai-can-help-radiologists-better-detect-breast-cancer",
+    "title": "Statistical Analysis with R for Research",
+    "section": "AI can help radiologists better detect breast cancer",
+    "text": "AI can help radiologists better detect breast cancer\n\nZhu et al. 2019"
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#ai-for-better-breast-cancer-detection",
+    "href": "SAR_JnU/00_Introduction/index.html#ai-for-better-breast-cancer-detection",
+    "title": "Statistical Analysis with R for Research",
+    "section": "AI for Better Breast Cancer Detection",
+    "text": "AI for Better Breast Cancer Detection\n\nTan et al. 2023"
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#multi-omics-big-data-research",
+    "href": "SAR_JnU/00_Introduction/index.html#multi-omics-big-data-research",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Multi-omics Big Data Research",
+    "text": "Multi-omics Big Data Research\n\nChakraborty et al. 2024"
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#multi-omics-big-data-for-cancer-research",
+    "href": "SAR_JnU/00_Introduction/index.html#multi-omics-big-data-for-cancer-research",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Multi-omics Big Data for Cancer Research",
+    "text": "Multi-omics Big Data for Cancer Research\n\nChakraborty et al. 2024"
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#multi-omics-big-data-for-cancer-research-1",
+    "href": "SAR_JnU/00_Introduction/index.html#multi-omics-big-data-for-cancer-research-1",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Multi-omics Big Data for Cancer Research",
+    "text": "Multi-omics Big Data for Cancer Research\n\nChakraborty et al. 2024"
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#ai-for-breast-cancer-detection",
+    "href": "SAR_JnU/00_Introduction/index.html#ai-for-breast-cancer-detection",
+    "title": "Statistical Analysis with R for Research",
+    "section": "AI for Breast Cancer Detection",
+    "text": "AI for Breast Cancer Detection\n\nTan et al. 2023"
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#deep-learning-and-multi-omics-data-integrations",
+    "href": "SAR_JnU/00_Introduction/index.html#deep-learning-and-multi-omics-data-integrations",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Deep Learning and Multi-omics Data Integrations",
+    "text": "Deep Learning and Multi-omics Data Integrations\n\nMathema et al. 2023"
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#deep-learning-and-multi-omics-data-integration",
+    "href": "SAR_JnU/00_Introduction/index.html#deep-learning-and-multi-omics-data-integration",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Deep Learning and Multi-omics Data Integration",
+    "text": "Deep Learning and Multi-omics Data Integration\n\nMathema et al. 2023"
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#deep-learning-and-multi-omics-data",
+    "href": "SAR_JnU/00_Introduction/index.html#deep-learning-and-multi-omics-data",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Deep Learning and Multi-omics Data",
+    "text": "Deep Learning and Multi-omics Data\n\nMathema et al. 2023"
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#deep-learning-and-multi-omics-big-data",
+    "href": "SAR_JnU/00_Introduction/index.html#deep-learning-and-multi-omics-big-data",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Deep Learning and Multi-omics Big Data",
+    "text": "Deep Learning and Multi-omics Big Data\n\nMathema et al. 2023"
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#about-us",
+    "href": "SAR_JnU/00_Introduction/index.html#about-us",
+    "title": "Statistical Analysis with R for Research",
+    "section": "About Us",
+    "text": "About Us\nLegal Information\nCenter for Health Innovation, Research, Action, and Learning (CHIRAL Bangladesh) is a non-profit, non-governmental organization currently undergoing registration with the Registrar of Joint Stock Companies and Firms (RJSC) as CHIRAL Foundation. Our Taxpayer Identification Number (TIN): 154198266266.\nMission\nSolving public health problems and improving quality of life through modern biomedical research.\nVision\nTo be a leading multidisciplinary research organization leveraging data and AI for impactful solutions."
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#working-area",
+    "href": "SAR_JnU/00_Introduction/index.html#working-area",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Working Area",
+    "text": "Working Area\n\n\n\n\n\n\nBuilding Next Generation Scientists\n\n\n\n\n\n\n\n\nCommunity-driven Biomedical Research"
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#our-area-of-focus",
+    "href": "SAR_JnU/00_Introduction/index.html#our-area-of-focus",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Our Area of Focus",
+    "text": "Our Area of Focus\n\nBuilding Next Generation Scientists\n\nTraining on Python, R, SPSS for Research Data Analysis\nTraining on Machine Learning and Deep Learning for Public Health/Bioinformatics\nTraining on Remote Sensing and GIS for Public Health\nResearch Internship Program\n\nCommunity-driven Biomedical Research"
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#core-area-of-focus",
+    "href": "SAR_JnU/00_Introduction/index.html#core-area-of-focus",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Core Area of Focus",
+    "text": "Core Area of Focus\n\n\nBuilding Next Generation Scientists\n\nTraining on Python, R, SPSS for Research Data Analysis\nTraining on Machine Learning and Deep Learning for Public Health/Bioinformatics\nTraining on Remote Sensing and GIS for Public Health\nResearch Internship Program\n\nCommunity-driven Biomedical Research\n\nPopulation Health Studies Division (PHSD)\nBig Bioinformatics Lab (BBL)\nGeospatial Health Research Group (GHRG)\nAI for Health (AI4H)"
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#building-next-generation-scientists",
+    "href": "SAR_JnU/00_Introduction/index.html#building-next-generation-scientists",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Building Next Generation Scientists",
+    "text": "Building Next Generation Scientists\n\nTraining on Python, R and SPSS for Research Data Analysis\nTraining on Multi-omics (Genomics, Proteomics, Transcriptomics) Big Data for Cancer Research\nTraining on Machine Learning and Deep Learning for Public Health/Bioinformatics\nTraining on Remote Sensing and GIS for Public Health\nResearch Internship Program"
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#community-driven-biomedical-research",
+    "href": "SAR_JnU/00_Introduction/index.html#community-driven-biomedical-research",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Community-driven Biomedical Research",
+    "text": "Community-driven Biomedical Research\n\nPopulation Health Studies Division (PHSD)\n\nCancer Epidemiology, Neuroepidemiology, Vector-born Diseases, Mental Health\n\nBig Bioinformatics Lab (BBL)\n\nCancer Bioinformatics, Computational Epigenetics, Neurodegenerative Diseases and Cancer\n\nGeospatial Health Research Group (GHRG)\n\nClimate Impact on Health, AI Integration with Geospatial Health\n\nAI for Health (AI4H)\n\nAI Application in Health focusing on Cancer and Neurological Disorders"
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#our-collaborators",
+    "href": "SAR_JnU/00_Introduction/index.html#our-collaborators",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Our Collaborators",
+    "text": "Our Collaborators\n\n\n\n\n\n\nDr. Kelly Hirko, Michigan State University  Project: Breast cancer prevention and awareness breast self-examination among school and college-going girls in Bangladesh\n\n\n\n\n\n\n\n\nDr. Md. Salequl Islam, One Health Lab, Jahangirnagar University  Project: One-Health Assessment of Emerging Antimicrobial Resistance Genes (ARGs) in Bangladeshi Livestock, Soil, Environment, and Human: Tackling the Crisis Together funded by the Bangladesh Academy of Sciences and United States Department of Agriculture (BAS-USDA).\n\n\n\n\n\n\n\n\nDr. Md. Salequl Islam, Sher-e-Bangla Agricultural University  Project: RNA-Seq Meta Analysis on Heat Shock Genes"
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#research-groups",
+    "href": "SAR_JnU/00_Introduction/index.html#research-groups",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Research Groups",
+    "text": "Research Groups\n\nPopulation Health Studies Division (PHSD)\n\nCancer Epidemiology, Neuroepidemiology, Vector-born Diseases, Mental Health\n\nBig Bioinformatics Lab (BBL)\n\nCancer Bioinformatics, Computational Epigenetics, Neurodegenerative Diseases and Cancer\n\nGeospatial Health Research Group (GHRG)\n\nClimate Impact on Health, AI Integration with Geospatial Health\n\nAI for Health (AI4H)\n\nAI Application in Health focusing on Cancer and Neurological Disorders"
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#our-working-areas",
+    "href": "SAR_JnU/00_Introduction/index.html#our-working-areas",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Our Working Areas",
+    "text": "Our Working Areas"
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#deep-learning-and-dengue",
+    "href": "SAR_JnU/00_Introduction/index.html#deep-learning-and-dengue",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Deep Learning and Dengue",
+    "text": "Deep Learning and Dengue\n\nSebastianelli et al. 2024"
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#machine-learning-approach-to-forecast-dengue-outbreaks",
+    "href": "SAR_JnU/00_Introduction/index.html#machine-learning-approach-to-forecast-dengue-outbreaks",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Machine Learning Approach to Forecast Dengue Outbreaks",
+    "text": "Machine Learning Approach to Forecast Dengue Outbreaks\n\nSebastianelli et al. 2024"
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#introduction-to-the-tidyverse---echosystem",
+    "href": "SAR_JnU/00_Introduction/index.html#introduction-to-the-tidyverse---echosystem",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Introduction to the Tidyverse - Echosystem",
+    "text": "Introduction to the Tidyverse - Echosystem\n\nhttps://www.tidyverse.org/"
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#advanced-packages",
+    "href": "SAR_JnU/00_Introduction/index.html#advanced-packages",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Advanced Packages",
+    "text": "Advanced Packages"
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#workflow",
+    "href": "SAR_JnU/00_Introduction/index.html#workflow",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Workflow",
+    "text": "Workflow\n\nhttps://r4ds.had.co.nz/"
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#easystats---an-r-framework-for-easy-statistical-modeling-visualization-and-reporting",
+    "href": "SAR_JnU/00_Introduction/index.html#easystats---an-r-framework-for-easy-statistical-modeling-visualization-and-reporting",
+    "title": "Statistical Analysis with R for Research",
+    "section": "easystats - An R Framework for Easy Statistical Modeling, Visualization, and Reporting",
+    "text": "easystats - An R Framework for Easy Statistical Modeling, Visualization, and Reporting\n\nhttps://easystats.github.io/easystats/"
+  },
+  {
+    "objectID": "SAR_JnU/00_Introduction/index.html#framework-for-easy-statistical-modeling-visualization-and-reporting",
+    "href": "SAR_JnU/00_Introduction/index.html#framework-for-easy-statistical-modeling-visualization-and-reporting",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Framework for Easy Statistical Modeling, Visualization, and Reporting",
+    "text": "Framework for Easy Statistical Modeling, Visualization, and Reporting\n\nhttps://easystats.github.io/easystats/"
   }
 ]
