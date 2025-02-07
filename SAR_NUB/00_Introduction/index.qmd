@@ -1,0 +1,320 @@
+---
+title: "Statistical Analysis with R for Research"
+author:
+  - name: Md. Jubayer Hossain
+    orcid: 0000-0001-9323-4997
+    url: https://hossainlab.owlstown.net/
+    affiliations: 
+    - CHIRAL Bangladesh
+    - Founder & Exectutive Director
+    - Instructor, Data Science for Biologists
+    - cBLAST, University of Dhaka
+date: last-modified
+date-format: "[Last Updated on] MMMM, YYYY"
+footer: "Statistical Analysis with R for Research | &copy; 2024 Md. Jubayer Hossain"
+editor: source
+format: 
+  revealjs: 
+    logo: images/chirallogo.jpg 
+    css: slides.scss
+    theme: slides.scss
+    transition: fade
+    slide-number: true
+    chalkboard: false
+    toc: true
+    toc-depth: 1
+    toc-title: Agenda
+execute:
+  echo: true
+  output: asis
+  freeze: auto
+cache: true
+---
+
+## Welcome! 
+Welcome to the Statistical Analysis with R for Research Workshop! This 1-day intensive program is designed to equip researchers, students, and professionals with essential R programming skills for statistical analysis.
+
+```{r}
+#| echo: false
+#| fig-align: center
+knitr::include_graphics("images/welcome.jpg")
+```
+
+
+# Who We Are 
+## About Us
+**Legal Information**
+
+Center for Health Innovation, Research, Action, and Learning (CHIRAL Bangladesh) is a non-profit, non-governmental organization currently undergoing registration with the Registrar of Joint Stock Companies and Firms (RJSC) as **CHIRAL Foundation**. Our Taxpayer Identification Number (TIN): 154198266266.
+
+**Mission**
+
+Solving public health problems and improving quality of life through modern biomedical research.
+
+**Vision**
+
+To be a leading multidisciplinary research organization leveraging data and AI for impactful solutions.
+
+# What We Do
+
+## Building Next Generation Scientists
+- Training on Python, R and SPSS for Research Data Analysis 
+- Training on Multi-omics (Genomics, Proteomics, Transcriptomics) Big Data for Cancer Research
+- Training on Machine Learning and Deep Learning for Public Health/Bioinformatics 
+- Training on Remote Sensing and GIS for Public Health 
+- Research Internship Program 
+
+
+## Research Groups
+
+- **Population Health Studies Division (PHSD)**
+  - Cancer Epidemiology, Neuroepidemiology, Vector-born Diseases, Mental Health
+- **Big Bioinformatics Lab (BBL)**
+  - Cancer Bioinformatics, Computational Epigenetics, Neurodegenerative Diseases and Cancer 
+- **Geospatial Health Research Group (GHRG)**
+  - Climate Impact on Health, AI Integration with Geospatial Health
+- **AI for Health (AI4H)**
+  - AI Application in Health focusing on Cancer and Neurological Disorders
+
+
+## Our Collaborators 
+
+:::: {.columns}
+
+::: {.column width="33%"}
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-cap: "[Dr. Kelly Hirko, Michigan State University](https://epibio.msu.edu/faculty/hirko) <br/> **Project:** Breast cancer prevention and awareness breast self-examination among school and college-going girls in Bangladesh"
+knitr::include_graphics("images/K_Hirko.jpg")
+```
+:::
+
+::: {.column width="33%"}
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-cap: "[Dr. Md. Salequl Islam, One Health Lab, Jahangirnagar University](https://juniv.edu/teachers/salequl) <br/> **Project:** One-Health Assessment of Emerging Antimicrobial Resistance Genes (ARGs) in Bangladeshi Livestock, Soil, Environment, and Human: Tackling the Crisis Together funded by the Bangladesh Academy of Sciences and United States Department of Agriculture (BAS-USDA)."
+knitr::include_graphics("images/saleq.jpg")
+```
+:::
+
+::: {.column width="33%"}
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-cap: "[Dr. Md. Salequl Islam, Sher-e-Bangla Agricultural University](https://juniv.edu/teachers/salequl) <br/> **Project:** RNA-Seq Meta Analysis on Heat Shock Genes"
+knitr::include_graphics("images/bari.jpeg")
+```
+::: 
+::::
+
+
+## AI and Neuro-Imaging Techniques
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-cap: "Zhu et al. 2019"
+knitr::include_graphics("images/neuro-ai.jpg")
+```
+
+## AI for Breast Cancer Detection 
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-cap: "Tan et al. 2023"
+knitr::include_graphics("images/ai-breast-cancer.png")
+```
+
+## Multi-omics Big Data for Cancer Research
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-cap: "Chakraborty et al. 2024"
+knitr::include_graphics("images/multi-omics.jpg")
+```
+
+## Deep Learning and Multi-omics Big Data
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-cap: "Mathema et al. 2023"
+knitr::include_graphics("images/multi-omics-dl.jpg")
+```
+
+## Machine Learning Approach to Forecast Dengue Outbreaks
+ 
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-cap: "Sebastianelli et al. 2024"
+knitr::include_graphics("images/dengue_forecast.png")
+```
+
+
+# Workshop Overview 
+
+## Learning Objectives 
+
+* `Data Manipulation:` Learn how to import, clean, and transform data in R for research purposes.
+* `Data Visualization:` Master techniques for creating effective data visualizations in R to communicate research findings visually.
+* `Statistical Analysis:` Develop skills in conducting statistical analysis using R for hypothesis testing, regression analysis, and other statistical tests.
+* `Reproducible Research:` Implement principles of reproducible research using R to document and organize code, data, and analysis for replicability.
+
+## Workflow 
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-cap: "https://r4ds.had.co.nz/"
+knitr::include_graphics("images/data-science-explore.png")
+```
+
+
+## Course Platforms
+
+* Website: <https://chiraltraining.github.io/SAR/>
+* Github: <https://github.com/chiraltraining/SAR> 
+
+> We are constantly trying to improve content! Please refresh/download materials before class.
+
+## Session Format
+
+ * Lecture with live coding (possibly "Interactive")
+ * Practical experience
+ * Participants must run code with the instructors using the provided R script
+ * 10 mins breaks each session - timing may vary
+
+
+## Required Textbooks
+
+The following books purchased and are available online! 
+
+- [Applied Medical Statistics for Beginners by Dr. Mohamed Elsherif]()
+- [Introduction to R Programming by Dr. Roger D. Peng]() 
+- [R for Data Science by Roger D.Peng](https://bookdown.org/rdpeng/rprogdatascience/)
+- [Exploratory Data Analysis with R by Roger D.Peng ](https://bookdown.org/rdpeng/rprogdatascience/)
+
+
+## What is R?
+- R is a language and environment for statistical computing and graphics developed in 1991.
+
+- R is the open source implementation of the [S language](https://en.wikipedia.org/wiki/S_(programming_language)), which was developed by [Bell laboratories](https://ca.slack-edge.com/T023TPZA8LF-U024EN26Q0L-113294823b2c-512) in the 70s.
+
+- The aim of the S language, as expressed by John Chambers, is "to turn ideas into software, quickly and faithfully"
+
+- R is both [open source](https://en.wikipedia.org/wiki/Open_source) and [open development](https://en.wikipedia.org/wiki/Open-source_software_development).
+- The aim of the S language, as expressed by John Chambers, is "to turn ideas into software, quickly and faithfully"
+
+
+```{r, fig.alt="Bell Labs old logo", out.width = "20%", echo = FALSE, fig.align='center'}
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Bell_Laboratories_logo.svg/2880px-Bell_Laboratories_logo.svg.png")
+```
+
+## Why R?
+
+* Free (open source)
+
+* High level language designed for statistical computing
+
+* Powerful and flexible - especially for data wrangling and visualization
+
+* Extensive add-on software (packages)
+* R is popular – and increasing in popularity. 
+* R runs on all platforms.(Windows, Linux and Mac) 
+* R is being used by the biggest tech giants(google, facebook, microsoft, twitter)
+* Strong community 
+
+# What you will learn?
+
+## Probability Distributions 
+:::: {.columns}
+
+::: {.column width="50%"}
+```{r, fig.alt="Bell Labs old logo", out.width = "100%", echo = FALSE, fig.align='center'}
+knitr::include_graphics("images/prob-dist-1.png")
+```
+:::
+
+::: {.column width="50%"}
+```{r, fig.alt="Bell Labs old logo", out.width = "100%", echo = FALSE, fig.align='center'}
+knitr::include_graphics("images/prob-dist-2.png")
+```
+:::
+
+::::
+
+
+
+## Publication-ready Descriptive Tables
+```{r}
+#| echo: false
+library(gtsummary)
+library(gt)
+trial |> 
+  select(age, trt, grade) |> 
+  tbl_summary(by = trt) |> 
+  add_overall() |> 
+  as_gt()
+```
+
+
+## Publication-ready Analytical Tables 
+```{r}
+#| echo: false
+library(gtsummary)
+library(gt)
+trial |> 
+  select(age, trt, grade) |> 
+  tbl_summary(by = trt) |> 
+  add_overall() |> 
+  add_p() |> 
+  bold_p(t = 0.05) |> 
+  as_gt()
+```
+
+## Publication-ready Regression Tables 
+```{r}
+#| echo: false
+trial |>
+  tbl_uvregression(
+    method = glm,
+    y = response,
+    include = c(age, grade),
+    method.args = list(family = binomial),
+    exponentiate = TRUE,
+    pvalue_fun = label_style_pvalue(digits = 2)
+  ) |>
+  bold_p() |> # bold p-values under a given threshold (default 0.05)
+  bold_p(t = 0.10) 
+```
+
+
+## Introduction to the Tidyverse - Echosystem 
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-cap: "https://www.tidyverse.org/"
+knitr::include_graphics("images/tidyverse-hex.png")
+```
+
+## Framework for Easy Statistical Modeling, Visualization, and Reporting
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-cap: "https://easystats.github.io/easystats/"
+knitr::include_graphics("images/easystats.png")
+```
+
+
+# Let's Get Started! 
+
+
+
+

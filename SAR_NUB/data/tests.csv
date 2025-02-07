@@ -1,0 +1,8 @@
+"PatientID","TestType","TestResult"
+1,"Blood Pressure",120
+2,"Cholesterol",190
+3,"Blood Sugar",140
+4,"Cholesterol",200
+5,"Blood Pressure",130
+3,"Blood Sugar",150
+4,"Blood Pressure",110

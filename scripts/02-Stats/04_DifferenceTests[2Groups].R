@@ -39,7 +39,7 @@ shapiro_test_female
 levene_test <- leveneTest(BMI ~ Gender, data = data)
 levene_test
 
-# Step 5: Perform the t-test (If the data is normal and the variances are not equal)
+# Step 5: Pt.te
 # Two-sample t-test (independent groups: Male vs Female)
 ttest_result <- t.test(BMI ~ Gender, data = data, var.equal = FALSE)  # Welch's t-test
 ttest_result

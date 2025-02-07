@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Statistical Analysis with R for Research",
+    "title": "Statistical Analysis with R for Research (SAR08)",
     "section": "",
-    "text": "🗓December 10-31, 2024 | 9:00am - 5:30pm (Bangladesh Time)\n📢 If your university/organization is interested in hosting this workshop, please follow the instructions below:\n📌 Register with Google Forms\n📝 Workshop Content and Timeline View in  Google Sheet",
+    "text": "🗓February 15, 2025 – February 28, 2025 | 9:00am - 10:30pm (Bangladesh Time)\n📢 If you are interested in joinin this course, please follow the instructions below:\n📌 Register with Google Forms\n📝 Course Content and Timeline View in  Google Sheet",
     "crumbs": [
       "Home"
     ]
@@ -12,7 +12,7 @@
   {
     "objectID": "index.html#workshop-overview",
     "href": "index.html#workshop-overview",
-    "title": "Statistical Analysis with R for Research",
+    "title": "Statistical Analysis with R for Research (SAR08)",
     "section": "Workshop overview",
     "text": "Workshop overview\nWelcome to the Statistical Analysis with R for Research Workshop! This 1-day intensive program is designed to equip researchers, students, and professionals with essential R programming skills for statistical analysis. Whether you are new to R or looking to enhance your skills, this workshop offers a hands-on experience to help you confidently analyze and interpret data for research purposes.",
     "crumbs": [
@@ -22,7 +22,7 @@
   {
     "objectID": "index.html#learning-outcomes",
     "href": "index.html#learning-outcomes",
-    "title": "Statistical Analysis with R for Research",
+    "title": "Statistical Analysis with R for Research (SAR08)",
     "section": "Learning outcomes",
     "text": "Learning outcomes\nDuring this workshop, participants will:\n\nUnderstand the fundamentals of R programming.\nLearn data manipulation techniques using R.\nPerform descriptive and inferential statistical analyses.\nCreate effective visualizations for data interpretation.\nApply R in research-specific scenarios.\n\nThe workshop will involve practical exercises, real-world examples, and guidance from experienced instructors to ensure you walk away with practical, applicable knowledge.",
     "crumbs": [
@@ -32,7 +32,7 @@
   {
     "objectID": "index.html#who-should-attend",
     "href": "index.html#who-should-attend",
-    "title": "Statistical Analysis with R for Research",
+    "title": "Statistical Analysis with R for Research (SAR08)",
     "section": "Who should attend?",
     "text": "Who should attend?\n\nUndergraduate and graduate students conducting research.\nAcademicians and professionals working with data.\nIndividuals with an interest in learning R for data analysis.\n\nNo prior programming experience is required, but basic knowledge of statistics will be helpful.",
     "crumbs": [
@@ -42,7 +42,7 @@
   {
     "objectID": "index.html#why-join-this-workshop",
     "href": "index.html#why-join-this-workshop",
-    "title": "Statistical Analysis with R for Research",
+    "title": "Statistical Analysis with R for Research (SAR08)",
     "section": "Why join this workshop?",
     "text": "Why join this workshop?\nBy participating in this workshop, you will not only gain valuable analytical skills but also expand your professional network and enhance your ability to make data-driven decisions in your research field.",
     "crumbs": [
@@ -52,7 +52,7 @@
   {
     "objectID": "index.html#what-is-r",
     "href": "index.html#what-is-r",
-    "title": "Statistical Analysis with R for Research",
+    "title": "Statistical Analysis with R for Research (SAR08)",
     "section": "What is R?",
     "text": "What is R?\nR is an open source language and environment for statistical computing, data mining, modeling, and data graphics. It provides a wide variety of statistical and graphical techniques such as linear and non-linear modeling, statistical tests, time series analysis, classification, and clustering.",
     "crumbs": [
@@ -62,7 +62,7 @@
   {
     "objectID": "index.html#why-r",
     "href": "index.html#why-r",
-    "title": "Statistical Analysis with R for Research",
+    "title": "Statistical Analysis with R for Research (SAR08)",
     "section": "Why R?",
     "text": "Why R?\n\nR is a programming and statistical language.\nR is used for data Analysis and Visualization.\nR is simple and easy to learn, read and write.\nR is an example of a FLOSS (Free Libre and Open Source Software) where one can freely distribute copies of this software, read its source code, modify it, etc.\n\nPublication-ready figures\nThe ggpubr package provides some easy-to-use functions for creating and customizing ‘ggplot2’- based publication ready plots. ggplot2, by Hadley Wickham, is an excellent and flexible package for elegant data visualization in R. However the default generated plots requires some formatting before we can send them for publication. Furthermore, to customize a ggplot, the syntax is opaque and this raises the level of difficulty for researchers with no advanced R programming skills.\n\n\n\n\n\n\n\n\nPublication-ready tables\nThe gtsummary package provides an elegant and flexible way to create publication-ready analytical and summary tables using the R programming language. The {gtsummary} package summarizes data sets, regression models, and more, using sensible defaults with highly customizable capabilities.\n\n\n\n\n\n\n\n\nAnalysis and visualization likert items\nThe likert is an R package designed to help analyzing and visualizing Likert type items. It has been developped by Jason Bryer and Kim Speerschneider. This barplot comes from the demo page and has been sent by Carlos Ortega. It allows to analyse the reading attitudes from a panel of people.\n\n\n\n\n\n\n\n\nReproducible academic writing with Rmarkdown/Quarto\nR Markdown documents are fully reproducible. Use a productive notebook interface to weave together narrative text and code to produce elegantly formatted output. Use multiple languages including R, Python, and SQL.",
     "crumbs": [
@@ -112,7 +112,7 @@
   {
     "objectID": "index.html#required-software",
     "href": "index.html#required-software",
-    "title": "Statistical Analysis with R for Research",
+    "title": "Statistical Analysis with R for Research (SAR08)",
     "section": "Required software",
     "text": "Required software\n\nR: http://www.r-project.org/ (FREE)\nRStudio (additional libraries required): http://www.rstudio.com/ (FREE)",
     "crumbs": [
@@ -122,7 +122,7 @@
   {
     "objectID": "index.html#recording-of-classes",
     "href": "index.html#recording-of-classes",
-    "title": "Statistical Analysis with R for Research",
+    "title": "Statistical Analysis with R for Research (SAR08)",
     "section": "Recording of classes",
     "text": "Recording of classes\nClass lectures will be recorded automatically using cloud. The links will be posted to CHIRAL Classes when they are available.",
     "crumbs": [
@@ -132,7 +132,7 @@
   {
     "objectID": "index.html#prework",
     "href": "index.html#prework",
-    "title": "Statistical Analysis with R for Research",
+    "title": "Statistical Analysis with R for Research (SAR08)",
     "section": "Prework",
     "text": "Prework\nBefore attending the workshop please have the following installed and configured on your machine.\n\nRecent version of R\nRecent version of RStudio\nMost recent release of the gtsummary and other packages used in workshop.\n\nInstallation and use\n\nTo install a package in R, use the install.packages(tidyverse) function. This function downloads and installs the specified package from CRAN (Comprehensive R Archive Network) or other repositories.\n\nRun library(tidyverse) to load the core tidyverse and make it available in your current R session.\n# Define the package list\ninstall_pkgs &lt;- c(\"gtsummary\", \"tidyverse\", \"gapminder\", \"ggpubr\", \n              \"likert\", \"skimr\", \"car\", \"dplyr\", \"ggplot2\", \n              \"tidyr\", \"readr\", \"stringr\", \"forcats\", \"easystats\", \n              \"devtools\", \"gt\", \"quarto\")\n\n# Install the packages\ninstall.packages(instll_pkgs)\n\n\nEnsure you can knit R quarto documents\n\nOpen RStudio and create a new quarto document\nSave the document and check you are able to knit it.",
     "crumbs": [
@@ -142,7 +142,7 @@
   {
     "objectID": "index.html#team",
     "href": "index.html#team",
-    "title": "Statistical Analysis with R for Research",
+    "title": "Statistical Analysis with R for Research (SAR08)",
     "section": "Team",
     "text": "Team\nMd. Jubayer Hossain\nFounder & Executive Director, CHIRAL\nMd. Jubayer Hossain is the Founder and Executive Director of CHIRAL Bangladesh. CHIRAL Bangladesh is a non-profit organization dedicated to health research to improve lives in Bangladesh. He aspires to maximize the quality of life of people around him by working at the intersection of education, technology, and biomedical research. Detailed research and teaching activities were found on his website.\nMuhibullah Shahjahan\nResearch Assistant, Big Bioinformatics Lab, CHIRAL\n Muhibullah Shahjahan is a researcher specializing in Cancer Bioinformatics and Machine Learning. As a Research Assistant at the Big Bioinformatics Lab of CHIRAL Bangladesh, he focuses on applying computational tools to address biological research questions. With experience in statistical analysis and R programming, he contributes to advancing biomedical data science education and supports researchers in analyzing and interpreting complex datasets.\n\nMuhammad Mohtasim Billah, Instructor\nResearch Assistant, Big Bioinformatics Lab, CHIRAL\n\nMuhammad Mohtasim Billah is a researcher with a focus on Cancer Bioinformatics. Affiliated with the Big Bioinformatics Lab at CHIRAL Bangladesh, he applies computational approaches to study cancer biology and support data-driven research. His work involves statistical analysis and bioinformatics techniques, contributing to the understanding and management of complex biological data.\nSajjad Hossain, Instructor\nResearch Assistant, Big Bioinformatics Lab, CHIRAL\n\nSajjad Hossen is a researcher with expertise in Cancer Bioinformatics and serves as an instructor at the Big Bioinformatics Lab, CHIRAL Bangladesh. In addition to his research endeavors, he is responsible for managing and coordinating the lab’s training programs, fostering the dissemination of advanced bioinformatics knowledge. His work focuses on computational analysis and the interpretation of complex biological datasets, contributing to capacity-building efforts and the advancement of biomedical research.\nMuntasim Fuad, Instructor\nResearch Assistant, Big Bioinformatics Lab, CHIRAL\n\nMuntasim Fuad is a researcher specializing in Cancer Bioinformatics. As a Research Assistant Instructor at the Big Bioinformatics Lab, CHIRAL Bangladesh, he applies computational techniques to explore complex biological data and advance cancer research. His role involves supporting research initiatives and contributing to the academic development of trainees in bioinformatics and data analysis.\nTajrian Rahman\nTraining Manager, Training Unit, CHIRAL\n Tajrian Rahman is the Training Manager at CHIRAL Bangladesh, where she is responsible for overseeing the planning, execution, and management of training programs at the CHIRAL. Her work involves designing educational initiatives that enhance bioinformatics skills and support the professional development of researchers and students. Through her role, she contributes to strengthening the CHIRAL’s capacity-building efforts and advancing knowledge in biomedical data science.",
     "crumbs": [
@@ -302,7 +302,7 @@
   {
     "objectID": "index.html#core-packages",
     "href": "index.html#core-packages",
-    "title": "Statistical Analysis with R for Research",
+    "title": "Statistical Analysis with R for Research (SAR08)",
     "section": "Core packages",
     "text": "Core packages\nIn R, several core packages provide essential tools for data manipulation, visualization, and analysis. These packages form the foundation of the R ecosystem, enabling efficient workflows and reproducible research.\n\n\n\n\n\nThe dplyr package in R provides a concise grammar of data manipulation, offering consistent verbs for common tasks. Key functions include select() to extract columns, filter() to subset rows, mutate() to create or modify variables, arrange() to sort rows, and summarize() with group_by() for grouped aggregations. Additionally, rename() simplifies column renaming. These tools streamline data transformation, making workflows efficient and readable for modern data analysis in R.\n\n\n\n\n\n\n\nThe ggplot2 package in R is a powerful tool for data visualization, based on the grammar of graphics. It allows users to build plots layer by layer, starting with data and aesthetic mappings defined in ggplot(). Key layers include geom_ functions for adding geometric elements (e.g., geom_point() for scatterplots, geom_bar() for bar charts), facet_ functions for creating subplots, and theme() for customizing appearances. Its flexibility in mapping data to visual elements, combined with a rich set of options for customization, makes ggplot2 a cornerstone of exploratory and presentation-ready visualizations.\n\n\n\n\n\n\n\nThe tidyr package in R is designed for tidying data, ensuring it is in a consistent, tidy format where each variable is a column and each observation is a row. Key functions include pivot_longer() to convert wide data into long format, pivot_wider() for the reverse transformation, separate() to split a single column into multiple, and unite() to combine multiple columns into one. These functions enable efficient reshaping and restructuring of data, facilitating better data analysis and preparation for modeling or visualization tasks.\n\n\n\n\n\n\n\nThe readr package in R provides fast and efficient functions for reading and writing data. It simplifies importing data from various file formats, such as CSV, TSV, and fixed-width files, with functions like read_csv(), read_tsv(), and read_fwf(). These functions automatically handle common data issues such as type conversion and missing values. Additionally, readr provides write_csv() and write_tsv() for exporting data, ensuring compatibility with other tools while maintaining efficiency and consistency in data import/export tasks.\n\n\n\n\n\n\n\nThe stringr package in R provides a set of consistent and user-friendly functions for string manipulation. It simplifies common tasks such as detecting patterns with str_detect(), extracting substrings with str_extract(), and replacing text with str_replace(). Additionally, stringr offers functions like str_sub() for substring extraction, str_length() for string length, and str_c() for concatenating strings. These functions help streamline text processing, ensuring consistency and efficiency when working with string data.\n\n\n\n\n\n\n\nThe forcats package in R is designed for working with categorical data, specifically factors. It provides functions for reordering, recoding, and combining factor levels in a straightforward way. Key functions include fct_reorder() to reorder factor levels based on another variable, fct_lump() to combine infrequent levels, fct_recode() for renaming factor levels, and fct_drop() to remove unused levels. forcats helps manage and manipulate factors effectively, ensuring clean and meaningful categorical data for analysis and visualization.\n\n\n\n\n\n\n\nThe easystats package in R is a collection of tools designed to simplify the process of statistical analysis, reporting, and visualization. It provides a unified interface for working with various statistical models and outputs, making it easier to interpret and communicate results. Key functions include parameters() for extracting model parameters, performance() for assessing model fit, and effectsize() for calculating effect sizes. Additionally, easystats offers functions for model comparisons, diagnostics, and visualizations, streamlining the workflow for both beginners and advanced users in statistical analysis.\n\n\n\n\n\n\n\nThe gtsummary package in R is designed for creating publication-ready summary tables from statistical models and data. It allows users to easily summarize data, describe statistics, and present results in a clear, formatted table. Key functions include tbl_summary() for descriptive statistics of datasets, tbl_regression() for summarizing regression model results, and tbl_uvregression() for univariate regression analyses. The package supports customization of table styles, variable transformations, and statistical tests, making it a valuable tool for producing professional reports and visual summaries in clinical and social science research.\n\n\n\n\n\n\n\nThe gt package in R is used for creating beautiful, customizable tables for data presentation. It allows users to easily create tables from data frames or tibbles with functions like gt() to initiate the table and tab_spanner() for grouping columns. Users can apply various formatting options, such as color, bold, and font styles, to enhance the table’s readability using functions like tab_style() and tab_footnote(). gt also supports features like adding summary statistics, row/column grouping, and rendering tables in HTML or LaTeX for use in reports and publications.\n\n\n\n\n\n\n\nQuarto is an open-source, next-generation publishing system that enables users to create dynamic documents, reports, presentations, and websites. It supports a wide range of formats, including HTML, PDF, Word, and slides, and integrates seamlessly with R, Python, Julia, and Observable. Quarto allows for literate programming, where code and narrative are combined in a single document. It supports advanced features like interactive visualizations, cross-referencing, and citation management, making it an ideal tool for academic and technical writing, data analysis, and reproducible research.",
     "crumbs": [
@@ -700,5 +700,203 @@
     "title": "Statistical Analysis with R for Research",
     "section": "Framework for Easy Statistical Modeling, Visualization, and Reporting",
     "text": "Framework for Easy Statistical Modeling, Visualization, and Reporting\n\nhttps://easystats.github.io/easystats/"
+  },
+  {
+    "objectID": "SAR_NUB/00_Introduction/index.html",
+    "href": "SAR_NUB/00_Introduction/index.html",
+    "title": "Statistical Analysis with R for Research",
+    "section": "",
+    "text": "Welcome to the Statistical Analysis with R for Research Workshop! This 1-day intensive program is designed to equip researchers, students, and professionals with essential R programming skills for statistical analysis."
+  },
+  {
+    "objectID": "SAR_NUB/00_Introduction/index.html#welcome",
+    "href": "SAR_NUB/00_Introduction/index.html#welcome",
+    "title": "Statistical Analysis with R for Research",
+    "section": "",
+    "text": "Welcome to the Statistical Analysis with R for Research Workshop! This 1-day intensive program is designed to equip researchers, students, and professionals with essential R programming skills for statistical analysis."
+  },
+  {
+    "objectID": "SAR_NUB/00_Introduction/index.html#about-us",
+    "href": "SAR_NUB/00_Introduction/index.html#about-us",
+    "title": "Statistical Analysis with R for Research",
+    "section": "About Us",
+    "text": "About Us\nLegal Information\nCenter for Health Innovation, Research, Action, and Learning (CHIRAL Bangladesh) is a non-profit, non-governmental organization currently undergoing registration with the Registrar of Joint Stock Companies and Firms (RJSC) as CHIRAL Foundation. Our Taxpayer Identification Number (TIN): 154198266266.\nMission\nSolving public health problems and improving quality of life through modern biomedical research.\nVision\nTo be a leading multidisciplinary research organization leveraging data and AI for impactful solutions."
+  },
+  {
+    "objectID": "SAR_NUB/00_Introduction/index.html#building-next-generation-scientists",
+    "href": "SAR_NUB/00_Introduction/index.html#building-next-generation-scientists",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Building Next Generation Scientists",
+    "text": "Building Next Generation Scientists\n\nTraining on Python, R and SPSS for Research Data Analysis\nTraining on Multi-omics (Genomics, Proteomics, Transcriptomics) Big Data for Cancer Research\nTraining on Machine Learning and Deep Learning for Public Health/Bioinformatics\nTraining on Remote Sensing and GIS for Public Health\nResearch Internship Program"
+  },
+  {
+    "objectID": "SAR_NUB/00_Introduction/index.html#research-groups",
+    "href": "SAR_NUB/00_Introduction/index.html#research-groups",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Research Groups",
+    "text": "Research Groups\n\n\nPopulation Health Studies Division (PHSD)\n\nCancer Epidemiology, Neuroepidemiology, Vector-born Diseases, Mental Health\n\n\n\nBig Bioinformatics Lab (BBL)\n\nCancer Bioinformatics, Computational Epigenetics, Neurodegenerative Diseases and Cancer\n\n\n\nGeospatial Health Research Group (GHRG)\n\nClimate Impact on Health, AI Integration with Geospatial Health\n\n\n\nAI for Health (AI4H)\n\nAI Application in Health focusing on Cancer and Neurological Disorders"
+  },
+  {
+    "objectID": "SAR_NUB/00_Introduction/index.html#our-collaborators",
+    "href": "SAR_NUB/00_Introduction/index.html#our-collaborators",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Our Collaborators",
+    "text": "Our Collaborators\n\n\n\n\n\nDr. Kelly Hirko, Michigan State University Project: Breast cancer prevention and awareness breast self-examination among school and college-going girls in Bangladesh\n\n\n\n\n\n\nDr. Md. Salequl Islam, One Health Lab, Jahangirnagar University Project: One-Health Assessment of Emerging Antimicrobial Resistance Genes (ARGs) in Bangladeshi Livestock, Soil, Environment, and Human: Tackling the Crisis Together funded by the Bangladesh Academy of Sciences and United States Department of Agriculture (BAS-USDA).\n\n\n\n\n\n\nDr. Md. Salequl Islam, Sher-e-Bangla Agricultural University Project: RNA-Seq Meta Analysis on Heat Shock Genes"
+  },
+  {
+    "objectID": "SAR_NUB/00_Introduction/index.html#ai-and-neuro-imaging-techniques",
+    "href": "SAR_NUB/00_Introduction/index.html#ai-and-neuro-imaging-techniques",
+    "title": "Statistical Analysis with R for Research",
+    "section": "AI and Neuro-Imaging Techniques",
+    "text": "AI and Neuro-Imaging Techniques\n\n\n\nZhu et al. 2019"
+  },
+  {
+    "objectID": "SAR_NUB/00_Introduction/index.html#ai-for-breast-cancer-detection",
+    "href": "SAR_NUB/00_Introduction/index.html#ai-for-breast-cancer-detection",
+    "title": "Statistical Analysis with R for Research",
+    "section": "AI for Breast Cancer Detection",
+    "text": "AI for Breast Cancer Detection\n\n\n\nTan et al. 2023"
+  },
+  {
+    "objectID": "SAR_NUB/00_Introduction/index.html#multi-omics-big-data-for-cancer-research",
+    "href": "SAR_NUB/00_Introduction/index.html#multi-omics-big-data-for-cancer-research",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Multi-omics Big Data for Cancer Research",
+    "text": "Multi-omics Big Data for Cancer Research\n\n\n\nChakraborty et al. 2024"
+  },
+  {
+    "objectID": "SAR_NUB/00_Introduction/index.html#deep-learning-and-multi-omics-big-data",
+    "href": "SAR_NUB/00_Introduction/index.html#deep-learning-and-multi-omics-big-data",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Deep Learning and Multi-omics Big Data",
+    "text": "Deep Learning and Multi-omics Big Data\n\n\n\nMathema et al. 2023"
+  },
+  {
+    "objectID": "SAR_NUB/00_Introduction/index.html#machine-learning-approach-to-forecast-dengue-outbreaks",
+    "href": "SAR_NUB/00_Introduction/index.html#machine-learning-approach-to-forecast-dengue-outbreaks",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Machine Learning Approach to Forecast Dengue Outbreaks",
+    "text": "Machine Learning Approach to Forecast Dengue Outbreaks\n\n\n\nSebastianelli et al. 2024"
+  },
+  {
+    "objectID": "SAR_NUB/00_Introduction/index.html#learning-objectives",
+    "href": "SAR_NUB/00_Introduction/index.html#learning-objectives",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\n\n\nData Manipulation: Learn how to import, clean, and transform data in R for research purposes.\n\nData Visualization: Master techniques for creating effective data visualizations in R to communicate research findings visually.\n\nStatistical Analysis: Develop skills in conducting statistical analysis using R for hypothesis testing, regression analysis, and other statistical tests.\n\nReproducible Research: Implement principles of reproducible research using R to document and organize code, data, and analysis for replicability."
+  },
+  {
+    "objectID": "SAR_NUB/00_Introduction/index.html#workflow",
+    "href": "SAR_NUB/00_Introduction/index.html#workflow",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Workflow",
+    "text": "Workflow\n\n\n\nhttps://r4ds.had.co.nz/"
+  },
+  {
+    "objectID": "SAR_NUB/00_Introduction/index.html#course-platforms",
+    "href": "SAR_NUB/00_Introduction/index.html#course-platforms",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Course Platforms",
+    "text": "Course Platforms\n\nWebsite: https://chiraltraining.github.io/SAR/\n\nGithub: https://github.com/chiraltraining/SAR\n\n\n\nWe are constantly trying to improve content! Please refresh/download materials before class."
+  },
+  {
+    "objectID": "SAR_NUB/00_Introduction/index.html#session-format",
+    "href": "SAR_NUB/00_Introduction/index.html#session-format",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Session Format",
+    "text": "Session Format\n\nLecture with live coding (possibly “Interactive”)\nPractical experience\nParticipants must run code with the instructors using the provided R script\n10 mins breaks each session - timing may vary"
+  },
+  {
+    "objectID": "SAR_NUB/00_Introduction/index.html#required-textbooks",
+    "href": "SAR_NUB/00_Introduction/index.html#required-textbooks",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Required Textbooks",
+    "text": "Required Textbooks\nThe following books purchased and are available online!\n\nApplied Medical Statistics for Beginners by Dr. Mohamed Elsherif\nIntroduction to R Programming by Dr. Roger D. Peng\nR for Data Science by Roger D.Peng\nExploratory Data Analysis with R by Roger D.Peng"
+  },
+  {
+    "objectID": "SAR_NUB/00_Introduction/index.html#what-is-r",
+    "href": "SAR_NUB/00_Introduction/index.html#what-is-r",
+    "title": "Statistical Analysis with R for Research",
+    "section": "What is R?",
+    "text": "What is R?\n\nR is a language and environment for statistical computing and graphics developed in 1991.\nR is the open source implementation of the S language, which was developed by Bell laboratories in the 70s.\nThe aim of the S language, as expressed by John Chambers, is “to turn ideas into software, quickly and faithfully”\nR is both open source and open development.\nThe aim of the S language, as expressed by John Chambers, is “to turn ideas into software, quickly and faithfully”"
+  },
+  {
+    "objectID": "SAR_NUB/00_Introduction/index.html#why-r",
+    "href": "SAR_NUB/00_Introduction/index.html#why-r",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Why R?",
+    "text": "Why R?\n\nFree (open source)\nHigh level language designed for statistical computing\nPowerful and flexible - especially for data wrangling and visualization\nExtensive add-on software (packages)\nR is popular – and increasing in popularity.\nR runs on all platforms.(Windows, Linux and Mac)\nR is being used by the biggest tech giants(google, facebook, microsoft, twitter)\nStrong community"
+  },
+  {
+    "objectID": "SAR_NUB/00_Introduction/index.html#probability-distributions",
+    "href": "SAR_NUB/00_Introduction/index.html#probability-distributions",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Probability Distributions",
+    "text": "Probability Distributions"
+  },
+  {
+    "objectID": "SAR_NUB/00_Introduction/index.html#publication-ready-descriptive-tables",
+    "href": "SAR_NUB/00_Introduction/index.html#publication-ready-descriptive-tables",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Publication-ready Descriptive Tables",
+    "text": "Publication-ready Descriptive Tables\n\n\n\n\n\n\n\n\n\n\nCharacteristic\n\nOverall N = 2001\n\n\nDrug A N = 981\n\n\nDrug B N = 1021\n\n\n\n\nAge\n47 (38, 57)\n46 (37, 60)\n48 (39, 56)\n\n\n    Unknown\n11\n7\n4\n\n\nGrade\n\n\n\n\n\n    I\n68 (34%)\n35 (36%)\n33 (32%)\n\n\n    II\n68 (34%)\n32 (33%)\n36 (35%)\n\n\n    III\n64 (32%)\n31 (32%)\n33 (32%)\n\n\n\n\n1 Median (Q1, Q3); n (%)"
+  },
+  {
+    "objectID": "SAR_NUB/00_Introduction/index.html#publication-ready-analytical-tables",
+    "href": "SAR_NUB/00_Introduction/index.html#publication-ready-analytical-tables",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Publication-ready Analytical Tables",
+    "text": "Publication-ready Analytical Tables\n\n\n\n\n\n\n\n\n\n\n\nCharacteristic\n\nOverall N = 2001\n\n\nDrug A N = 981\n\n\nDrug B N = 1021\n\n\np-value2\n\n\n\n\nAge\n47 (38, 57)\n46 (37, 60)\n48 (39, 56)\n0.7\n\n\n    Unknown\n11\n7\n4\n\n\n\nGrade\n\n\n\n0.9\n\n\n    I\n68 (34%)\n35 (36%)\n33 (32%)\n\n\n\n    II\n68 (34%)\n32 (33%)\n36 (35%)\n\n\n\n    III\n64 (32%)\n31 (32%)\n33 (32%)\n\n\n\n\n\n\n1 Median (Q1, Q3); n (%)\n\n\n\n2 Wilcoxon rank sum test; Pearson’s Chi-squared test"
+  },
+  {
+    "objectID": "SAR_NUB/00_Introduction/index.html#publication-ready-regression-tables",
+    "href": "SAR_NUB/00_Introduction/index.html#publication-ready-regression-tables",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Publication-ready Regression Tables",
+    "text": "Publication-ready Regression Tables\n\n\n\n\n\n\n\n\n\n\n\nCharacteristic\nN\n\nOR1\n\n\n95% CI1\n\np-value\n\n\n\nAge\n183\n1.02\n1.00, 1.04\n0.10\n\n\nGrade\n193\n\n\n\n\n\n    I\n\n—\n—\n\n\n\n    II\n\n0.95\n0.45, 2.00\n0.88\n\n\n    III\n\n1.10\n0.52, 2.29\n0.81\n\n\n\n\n1 OR = Odds Ratio, CI = Confidence Interval"
+  },
+  {
+    "objectID": "SAR_NUB/00_Introduction/index.html#introduction-to-the-tidyverse---echosystem",
+    "href": "SAR_NUB/00_Introduction/index.html#introduction-to-the-tidyverse---echosystem",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Introduction to the Tidyverse - Echosystem",
+    "text": "Introduction to the Tidyverse - Echosystem\n\n\n\nhttps://www.tidyverse.org/"
+  },
+  {
+    "objectID": "SAR_NUB/00_Introduction/index.html#framework-for-easy-statistical-modeling-visualization-and-reporting",
+    "href": "SAR_NUB/00_Introduction/index.html#framework-for-easy-statistical-modeling-visualization-and-reporting",
+    "title": "Statistical Analysis with R for Research",
+    "section": "Framework for Easy Statistical Modeling, Visualization, and Reporting",
+    "text": "Framework for Easy Statistical Modeling, Visualization, and Reporting\n\n\n\nhttps://easystats.github.io/easystats/"
+  },
+  {
+    "objectID": "index.html#course-overview",
+    "href": "index.html#course-overview",
+    "title": "Statistical Analysis with R for Research (SAR08)",
+    "section": "Course overview",
+    "text": "Course overview\nWelcome to the Statistical Analysis with R for Research Workshop! This intensive program is designed to equip researchers, students, and professionals with essential R programming skills for statistical analysis. Whether you are new to R or looking to enhance your skills, this workshop offers a hands-on experience to help you confidently analyze and interpret data for research purposes.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#why-join-this-course",
+    "href": "index.html#why-join-this-course",
+    "title": "Statistical Analysis with R for Research (SAR08)",
+    "section": "Why join this course?",
+    "text": "Why join this course?\nBy participating in this course, you will not only gain valuable analytical skills but also expand your professional network and enhance your ability to make data-driven decisions in your research field.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#descriptive-tables",
+    "href": "index.html#descriptive-tables",
+    "title": "Statistical Analysis with R for Research (SAR08)",
+    "section": "Descriptive Tables",
+    "text": "Descriptive Tables\n\n\n\n\n\n\n\n\n\n\nCharacteristic\n\nN = 2001\n\n\n\n\nChemotherapy Treatment\n\n\n\n    Drug A\n98 (49%)\n\n\n    Drug B\n102 (51%)\n\n\nAge\n47 (38, 57)\n\n\n    Unknown\n11\n\n\nGrade\n\n\n\n    I\n68 (34%)\n\n\n    II\n68 (34%)\n\n\n    III\n64 (32%)\n\n\n\n\n1 n (%); Median (Q1, Q3)\n\n\n\n\n\nAnalysis and visualization likert items\nThe likert is an R package designed to help analyzing and visualizing Likert type items. It has been developped by Jason Bryer and Kim Speerschneider. This barplot comes from the demo page and has been sent by Carlos Ortega. It allows to analyse the reading attitudes from a panel of people.\n\n\n\n\n\n\n\n\nReproducible academic writing with Rmarkdown/Quarto\nR Markdown documents are fully reproducible. Use a productive notebook interface to weave together narrative text and code to produce elegantly formatted output. Use multiple languages including R, Python, and SQL.",
+    "crumbs": [
+      "Home"
+    ]
   }
 ]

@@ -13,10 +13,10 @@ qol_data <- qol_data |>
     QOL_Score > 50 ~ "Good"    # QoL score > 50 is classified as "Good"
 ))
 
-# Table 7: Association of demographic characteristics with QoL status
 qol_data |> 
   select(1:8, QOL_Status) |> # Include demographic variables and QoL status
-  tbl_summary(
+  tbl_summary(# Table 7: Association of demographic characteristics with QoL status
+
     by = QOL_Status # Group by QoL status
   ) |> 
   add_p() |> # Add p-values for group differences

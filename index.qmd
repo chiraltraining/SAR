@@ -1,6 +1,6 @@
 ---
-title: "Statistical Analysis with R for Research"
-subtitle: "A Campus Workshop Series by [Center for Health Innovation, Research, Action and Learning – Bangladesh](https://www.chiralbd.org/)"
+title: "Statistical Analysis with R for Research (SAR08)"
+subtitle: "[Center for Health Innovation, Research, Action and Learning – Bangladesh](https://www.chiralbd.org/)"
 editor: source
 ---
 
@@ -12,7 +12,7 @@ editor: source
 
 ------------------------------------------------------------------------
 
-🗓December 10-31, 2024 \| 9:00am - 5:30pm (Bangladesh Time)
+🗓February 15, 2025 -- February 28, 2025 \| 9:00am - 10:30pm (Bangladesh Time)
 
 <!-- 📢 **Organizer**: Genetic Engineering and Biotechnology Club, Jagannath University -->
 
@@ -20,17 +20,17 @@ editor: source
 
 <!-- 💥 **Registration Fee**: 410BDT  -->
 
-📢 If your university/organization is interested in hosting this workshop, please follow the instructions below: 
+📢 If you are interested in joinin this course, please follow the instructions below: 
 
-📌 **Register** with [Google Forms](https://forms.gle/nbWLf5Zr7a5LLfRC8)
+📌 **Register** with [Google Forms](https://forms.gle/rPifQP55bjVwqKJFA)
 
-📝 **Workshop Content and Timeline View in ** [Google Sheet](https://docs.google.com/spreadsheets/d/17t7O8a7ARpl9OdNUMoBUYT17-L60YLBBJSqsugWOVC8/edit?usp=sharing)
+📝 **Course Content and Timeline View in ** [Google Sheet](https://docs.google.com/spreadsheets/d/1PMTp0BrvLOcgPf-ABC8LiIs-TtUrWwDokSiRI2YnfFA/edit?usp=sharing)
 
 
 ------------------------------------------------------------------------
-## Workshop overview
+## Course overview
 
-Welcome to the **Statistical Analysis with R for Research Workshop**! This 1-day intensive program is designed to equip researchers, students, and professionals with essential R programming skills for statistical analysis. Whether you are new to R or looking to enhance your skills, this workshop offers a hands-on experience to help you confidently analyze and interpret data for research purposes.
+Welcome to the **Statistical Analysis with R for Research Workshop**! This intensive program is designed to equip researchers, students, and professionals with essential R programming skills for statistical analysis. Whether you are new to R or looking to enhance your skills, this workshop offers a hands-on experience to help you confidently analyze and interpret data for research purposes.
 
 ## Learning outcomes 
 During this workshop, participants will:
@@ -52,9 +52,9 @@ The workshop will involve practical exercises, real-world examples, and guidance
 
 No prior programming experience is required, but basic knowledge of statistics will be helpful.
 
-## Why join this workshop?
+## Why join this course?
 
-By participating in this workshop, you will not only gain valuable analytical skills but also expand your professional network and enhance your ability to make data-driven decisions in your research field.
+By participating in this course, you will not only gain valuable analytical skills but also expand your professional network and enhance your ability to make data-driven decisions in your research field.
 
 ## What is R?
 R is an open source language and environment for statistical computing, data mining, modeling, and data graphics. It provides a wide variety of statistical and graphical techniques such as linear and non-linear modeling, statistical tests, time series analysis, classification, and clustering. 
@@ -73,8 +73,7 @@ knitr::include_graphics("images/ggpubr.png")
 ```
 
 ### Publication-ready tables 
-The `{gtsummary}` package provides an elegant and flexible way to create publication-ready analytical and summary tables using the R programming language. The {gtsummary} package summarizes data sets, regression models, and more, using sensible defaults with highly customizable capabilities. 
-
+The `{gtsummary}` package provides an elegant and flexible way to create publication-ready analytical and summary tables using the R programming language. The {gtsummary} package summarizes data sets, regression models, and more, using sensible defaults with highly customizable capabilities.
 ```{r, echo=FALSE}
 knitr::include_graphics("images/gtsummary.gif")
 ```
