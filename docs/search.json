@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Statistical Analysis with R for Research (SAR08)",
+    "title": "Statistical Analysis with R for Research (SAR09)",
     "section": "",
-    "text": "🗓February 15, 2025 – February 28, 2025 | 9:00am - 10:30pm (Bangladesh Time)\n📢 If you are interested in joinin this course, please follow the instructions below:\n📌 Register with Google Forms\n📝 Course Content and Timeline View in  Google Sheet",
+    "text": "🗓March 7 & 8, 2025 – February 28, 2025 | 9:00am - 10:30pm (Bangladesh Time)\n📢 If you are interested in joinin this course, please follow the instructions below:\n📌 Register with Google Forms\n📝 Course Content and Timeline View in  Google Sheet",
     "crumbs": [
       "Home"
     ]
@@ -22,7 +22,7 @@
   {
     "objectID": "index.html#learning-outcomes",
     "href": "index.html#learning-outcomes",
-    "title": "Statistical Analysis with R for Research (SAR08)",
+    "title": "Statistical Analysis with R for Research (SAR09)",
     "section": "Learning outcomes",
     "text": "Learning outcomes\nDuring this workshop, participants will:\n\nUnderstand the fundamentals of R programming.\nLearn data manipulation techniques using R.\nPerform descriptive and inferential statistical analyses.\nCreate effective visualizations for data interpretation.\nApply R in research-specific scenarios.\n\nThe workshop will involve practical exercises, real-world examples, and guidance from experienced instructors to ensure you walk away with practical, applicable knowledge.",
     "crumbs": [
@@ -32,7 +32,7 @@
   {
     "objectID": "index.html#who-should-attend",
     "href": "index.html#who-should-attend",
-    "title": "Statistical Analysis with R for Research (SAR08)",
+    "title": "Statistical Analysis with R for Research (SAR09)",
     "section": "Who should attend?",
     "text": "Who should attend?\n\nUndergraduate and graduate students conducting research.\nAcademicians and professionals working with data.\nIndividuals with an interest in learning R for data analysis.\n\nNo prior programming experience is required, but basic knowledge of statistics will be helpful.",
     "crumbs": [
@@ -52,7 +52,7 @@
   {
     "objectID": "index.html#what-is-r",
     "href": "index.html#what-is-r",
-    "title": "Statistical Analysis with R for Research (SAR08)",
+    "title": "Statistical Analysis with R for Research (SAR09)",
     "section": "What is R?",
     "text": "What is R?\nR is an open source language and environment for statistical computing, data mining, modeling, and data graphics. It provides a wide variety of statistical and graphical techniques such as linear and non-linear modeling, statistical tests, time series analysis, classification, and clustering.",
     "crumbs": [
@@ -62,9 +62,9 @@
   {
     "objectID": "index.html#why-r",
     "href": "index.html#why-r",
-    "title": "Statistical Analysis with R for Research (SAR08)",
+    "title": "Statistical Analysis with R for Research (SAR09)",
     "section": "Why R?",
-    "text": "Why R?\n\nR is a programming and statistical language.\nR is used for data Analysis and Visualization.\nR is simple and easy to learn, read and write.\nR is an example of a FLOSS (Free Libre and Open Source Software) where one can freely distribute copies of this software, read its source code, modify it, etc.\n\nPublication-ready figures\nThe ggpubr package provides some easy-to-use functions for creating and customizing ‘ggplot2’- based publication ready plots. ggplot2, by Hadley Wickham, is an excellent and flexible package for elegant data visualization in R. However the default generated plots requires some formatting before we can send them for publication. Furthermore, to customize a ggplot, the syntax is opaque and this raises the level of difficulty for researchers with no advanced R programming skills.\n\n\n\n\n\n\n\n\nPublication-ready tables\nThe gtsummary package provides an elegant and flexible way to create publication-ready analytical and summary tables using the R programming language. The {gtsummary} package summarizes data sets, regression models, and more, using sensible defaults with highly customizable capabilities.\n\n\n\n\n\n\n\n\nAnalysis and visualization likert items\nThe likert is an R package designed to help analyzing and visualizing Likert type items. It has been developped by Jason Bryer and Kim Speerschneider. This barplot comes from the demo page and has been sent by Carlos Ortega. It allows to analyse the reading attitudes from a panel of people.\n\n\n\n\n\n\n\n\nReproducible academic writing with Rmarkdown/Quarto\nR Markdown documents are fully reproducible. Use a productive notebook interface to weave together narrative text and code to produce elegantly formatted output. Use multiple languages including R, Python, and SQL.",
+    "text": "Why R?\n\nR is a programming and statistical language.\nR is used for data Analysis and Visualization.\nR is simple and easy to learn, read and write.\nR is an example of a FLOSS (Free Libre and Open Source Software) where one can freely distribute copies of this software, read its source code, modify it, etc.",
     "crumbs": [
       "Home"
     ]
@@ -112,7 +112,7 @@
   {
     "objectID": "index.html#required-software",
     "href": "index.html#required-software",
-    "title": "Statistical Analysis with R for Research (SAR08)",
+    "title": "Statistical Analysis with R for Research (SAR09)",
     "section": "Required software",
     "text": "Required software\n\nR: http://www.r-project.org/ (FREE)\nRStudio (additional libraries required): http://www.rstudio.com/ (FREE)",
     "crumbs": [
@@ -122,7 +122,7 @@
   {
     "objectID": "index.html#recording-of-classes",
     "href": "index.html#recording-of-classes",
-    "title": "Statistical Analysis with R for Research (SAR08)",
+    "title": "Statistical Analysis with R for Research (SAR09)",
     "section": "Recording of classes",
     "text": "Recording of classes\nClass lectures will be recorded automatically using cloud. The links will be posted to CHIRAL Classes when they are available.",
     "crumbs": [
@@ -132,7 +132,7 @@
   {
     "objectID": "index.html#prework",
     "href": "index.html#prework",
-    "title": "Statistical Analysis with R for Research (SAR08)",
+    "title": "Statistical Analysis with R for Research (SAR09)",
     "section": "Prework",
     "text": "Prework\nBefore attending the workshop please have the following installed and configured on your machine.\n\nRecent version of R\nRecent version of RStudio\nMost recent release of the gtsummary and other packages used in workshop.\n\nInstallation and use\n\nTo install a package in R, use the install.packages(tidyverse) function. This function downloads and installs the specified package from CRAN (Comprehensive R Archive Network) or other repositories.\n\nRun library(tidyverse) to load the core tidyverse and make it available in your current R session.\n# Define the package list\ninstall_pkgs &lt;- c(\"gtsummary\", \"tidyverse\", \"gapminder\", \"ggpubr\", \n              \"likert\", \"skimr\", \"car\", \"dplyr\", \"ggplot2\", \n              \"tidyr\", \"readr\", \"stringr\", \"forcats\", \"easystats\", \n              \"devtools\", \"gt\", \"quarto\")\n\n# Install the packages\ninstall.packages(instll_pkgs)\n\n\nEnsure you can knit R quarto documents\n\nOpen RStudio and create a new quarto document\nSave the document and check you are able to knit it.",
     "crumbs": [
@@ -142,7 +142,7 @@
   {
     "objectID": "index.html#team",
     "href": "index.html#team",
-    "title": "Statistical Analysis with R for Research (SAR08)",
+    "title": "Statistical Analysis with R for Research (SAR09)",
     "section": "Team",
     "text": "Team\nMd. Jubayer Hossain\nFounder & Executive Director, CHIRAL\nMd. Jubayer Hossain is the Founder and Executive Director of CHIRAL Bangladesh. CHIRAL Bangladesh is a non-profit organization dedicated to health research to improve lives in Bangladesh. He aspires to maximize the quality of life of people around him by working at the intersection of education, technology, and biomedical research. Detailed research and teaching activities were found on his website.\nMuhibullah Shahjahan\nResearch Assistant, Big Bioinformatics Lab, CHIRAL\n Muhibullah Shahjahan is a researcher specializing in Cancer Bioinformatics and Machine Learning. As a Research Assistant at the Big Bioinformatics Lab of CHIRAL Bangladesh, he focuses on applying computational tools to address biological research questions. With experience in statistical analysis and R programming, he contributes to advancing biomedical data science education and supports researchers in analyzing and interpreting complex datasets.\n\nMuhammad Mohtasim Billah, Instructor\nResearch Assistant, Big Bioinformatics Lab, CHIRAL\n\nMuhammad Mohtasim Billah is a researcher with a focus on Cancer Bioinformatics. Affiliated with the Big Bioinformatics Lab at CHIRAL Bangladesh, he applies computational approaches to study cancer biology and support data-driven research. His work involves statistical analysis and bioinformatics techniques, contributing to the understanding and management of complex biological data.\nSajjad Hossain, Instructor\nResearch Assistant, Big Bioinformatics Lab, CHIRAL\n\nSajjad Hossen is a researcher with expertise in Cancer Bioinformatics and serves as an instructor at the Big Bioinformatics Lab, CHIRAL Bangladesh. In addition to his research endeavors, he is responsible for managing and coordinating the lab’s training programs, fostering the dissemination of advanced bioinformatics knowledge. His work focuses on computational analysis and the interpretation of complex biological datasets, contributing to capacity-building efforts and the advancement of biomedical research.\nMuntasim Fuad, Instructor\nResearch Assistant, Big Bioinformatics Lab, CHIRAL\n\nMuntasim Fuad is a researcher specializing in Cancer Bioinformatics. As a Research Assistant Instructor at the Big Bioinformatics Lab, CHIRAL Bangladesh, he applies computational techniques to explore complex biological data and advance cancer research. His role involves supporting research initiatives and contributing to the academic development of trainees in bioinformatics and data analysis.\nTajrian Rahman\nTraining Manager, Training Unit, CHIRAL\n Tajrian Rahman is the Training Manager at CHIRAL Bangladesh, where she is responsible for overseeing the planning, execution, and management of training programs at the CHIRAL. Her work involves designing educational initiatives that enhance bioinformatics skills and support the professional development of researchers and students. Through her role, she contributes to strengthening the CHIRAL’s capacity-building efforts and advancing knowledge in biomedical data science.",
     "crumbs": [
@@ -302,7 +302,7 @@
   {
     "objectID": "index.html#core-packages",
     "href": "index.html#core-packages",
-    "title": "Statistical Analysis with R for Research (SAR08)",
+    "title": "Statistical Analysis with R for Research (SAR09)",
     "section": "Core packages",
     "text": "Core packages\nIn R, several core packages provide essential tools for data manipulation, visualization, and analysis. These packages form the foundation of the R ecosystem, enabling efficient workflows and reproducible research.\n\n\n\n\n\nThe dplyr package in R provides a concise grammar of data manipulation, offering consistent verbs for common tasks. Key functions include select() to extract columns, filter() to subset rows, mutate() to create or modify variables, arrange() to sort rows, and summarize() with group_by() for grouped aggregations. Additionally, rename() simplifies column renaming. These tools streamline data transformation, making workflows efficient and readable for modern data analysis in R.\n\n\n\n\n\n\n\nThe ggplot2 package in R is a powerful tool for data visualization, based on the grammar of graphics. It allows users to build plots layer by layer, starting with data and aesthetic mappings defined in ggplot(). Key layers include geom_ functions for adding geometric elements (e.g., geom_point() for scatterplots, geom_bar() for bar charts), facet_ functions for creating subplots, and theme() for customizing appearances. Its flexibility in mapping data to visual elements, combined with a rich set of options for customization, makes ggplot2 a cornerstone of exploratory and presentation-ready visualizations.\n\n\n\n\n\n\n\nThe tidyr package in R is designed for tidying data, ensuring it is in a consistent, tidy format where each variable is a column and each observation is a row. Key functions include pivot_longer() to convert wide data into long format, pivot_wider() for the reverse transformation, separate() to split a single column into multiple, and unite() to combine multiple columns into one. These functions enable efficient reshaping and restructuring of data, facilitating better data analysis and preparation for modeling or visualization tasks.\n\n\n\n\n\n\n\nThe readr package in R provides fast and efficient functions for reading and writing data. It simplifies importing data from various file formats, such as CSV, TSV, and fixed-width files, with functions like read_csv(), read_tsv(), and read_fwf(). These functions automatically handle common data issues such as type conversion and missing values. Additionally, readr provides write_csv() and write_tsv() for exporting data, ensuring compatibility with other tools while maintaining efficiency and consistency in data import/export tasks.\n\n\n\n\n\n\n\nThe stringr package in R provides a set of consistent and user-friendly functions for string manipulation. It simplifies common tasks such as detecting patterns with str_detect(), extracting substrings with str_extract(), and replacing text with str_replace(). Additionally, stringr offers functions like str_sub() for substring extraction, str_length() for string length, and str_c() for concatenating strings. These functions help streamline text processing, ensuring consistency and efficiency when working with string data.\n\n\n\n\n\n\n\nThe forcats package in R is designed for working with categorical data, specifically factors. It provides functions for reordering, recoding, and combining factor levels in a straightforward way. Key functions include fct_reorder() to reorder factor levels based on another variable, fct_lump() to combine infrequent levels, fct_recode() for renaming factor levels, and fct_drop() to remove unused levels. forcats helps manage and manipulate factors effectively, ensuring clean and meaningful categorical data for analysis and visualization.\n\n\n\n\n\n\n\nThe easystats package in R is a collection of tools designed to simplify the process of statistical analysis, reporting, and visualization. It provides a unified interface for working with various statistical models and outputs, making it easier to interpret and communicate results. Key functions include parameters() for extracting model parameters, performance() for assessing model fit, and effectsize() for calculating effect sizes. Additionally, easystats offers functions for model comparisons, diagnostics, and visualizations, streamlining the workflow for both beginners and advanced users in statistical analysis.\n\n\n\n\n\n\n\nThe gtsummary package in R is designed for creating publication-ready summary tables from statistical models and data. It allows users to easily summarize data, describe statistics, and present results in a clear, formatted table. Key functions include tbl_summary() for descriptive statistics of datasets, tbl_regression() for summarizing regression model results, and tbl_uvregression() for univariate regression analyses. The package supports customization of table styles, variable transformations, and statistical tests, making it a valuable tool for producing professional reports and visual summaries in clinical and social science research.\n\n\n\n\n\n\n\nThe gt package in R is used for creating beautiful, customizable tables for data presentation. It allows users to easily create tables from data frames or tibbles with functions like gt() to initiate the table and tab_spanner() for grouping columns. Users can apply various formatting options, such as color, bold, and font styles, to enhance the table’s readability using functions like tab_style() and tab_footnote(). gt also supports features like adding summary statistics, row/column grouping, and rendering tables in HTML or LaTeX for use in reports and publications.\n\n\n\n\n\n\n\nQuarto is an open-source, next-generation publishing system that enables users to create dynamic documents, reports, presentations, and websites. It supports a wide range of formats, including HTML, PDF, Word, and slides, and integrates seamlessly with R, Python, Julia, and Observable. Quarto allows for literate programming, where code and narrative are combined in a single document. It supports advanced features like interactive visualizations, cross-referencing, and citation management, making it an ideal tool for academic and technical writing, data analysis, and reproducible research.",
     "crumbs": [
@@ -872,7 +872,7 @@
   {
     "objectID": "index.html#course-overview",
     "href": "index.html#course-overview",
-    "title": "Statistical Analysis with R for Research (SAR08)",
+    "title": "Statistical Analysis with R for Research (SAR09)",
     "section": "Course overview",
     "text": "Course overview\nWelcome to the Statistical Analysis with R for Research Workshop! This intensive program is designed to equip researchers, students, and professionals with essential R programming skills for statistical analysis. Whether you are new to R or looking to enhance your skills, this workshop offers a hands-on experience to help you confidently analyze and interpret data for research purposes.",
     "crumbs": [
@@ -882,7 +882,7 @@
   {
     "objectID": "index.html#why-join-this-course",
     "href": "index.html#why-join-this-course",
-    "title": "Statistical Analysis with R for Research (SAR08)",
+    "title": "Statistical Analysis with R for Research (SAR09)",
     "section": "Why join this course?",
     "text": "Why join this course?\nBy participating in this course, you will not only gain valuable analytical skills but also expand your professional network and enhance your ability to make data-driven decisions in your research field.",
     "crumbs": [
@@ -895,6 +895,26 @@
     "title": "Statistical Analysis with R for Research (SAR08)",
     "section": "Descriptive Tables",
     "text": "Descriptive Tables\n\n\n\n\n\n\n\n\n\n\nCharacteristic\n\nN = 2001\n\n\n\n\nChemotherapy Treatment\n\n\n\n    Drug A\n98 (49%)\n\n\n    Drug B\n102 (51%)\n\n\nAge\n47 (38, 57)\n\n\n    Unknown\n11\n\n\nGrade\n\n\n\n    I\n68 (34%)\n\n\n    II\n68 (34%)\n\n\n    III\n64 (32%)\n\n\n\n\n1 n (%); Median (Q1, Q3)\n\n\n\n\n\nAnalysis and visualization likert items\nThe likert is an R package designed to help analyzing and visualizing Likert type items. It has been developped by Jason Bryer and Kim Speerschneider. This barplot comes from the demo page and has been sent by Carlos Ortega. It allows to analyse the reading attitudes from a panel of people.\n\n\n\n\n\n\n\n\nReproducible academic writing with Rmarkdown/Quarto\nR Markdown documents are fully reproducible. Use a productive notebook interface to weave together narrative text and code to produce elegantly formatted output. Use multiple languages including R, Python, and SQL.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#course-modules",
+    "href": "index.html#course-modules",
+    "title": "Statistical Analysis with R for Research (SAR09)",
+    "section": "Course Modules",
+    "text": "Course Modules\n\n\n\n\n\nModule 1\n\n\nFundamentals of R\n\n\n\nThis module covers the basics of R, including installation, environment setup, and core programming concepts. Learners will explore variables, data types, operators, conditional logic, loops, and essential data structures like vectors, factors, matrices, data frames, and lists—building a strong foundation for data analysis in R.\n\n\n\n\n\n\n\n\nModule 2\n\n\nStatistics for Researchers\n\n\n\nThis module introduces fundamental statistical concepts essential for research. It covers descriptive statistics, probability distributions, hypothesis testing, correlation, regression analysis, and statistical inference. Learners will apply these techniques using R, gaining practical skills for data-driven research and decision-making.\n\n\n\n\n\n\n\n\nModule 3\n\n\nData Wrangling with R\n\n\n\nThis module focuses on data manipulation techniques essential for preparing and cleaning datasets. It covers data import/export, filtering, sorting, transforming, and reshaping using R’s powerful packages like dplyr and tidyr. Learners will develop hands-on skills to handle real-world data efficiently.\n\n\n\n\n\n\n\n\nModule 4\n\n\nPublication-ready and Reproducible Tables with R\n\n\n\nThis module focuses on creating high-quality, reproducible tables for research and publication using gtsummary and gt. Learners will explore techniques for summarizing data, formatting tables, and enhancing readability to meet journal and reporting standards.\n\n\n\n\n\n\n\n\nModule 5\n\n\nPublication-ready Data Visualization with R\n\n\n\nThis module covers the principles of effective data visualization for research and publication. Using ggplot2, learners will create high-quality graphs, customize aesthetics, and ensure clarity, reproducibility, and compliance with scientific reporting standards.\n\n\n\n\n\n\n\n\nModule 6\n\n\nReproducing a Scientific Article: A Practical Application\n\n\n\nThis module guides learners through the process of replicating a published scientific study using R. It covers data extraction, statistical analysis, visualization, and table generation to ensure reproducibility. By applying learned skills, participants will strengthen their ability to conduct transparent and replicable research.\n\n\n\n\n\nPublication-ready figures\nThe ggpubr package provides some easy-to-use functions for creating and customizing ‘ggplot2’- based publication ready plots. ggplot2, by Hadley Wickham, is an excellent and flexible package for elegant data visualization in R. However the default generated plots requires some formatting before we can send them for publication. Furthermore, to customize a ggplot, the syntax is opaque and this raises the level of difficulty for researchers with no advanced R programming skills.\n\n\n\n\n\n\n\n\nPublication-ready tables\nThe gtsummary package provides an elegant and flexible way to create publication-ready analytical and summary tables using the R programming language. The {gtsummary} package summarizes data sets, regression models, and more, using sensible defaults with highly customizable capabilities.\n\n\n\n\n\n\n\n\nAnalysis and visualization likert items\nThe likert is an R package designed to help analyzing and visualizing Likert type items. It has been developped by Jason Bryer and Kim Speerschneider. This barplot comes from the demo page and has been sent by Carlos Ortega. It allows to analyse the reading attitudes from a panel of people.\n\n\n\n\n\n\n\n\nReproducible academic writing with Rmarkdown/Quarto\nR Markdown documents are fully reproducible. Use a productive notebook interface to weave together narrative text and code to produce elegantly formatted output. Use multiple languages including R, Python, and SQL.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#learn-how-to-make-this",
+    "href": "index.html#learn-how-to-make-this",
+    "title": "Statistical Analysis with R for Research (SAR09)",
+    "section": "Learn how to make this!",
+    "text": "Learn how to make this!\n\n\n\n\n\n\nCharacteristic\nN = 681\n\n\n\nGender\n\n\n\nFemale\n301 (44%)\n\n\nFemale\n1 (0.1%)\n\n\nMale\n379 (56%)\n\n\nMarital Status\n\n\n\nMarried\n52 (7.6%)\n\n\nUnmarried\n629 (92%)\n\n\nField of Study\n\n\n\nArts and Humanities\n88 (13%)\n\n\nBusiness\n85 (12%)\n\n\nScience\n446 (65%)\n\n\nSocial science\n62 (9.1%)\n\n\nYear of Study\n\n\n\n1st year\n266 (39%)\n\n\n2nd year\n132 (19%)\n\n\n3rd year\n115 (17%)\n\n\n4th year\n114 (17%)\n\n\nMasters\n54 (7.9%)\n\n\nDo you know about thalassemia?\n\n\n\nNo\n70 (10%)\n\n\nYes\n611 (90%)\n\n\nTotalKnowledgeScore\n5.31 (2.60)\n\n\n\n\n1 n (%); Mean (SD)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCharacteristic\nOverall\nN = 611\nGood\nN = 156\nPoor\nN = 455\n\n\n\nGender\n\n\n\n\n\nFemale\n274 (45%)\n64 (41%)\n210 (46%)\n\n\nFemale\n1 (0.2%)\n0 (0%)\n1 (0.2%)\n\n\nMale\n336 (55%)\n92 (59%)\n244 (54%)\n\n\nMarital Status\n\n\n\n\n\nMarried\n48 (7.9%)\n14 (9.0%)\n34 (7.5%)\n\n\nUnmarried\n563 (92%)\n142 (91%)\n421 (93%)\n\n\nField of Study\n\n\n\n\n\nArts and Humanities\n69 (11%)\n17 (11%)\n52 (11%)\n\n\nBusiness\n72 (12%)\n16 (10%)\n56 (12%)\n\n\nScience\n415 (68%)\n115 (74%)\n300 (66%)\n\n\nSocial science\n55 (9.0%)\n8 (5.1%)\n47 (10%)\n\n\nYear of Study\n\n\n\n\n\n1st year\n240 (39%)\n55 (35%)\n185 (41%)\n\n\n2nd year\n115 (19%)\n25 (16%)\n90 (20%)\n\n\n3rd year\n101 (17%)\n26 (17%)\n75 (16%)\n\n\n4th year\n107 (18%)\n35 (22%)\n72 (16%)\n\n\nMasters\n48 (7.9%)\n15 (9.6%)\n33 (7.3%)\n\n\n\n\n1 n (%)\n\n\n\n\n\n\n\n\n\nAnalysis and visualization likert items\nThe likert is an R package designed to help analyzing and visualizing Likert type items. It has been developped by Jason Bryer and Kim Speerschneider. This barplot comes from the demo page and has been sent by Carlos Ortega. It allows to analyse the reading attitudes from a panel of people.\n\n\n\n\n\n\n\n\nReproducible academic writing with Rmarkdown/Quarto\nR Markdown documents are fully reproducible. Use a productive notebook interface to weave together narrative text and code to produce elegantly formatted output. Use multiple languages including R, Python, and SQL.",
     "crumbs": [
       "Home"
     ]
