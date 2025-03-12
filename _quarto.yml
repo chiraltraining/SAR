@@ -9,7 +9,7 @@ project:
     - "!cheatsheets/"
 website:
   page-navigation: true
-  title: "Statistical Analysis with R for Research"
+  title: "SAR"
   description: "Homepage for Statistical Analysis with R for Research - A Step by Step Guide for Beginners"
   site-url: "https://chiraltraining.github.io/SAR/"
   favicon: "images/r-logo.png"

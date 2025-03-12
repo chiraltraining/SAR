@@ -1,6 +1,7 @@
 ---
 title: "Statistical Analysis with R for Research (SAR09)"
 subtitle: "[Center for Health Innovation, Research, Action and Learning – Bangladesh](https://www.chiralbd.org/)"
+lightbox: true
 editor: source
 ---
 
@@ -157,9 +158,10 @@ This module covers the basics of R, including installation, environment setup, a
 The `{ggpubr}` package provides some easy-to-use functions for creating and customizing ‘ggplot2’- based publication ready plots. ggplot2, by Hadley Wickham, is an excellent and flexible package for elegant data visualization in R. However the default generated plots requires some formatting before we can send them for publication. Furthermore, to customize a ggplot, the syntax is opaque and this raises the level of difficulty for researchers with no advanced R programming skills.
 
 
-```{r, echo=FALSE, fig.align='center'}
-knitr::include_graphics("images/ggpubr.png")
+```{r, echo=FALSE}
+knitr::include_graphics("images/data-to-viz.png")
 ```
+
 
 ### Publication-ready tables 
 The `{gtsummary}` package provides an elegant and flexible way to create publication-ready analytical and summary tables using the R programming language. The {gtsummary} package summarizes data sets, regression models, and more, using sensible defaults with highly customizable capabilities.
@@ -172,7 +174,7 @@ knitr::include_graphics("images/gtsummary.gif")
 The `{likert}` is an R package designed to help analyzing and visualizing Likert type items. It has been developped by Jason Bryer and Kim Speerschneider. This barplot comes from the demo page and has been sent by Carlos Ortega. It allows to analyse the reading attitudes from a panel of people.
 
 ```{r, echo=FALSE, fig.align='center'}
-knitr::include_graphics("images/likert.png")
+knitr::include_graphics("images/dataviz/likert.png")
 ```
 
 ### Reproducible academic writing with Rmarkdown/Quarto
