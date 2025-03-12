@@ -24,7 +24,7 @@
     "href": "index.html#learning-outcomes",
     "title": "Statistical Analysis with R for Research (SAR09)",
     "section": "Learning outcomes",
-    "text": "Learning outcomes\nDuring this workshop, participants will:\n\nUnderstand the fundamentals of R programming.\nLearn data manipulation techniques using R.\nPerform descriptive and inferential statistical analyses.\nCreate effective visualizations for data interpretation.\nApply R in research-specific scenarios.\n\nThe workshop will involve practical exercises, real-world examples, and guidance from experienced instructors to ensure you walk away with practical, applicable knowledge.",
+    "text": "Learning outcomes\nDuring this workshop, participants will:\n\nUnderstand the fundamentals of R programming.\nLearn data manipulation techniques using R.\nPerform descriptive and inferential statistical analyses.\nCreate effective visualizations for data interpretation.\nApply R in research-specific scenarios.\n\nThe course will involve practical exercises, real-world examples, and guidance from experienced instructors to ensure you walk away with practical, applicable knowledge.",
     "crumbs": [
       "Home"
     ]
@@ -34,7 +34,7 @@
     "href": "index.html#who-should-attend",
     "title": "Statistical Analysis with R for Research (SAR09)",
     "section": "Who should attend?",
-    "text": "Who should attend?\n\nUndergraduate and graduate students conducting research.\nAcademicians and professionals working with data.\nIndividuals with an interest in learning R for data analysis.\n\nNo prior programming experience is required, but basic knowledge of statistics will be helpful.",
+    "text": "Who should attend?\nThis course is designed for anyone interested in research and data analysis, regardless of background or experience. Whether you’re a beginner or looking to refine your skills in R, this course will provide valuable insights. Ideal participants include:\n\nUndergraduate, graduate, and PhD students conducting research.\nFaculty members, industry professionals, and analysts working with data.\nAnyone eager to learn statistical analysis and R programming for research.\n\nNo prior programming experience is required, but basic knowledge of statistics will be helpful.",
     "crumbs": [
       "Home"
     ]
@@ -874,7 +874,7 @@
     "href": "index.html#course-overview",
     "title": "Statistical Analysis with R for Research (SAR09)",
     "section": "Course overview",
-    "text": "Course overview\nWelcome to the Statistical Analysis with R for Research Workshop! This intensive program is designed to equip researchers, students, and professionals with essential R programming skills for statistical analysis. Whether you are new to R or looking to enhance your skills, this workshop offers a hands-on experience to help you confidently analyze and interpret data for research purposes.",
+    "text": "Course overview\nWelcome to the Statistical Analysis with R for Research! This intensive program is designed to equip researchers, students, and professionals with essential R programming skills for statistical analysis. Whether you are new to R or looking to enhance your skills, this course offers a hands-on experience to help you confidently analyze and interpret data for research purposes.",
     "crumbs": [
       "Home"
     ]
@@ -884,7 +884,7 @@
     "href": "index.html#why-join-this-course",
     "title": "Statistical Analysis with R for Research (SAR09)",
     "section": "Why join this course?",
-    "text": "Why join this course?\nBy participating in this course, you will not only gain valuable analytical skills but also expand your professional network and enhance your ability to make data-driven decisions in your research field.",
+    "text": "Why join this course?\n\nGain hands-on experience in statistical analysis using R, a powerful tool for research and data science.\nTailored for students, academicians, and professionals who need practical statistical skills for research and publication.\nGet guidance from experienced instructors with expertise in R, biostatistics, and research methodologies.\nWork with real-world datasets, conduct statistical tests, and visualize results effectively.\nStrengthen your analytical skills, making you a competitive candidate for research roles and data-driven careers.\nAccess sample recordings, interactive sessions, and structured content to learn at your own pace.\n\nBy participating in this course, you will not only gain valuable analytical skills but also expand your professional network and enhance your ability to make data-driven decisions in your research field.",
     "crumbs": [
       "Home"
     ]
@@ -915,6 +915,36 @@
     "title": "Statistical Analysis with R for Research (SAR09)",
     "section": "Learn how to make this!",
     "text": "Learn how to make this!\n\n\n\n\n\n\nCharacteristic\nN = 681\n\n\n\nGender\n\n\n\nFemale\n301 (44%)\n\n\nFemale\n1 (0.1%)\n\n\nMale\n379 (56%)\n\n\nMarital Status\n\n\n\nMarried\n52 (7.6%)\n\n\nUnmarried\n629 (92%)\n\n\nField of Study\n\n\n\nArts and Humanities\n88 (13%)\n\n\nBusiness\n85 (12%)\n\n\nScience\n446 (65%)\n\n\nSocial science\n62 (9.1%)\n\n\nYear of Study\n\n\n\n1st year\n266 (39%)\n\n\n2nd year\n132 (19%)\n\n\n3rd year\n115 (17%)\n\n\n4th year\n114 (17%)\n\n\nMasters\n54 (7.9%)\n\n\nDo you know about thalassemia?\n\n\n\nNo\n70 (10%)\n\n\nYes\n611 (90%)\n\n\nTotalKnowledgeScore\n5.31 (2.60)\n\n\n\n\n1 n (%); Mean (SD)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCharacteristic\nOverall\nN = 611\nGood\nN = 156\nPoor\nN = 455\n\n\n\nGender\n\n\n\n\n\nFemale\n274 (45%)\n64 (41%)\n210 (46%)\n\n\nFemale\n1 (0.2%)\n0 (0%)\n1 (0.2%)\n\n\nMale\n336 (55%)\n92 (59%)\n244 (54%)\n\n\nMarital Status\n\n\n\n\n\nMarried\n48 (7.9%)\n14 (9.0%)\n34 (7.5%)\n\n\nUnmarried\n563 (92%)\n142 (91%)\n421 (93%)\n\n\nField of Study\n\n\n\n\n\nArts and Humanities\n69 (11%)\n17 (11%)\n52 (11%)\n\n\nBusiness\n72 (12%)\n16 (10%)\n56 (12%)\n\n\nScience\n415 (68%)\n115 (74%)\n300 (66%)\n\n\nSocial science\n55 (9.0%)\n8 (5.1%)\n47 (10%)\n\n\nYear of Study\n\n\n\n\n\n1st year\n240 (39%)\n55 (35%)\n185 (41%)\n\n\n2nd year\n115 (19%)\n25 (16%)\n90 (20%)\n\n\n3rd year\n101 (17%)\n26 (17%)\n75 (16%)\n\n\n4th year\n107 (18%)\n35 (22%)\n72 (16%)\n\n\nMasters\n48 (7.9%)\n15 (9.6%)\n33 (7.3%)\n\n\n\n\n1 n (%)\n\n\n\n\n\n\n\n\n\nAnalysis and visualization likert items\nThe likert is an R package designed to help analyzing and visualizing Likert type items. It has been developped by Jason Bryer and Kim Speerschneider. This barplot comes from the demo page and has been sent by Carlos Ortega. It allows to analyse the reading attitudes from a panel of people.\n\n\n\n\n\n\n\n\nReproducible academic writing with Rmarkdown/Quarto\nR Markdown documents are fully reproducible. Use a productive notebook interface to weave together narrative text and code to produce elegantly formatted output. Use multiple languages including R, Python, and SQL.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#past-batch-recordings-statistical-analysis-with-r-for-research",
+    "href": "index.html#past-batch-recordings-statistical-analysis-with-r-for-research",
+    "title": "Statistical Analysis with R for Research (SAR09)",
+    "section": "📊 Past Batch Recordings – Statistical Analysis with R for Research",
+    "text": "📊 Past Batch Recordings – Statistical Analysis with R for Research\nGet a glimpse into our Statistical Analysis with R for Research course through these selected sample recordings from previous batches. These videos showcase the teaching style, practical demonstrations, and key topics covered in the course. Explore them to see how this course can enhance your research skills and data analysis proficiency using R.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#past-batch-recordings",
+    "href": "index.html#past-batch-recordings",
+    "title": "Statistical Analysis with R for Research (SAR09)",
+    "section": "Past Batch Recordings",
+    "text": "Past Batch Recordings\nGet a glimpse into our Statistical Analysis with R for Research course through these selected sample recordings from previous batches. These videos showcase the teaching style, practical demonstrations, and key topics covered in the course. Explore them to see how this course can enhance your research skills and data analysis proficiency using R.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#past-cohort-recordings",
+    "href": "index.html#past-cohort-recordings",
+    "title": "Statistical Analysis with R for Research (SAR09)",
+    "section": "Past Cohort Recordings",
+    "text": "Past Cohort Recordings\nGet a glimpse into our Statistical Analysis with R for Research course through these selected sample recordings from previous batches. These videos showcase the teaching style, practical demonstrations, and key topics covered in the course. Explore them to see how this course can enhance your research skills and data analysis proficiency using R.",
     "crumbs": [
       "Home"
     ]

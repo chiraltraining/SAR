@@ -16,7 +16,7 @@ editor: source
 
 <!-- 📢 **Organizer**: Genetic Engineering and Biotechnology Club, Jagannath University -->
 
-<!-- 📌 **Register** with [Google Forms]()  -->
+<!-- 📌 **Enroll** with [Google Forms]()  -->
 
 <!-- 💥 **Registration Fee**: 410BDT  -->
 
@@ -28,9 +28,10 @@ editor: source
 
 
 ------------------------------------------------------------------------
+
 ## Course overview
 
-Welcome to the **Statistical Analysis with R for Research Workshop**! This intensive program is designed to equip researchers, students, and professionals with essential R programming skills for statistical analysis. Whether you are new to R or looking to enhance your skills, this workshop offers a hands-on experience to help you confidently analyze and interpret data for research purposes.
+Welcome to the **Statistical Analysis with R for Research**! This intensive program is designed to equip researchers, students, and professionals with essential R programming skills for statistical analysis. Whether you are new to R or looking to enhance your skills, this course offers a hands-on experience to help you confidently analyze and interpret data for research purposes.
 
 ## Learning outcomes 
 During this workshop, participants will:
@@ -41,18 +42,26 @@ During this workshop, participants will:
 - Create effective visualizations for data interpretation.
 - Apply R in research-specific scenarios.
 
-The workshop will involve practical exercises, real-world examples, and guidance from experienced instructors to ensure you walk away with practical, applicable knowledge.
+The course will involve practical exercises, real-world examples, and guidance from experienced instructors to ensure you walk away with practical, applicable knowledge.
 
 
 ## Who should attend?
+This course is designed for anyone interested in research and data analysis, regardless of background or experience. Whether you're a beginner or looking to refine your skills in R, this course will provide valuable insights. Ideal participants include:
 
-- Undergraduate and graduate students conducting research.
-- Academicians and professionals working with data.
-- Individuals with an interest in learning R for data analysis.
+- Undergraduate, graduate, and PhD students conducting research.
+- Faculty members, industry professionals, and analysts working with data.
+- Anyone eager to learn statistical analysis and R programming for research.
 
 No prior programming experience is required, but basic knowledge of statistics will be helpful.
 
 ## Why join this course?
+- Gain hands-on experience in statistical analysis using R, a powerful tool for research and data science.
+- Tailored for students, academicians, and professionals who need practical statistical skills for research and publication.
+- Get guidance from experienced instructors with expertise in R, biostatistics, and research methodologies.
+- Work with real-world datasets, conduct statistical tests, and visualize results effectively.
+- Strengthen your analytical skills, making you a competitive candidate for research roles and data-driven careers.
+- Access sample recordings, interactive sessions, and structured content to learn at your own pace.
+
 
 By participating in this course, you will not only gain valuable analytical skills but also expand your professional network and enhance your ability to make data-driven decisions in your research field.
 
@@ -371,3 +380,27 @@ Muntasim Fuad is a researcher specializing in Cancer Bioinformatics. As a Resear
 
 ![](images/tajrian.jpg){style="float:right;padding: 0 0 0 10px;" fig-alt="Headshot of Fuad" width="200"}
 Tajrian Rahman is the Training Manager at CHIRAL Bangladesh, where she is responsible for overseeing the planning, execution, and management of training programs at the CHIRAL. Her work involves designing educational initiatives that enhance bioinformatics skills and support the professional development of researchers and students. Through her role, she contributes to strengthening the CHIRAL's capacity-building efforts and advancing knowledge in biomedical data science.
+
+## Past Cohort Recordings
+Get a glimpse into our Statistical Analysis with R for Research course through these selected sample recordings from previous batches. These videos showcase the teaching style, practical demonstrations, and key topics covered in the course. Explore them to see how this course can enhance your research skills and data analysis proficiency using R.
+
+::: {layout-ncol=2}
+{{< video https://youtu.be/WiboyIkAFqo?si=MXq8fSH2Ykf93Ome >}}
+
+{{< video https://youtu.be/Zb_bgEcW9gk?si=CET9jGx2SdgTfAK8 >}}
+
+{{< video https://youtu.be/lLNEfn3eLY8?si=_H_Vwu-uJ6FOFtfw >}}
+
+{{< video https://youtu.be/g9BhM5LuXcE?si=JqzA0HBsekbnMxpt >}}
+
+{{< video https://youtu.be/PDPmsgo82hE?si=osYZpX1woOMhA5eJ >}}
+
+{{< video https://youtu.be/DBESvQjhslw?si=6Ve9LW-jX-s1otvn >}}
+
+{{< video https://youtu.be/Lu7utop2QJA?si=vqTbArNVbD0WRMsb >}}
+
+{{< video https://youtu.be/JcaGBHQGAWs?si=v-pqFI_bxi3RUAjF >}}
+
+:::
+
+
