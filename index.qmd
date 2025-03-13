@@ -153,14 +153,22 @@ This module covers the basics of R, including installation, environment setup, a
 :::
 
 
+### Data Visualization Decision Tree
+To choose the best type of visualization for your data, start by identifying the main type of data you have. Use the options below to select your data category. Then, follow the decision tree to explore various graphical representations that effectively communicate your insights. Whether you're working with categorical, numerical, time-series, or spatial data, this guide will help you find the most suitable visualization method for clear and impactful storytelling.
+
+```{r, echo=FALSE, out.width="100%"}
+knitr::include_graphics("images/dataviz-decision-tree.jpg")
+```
+
 
 ### Publication-ready figures
+
 The `{ggpubr}` package provides some easy-to-use functions for creating and customizing ‘ggplot2’- based publication ready plots. ggplot2, by Hadley Wickham, is an excellent and flexible package for elegant data visualization in R. However the default generated plots requires some formatting before we can send them for publication. Furthermore, to customize a ggplot, the syntax is opaque and this raises the level of difficulty for researchers with no advanced R programming skills.
 
-
-```{r, echo=FALSE}
-knitr::include_graphics("images/data-to-viz.png")
+```{r, echo=FALSE, out.width="100%"}
+knitr::include_graphics("images/data-to-viz.jpg")
 ```
+
 
 
 ### Publication-ready tables 
